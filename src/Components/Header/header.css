@@ -1,0 +1,8 @@
+
+.wrap-head {
+    /* background-color: aquamarine; */
+    background-image: url(../../Images/header.jpg);
+    background-size: cover;
+    padding: 200px 50px 200px 50px;
+    margin-bottom: 150px;
+}
