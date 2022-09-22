@@ -13,7 +13,7 @@
 }
 .nav-link:hover, .nav-link:focus {
     color: #AC2532 !important;
-    font-weight: bold;
+    font-weight: 700;
 }
 
 .contact-btn {
@@ -21,6 +21,7 @@
     /* box-shadow: none !important; */
     border: none;
     font-weight: bold;
+
 }
 .contact-btn:hover {
     background-color: #0E5579 !important;
