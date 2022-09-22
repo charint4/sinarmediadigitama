@@ -1,3 +1,27 @@
 .nav-logo {
     height: 29px;
 }
+/* .Navbar {
+    padding: 80px !important;
+} */
+.nav-btn {
+    gap: 100px;
+    margin-left: 10%;
+}
+.nav-link {
+    font-size: 20px !important;
+}
+.nav-link:hover, .nav-link:focus {
+    color: #AC2532 !important;
+    font-weight: bold;
+}
+
+.contact-btn {
+    background-color: #0E5579;
+    /* box-shadow: none !important; */
+    border: none;
+    font-weight: bold;
+}
+.contact-btn:hover {
+    background-color: #0E5579 !important;
+  }
