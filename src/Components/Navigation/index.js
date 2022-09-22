@@ -10,7 +10,7 @@ import Button from 'react-bootstrap/Button';
 
 function BasicExample() {
   return (
-    <Navbar bg="light" expand="lg" className="p-3">
+    <Navbar bg="light" expand="lg" className="p-3 fixed-top">
       <Container>
         <Navbar.Brand href="#home" >
           <img src={Logo} className="nav-logo"></img>

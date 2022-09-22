@@ -13,14 +13,14 @@ const Header = () => {
             <Container>
                 <div className="row container-head">
                     <div className="col-md cont-head">
-                        <img className="img-client" src={asset3}></img>
+                        <img align="middle" className="img-client" src={asset3}></img>
                     </div>
                     <div className="col-md cont-head">
-                        <img className="img-client" src={asset1}></img>
+                        <img align="middle" className="img-client" src={asset1}></img>
                     </div>
                     <div className="col-md cont-head">
                         <h2>just call us</h2>
-                        <img className="img-client" src={asset2}></img>
+                        <img align="middle" className="img-client" src={asset2}></img>
                     </div>
                 </div>
                 </Container>

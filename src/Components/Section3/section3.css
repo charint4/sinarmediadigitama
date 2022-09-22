@@ -25,6 +25,7 @@
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(15px);
     border-radius: 10px;
+    text-align: center;
 
 }
 .cont-row-client {
