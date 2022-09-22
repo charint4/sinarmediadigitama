@@ -1,0 +1,25 @@
+.cont-sec1-right > h3 {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28px;
+    /* align-items: justify; */
+    text-align: justify;
+}
+.cont-sec1-left {
+    display: flex;
+    align-items: center;
+}
+.cont-sec1-left > h1 {
+    background-color: blue;
+    /* opacity: 0.5; */
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 56px;
+    background: -webkit-linear-gradient(#021931,#0E5579);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* align-items: justify; */
+    /* text-align: justify;
+     */
+}
