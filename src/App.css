@@ -11,11 +11,15 @@
 }
 
 .fw-500 {
-  font-weight: 500;
+  font-weight: 500 !important;
 }
 
 .fs-title {
   font-size: 40px;
+}
+
+.fs-sm-title {
+  font-size: 32px;
 }
 
 .fs-big {
@@ -68,6 +72,10 @@
   color: white;
 }
 
-.w-45 {
-  width: 45%;
+.ls-1 {
+  letter-spacing: 1px;
+}
+
+.w-30 {
+  width: 30%;
 }

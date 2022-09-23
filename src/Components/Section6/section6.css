@@ -1,5 +1,5 @@
 .gap-3 {
-  gap: 45px;
+  gap: 45px !important;
 }
 
 .btn-submit {
