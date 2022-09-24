@@ -1,9 +1,11 @@
 .sec4 {
   padding-top: 100px;
+  gap: 30px;
 }
 
-.map {
-  /* margin: 0 0 0 200px; */
+.map-img {
+  width: 100%;
+  /* height: 90%; */
 }
 
 .bg-text {
@@ -12,11 +14,7 @@
   justify-content: space-between;
   align-items: flex-start;
   padding: 52px;
-  margin-left: 100px;
-  gap: 30px;
-
-  width: 594px;
-  height: 704px;
+  /* margin-left: 100px; */
 
   /* Linear/White Glass Fill */
 

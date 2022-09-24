@@ -16,7 +16,7 @@ const Section6 = () => {
         </h2>
         <h1 className="fs-bigger fw-bold text-color-rb">Tell us your needs!</h1>
       </div>
-      <Form className="bg-blur p-4 w-30">
+      <Form className="bg-blur p-4 w-30 rounded-4">
         <h2 className="fs-sm-title fw-bold color-navy mb-5">
           Send us a message
         </h2>
