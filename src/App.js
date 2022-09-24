@@ -4,6 +4,7 @@ import Navigation from "./Components/Navigation";
 import AboutUs from "./Pages/AboutUs";
 import Services from "./Pages/Services";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
+import Footer from "./Components/Footer";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="/Services" component={Services} exact />
           {/* <Route component={Error} /> */}
         </Switch>
+        <Footer />
         {/* <Home /> */}
       </BrowserRouter>
     </div>
