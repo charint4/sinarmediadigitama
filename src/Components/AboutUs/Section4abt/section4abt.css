@@ -1,0 +1,29 @@
+.wrap-abt4 {
+    margin-top: 150px;
+}
+.wrap-abt4 > h1 {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.wrap-cont-abt4 {
+    gap: 50px;
+    margin-top: 50px;
+}
+.cont-abt4 {
+    border-radius: 15px;
+}
+.cont-abt4 > img {
+    width: 70px;
+    margin-bottom: 20px;
+}
+.cont-abt4 > h2 {
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.cont-abt4 > h3 {
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 26px;
+}
