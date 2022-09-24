@@ -29,7 +29,7 @@ function BasicExample() {
               </Link>
             </Nav.Link>
             <Nav.Link>
-              <Link to="/" className="nav-link">
+              <Link to="/Services" className="nav-link">
                 Services
               </Link>
             </Nav.Link>
