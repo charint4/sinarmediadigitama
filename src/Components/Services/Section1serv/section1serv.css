@@ -1,0 +1,12 @@
+.cont-services > h3 {
+  font-size: 18px;
+  font-weight: normal;
+}
+.cont-services > img {
+  width: 280px;
+  /* height: ; */
+}
+
+.wrap-services {
+  gap: 200px;
+}

@@ -1,19 +1,18 @@
-
 .wrap-head {
-    /* background-color: aquamarine; */
-    background-image: url(../../Images/header.jpg);
-    background-size: cover;
-    padding: 200px 50px 200px 50px;
-    margin-bottom: 150px;
-    background-position: 0% 20%;
+  /* background-color: aquamarine; */
+  background-image: url(../../Images/header.jpg);
+  background-size: cover;
+  padding: 200px 50px 200px 50px;
+  margin-bottom: 150px;
+  background-position: 0% 20%;
 }
 .cont-head {
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 .cont-head > img {
-    opacity: 50%;
+  opacity: 50%;
 }
