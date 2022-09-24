@@ -12,16 +12,17 @@ const Header = () => {
       <div className="wrap-head">
         <Container>
           <div className="row container-head">
-            <div className="col-md cont-head">
-              <img align="middle" className="img-client" src={asset3}></img>
+            <div className="col-md-7 cont-heads">
+              <h1>OOH (Out of Home Units)</h1>
+              <h3>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat.
+              </h3>
+              <Button className="contact-btn px-4">Contact Us</Button>{" "}
             </div>
-            <div className="col-md cont-head">
-              <img align="middle" className="img-client" src={asset1}></img>
-            </div>
-            <div className="col-md cont-head">
-              <h2>just call us</h2>
-              <img align="middle" className="img-client" src={asset2}></img>
-            </div>
+            <div className="col-md cont-head"></div>
           </div>
         </Container>
       </div>
