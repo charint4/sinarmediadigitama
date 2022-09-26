@@ -1,10 +1,13 @@
 .sec4 {
-  padding-top: 100px;
+  /* padding-top: 100px; */
+  margin-top: 100px;
   gap: 30px;
 }
 
 .map-img {
-  width: 100%;
+  /* width: 100%; */
+  /* width: 80%; */
+  height: 600px;
   /* height: 90%; */
 }
 

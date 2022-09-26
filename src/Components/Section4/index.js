@@ -10,7 +10,7 @@ const Section4 = () => {
         <div className="col-md map">
           <img src={map} alt="map" className="map-img" />
         </div>
-        <div className="col-md-5 bg-text">
+        <div className="col-md bg-text">
           <h3 className="title">Get in touch</h3>
           <h4 className="text1 mb-5">
             Jl. Aria Putra No. 8 RT 01 / RW 06 <br /> Kel. Sarua Indah, Kec.

@@ -13,13 +13,10 @@ const Home = () => {
     <div className="Home">
       <header className="App-header">
         <Header />
-        <section className="sec-1-3">
-          
+        <section className="sec-1-3">        
           <Section1 />
           <Section2 />
           <Section3 />
-        </section>
-        <section className="sec-456">
           <Section4 />
           <Section5 />
           <Section6 />
