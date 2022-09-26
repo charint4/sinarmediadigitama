@@ -84,7 +84,7 @@ export default class MultipleItems extends Component {
         <Container>
             <div className="wrap-abt5-sec">
             <h1 className="text-center"> Our Office </h1>
-            <Slider {...settings}>
+            <Slider {...settings} className="slick-container container-wrap">
                 <div className="item wrap-img bg-blur p-3" data-value="1">
                     <img className="img-abt" src={frontOffice}>
                     </img>

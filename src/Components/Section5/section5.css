@@ -1,7 +1,9 @@
 .sec5 {
   margin-top: 150px;
 }
-
+.sec1-wrap {
+  margin-bottom: -150px !important;
+}
 .carousel {
   gap: 70px;
   margin-top: 60px;

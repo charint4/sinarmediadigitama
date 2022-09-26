@@ -74,7 +74,9 @@
 .gap-72 {
   gap: 72px;
 }
-
+.mb-150 {
+  margin-bottom: 150px;
+}
 .mb-200 {
   margin-bottom: 200px;
 }
@@ -84,7 +86,9 @@
 .mt-100 {
   margin-top: 100px;
 }
-
+.mt-150 {
+  margin-top: 150px;
+}
 .mb-100 {
   margin-bottom: 100px;
 }
@@ -137,9 +141,9 @@
   width: 30%;
 }
 
-.py-140 {
-  padding-top: 140px;
-  padding-bottom: 140px;
+.py-150 {
+  padding-top: 150px;
+  padding-bottom: 150px;
 }
 .sec-1-3 {
   background-image: url(./Images/ng-land.png);
@@ -165,7 +169,7 @@
 }
 .wrap-sec2-ab {
   background-image: url(./Images/bg-abt2.png);
-  padding-bottom: 100px;
+  padding-bottom: 150px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -173,10 +177,11 @@
 }
 .wrap-sec3-ab {
   background-image: url(./Images/bg-abt3.png);
-  padding-bottom: 100px;
+  /* padding-bottom: 150px; */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  /* margin-bottom: -350px !important; */
   /* padding-top: 80px; */
 }
 .wrap-sec13-serv {
