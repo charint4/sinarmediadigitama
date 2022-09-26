@@ -146,8 +146,8 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  padding-top: 80px;
-  padding-bottom: 100px;
+  padding-top: 150px;
+  padding-bottom: 150px;
 }
 /* .sec-456 {
   background-image: url(./Images/Bottom.png);
@@ -158,7 +158,7 @@
 } */
 .wrap-sec1-ab {
   background-image: url(./Images/bg-abt1.png);
-  padding-bottom: 100px;
+  padding-bottom: 150px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

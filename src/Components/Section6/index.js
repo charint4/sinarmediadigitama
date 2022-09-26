@@ -5,7 +5,7 @@ import { Form, Button } from "react-bootstrap";
 
 const Section6 = () => {
   return (
-    <Container className="mt-200">
+    <Container className="wrapper-cta">
       <div className="row justify-content-center gap-3">
 
         <div className="t1-s6 col-md-6">

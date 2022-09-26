@@ -2,7 +2,7 @@
     height: 60px;
 }
 .container-sec3 {
-    margin-top: 60px;
+    margin-top: 150px;
 }
 .container-sec3 > h1 {
     text-align: center;
@@ -12,7 +12,7 @@
 }
 .container-sec3 > h3 {
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 60px;
     font-weight: 400;
     font-size: 20px;
     line-height: 35px;
