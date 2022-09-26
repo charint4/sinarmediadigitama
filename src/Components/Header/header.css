@@ -3,7 +3,7 @@
   background-image: url(../../Images/header.jpg);
   background-size: cover;
   padding: 200px 50px 200px 50px;
-  margin-bottom: 150px;
+  /* margin-bottom: 150px; */
   background-position: 0% 20%;
 }
 .cont-head {

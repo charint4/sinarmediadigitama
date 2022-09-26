@@ -12,8 +12,9 @@ const Home = () => {
   return (
     <div className="Home">
       <header className="App-header">
+        <Header />
         <section className="sec-1-3">
-          <Header />
+          
           <Section1 />
           <Section2 />
           <Section3 />

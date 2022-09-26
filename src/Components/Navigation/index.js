@@ -25,7 +25,7 @@ function BasicExample() {
             </Nav.Link>
             <Nav.Link>
               <Link to="/AboutUs" className="nav-link">
-                AboutUs
+                About us
               </Link>
             </Nav.Link>
             <Nav.Link>

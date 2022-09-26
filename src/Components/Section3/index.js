@@ -30,7 +30,7 @@ const Section3 = () => {
         <div className="container-sec3">
           <h1>Our Top Clients</h1>
           <h3>Finest Clients</h3>
-          <div className="wrap-client p-3">
+          <div className="wrap-client p-3 bg-blur">
             <div className="row cont-row-client">
               <div className="col-md cont-sec3 mx-auto">
                 <img className="img-client" src={client1}></img>

@@ -9,7 +9,7 @@ import asset3 from "../../../Images/digitama-new-full.png";
 const Header = () => {
   return (
     <>
-      <div className="wrap-head">
+      <div className="wrap-heads">
         <Container>
           <div className="row container-head">
             <div className="col-md-7 cont-heads">
@@ -20,7 +20,7 @@ const Header = () => {
                 enim ad minim veniam, quis nostrud exercitation ullamco laboris
                 nisi ut aliquip ex ea commodo consequat.
               </h3>
-              <Button className="contact-btn px-4">Contact Us</Button>{" "}
+              <Button className="services-btn px-4">Contact Us</Button>{" "}
             </div>
             <div className="col-md cont-head"></div>
           </div>

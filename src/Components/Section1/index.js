@@ -7,8 +7,8 @@ const Section1 = () => {
   return (
     <>
       <Container>
-        <div className="row container-sec1">
-          <div className="col-md cont-sec1-left p-5">
+        <div className="row container-sec1 bg-blur  p-5">
+          <div className="col-md cont-sec1-left ">
             <h1>A One Stop Branding Agency in Indonesia</h1>
           </div>
           <div className="col-md cont-sec1-right">

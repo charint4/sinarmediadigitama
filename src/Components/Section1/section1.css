@@ -5,10 +5,15 @@
     /* align-items: justify; */
     text-align: justify;
 }
+.container-sec1 {
+    gap: 10px;
+    margin-bottom: 150px;
+    border-radius: 15px;
+}
 .cont-sec1-left {
     display: flex;
     align-items: center;
-    margin-bottom: 150px;
+    
 }
 .cont-sec1-left > h1 {
     background-color: blue;
