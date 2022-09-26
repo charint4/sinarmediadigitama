@@ -1,3 +1,6 @@
 .slider-foto {
     margin-top: 75px;
 }
+.item > img {
+    width: 300px;
+}
