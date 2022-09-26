@@ -19,7 +19,7 @@ const Section5 = () => {
           style={{ width: "248px" }}
           className="border border-light rounded-4 card"
         >
-          <Card.Img variant="top" src={CardImg} className="p-2" />
+          <Card.Img variant="top" src={CardImg} className="p-2 rounded-5" />
           <Card.Body>
             <Card.Title>
               <h5 className="fw-bold fs-normal py-3">Haryanto</h5>
@@ -30,7 +30,7 @@ const Section5 = () => {
           style={{ width: "248px" }}
           className="border border-light rounded-4 card"
         >
-          <Card.Img variant="top" src={CardImg} className="p-2" />
+          <Card.Img variant="top" src={CardImg} className="p-2 rounded-5" />
           <Card.Body>
             <Card.Title>
               <h5 className="fw-bold fs-normal py-3">Haryanto</h5>
@@ -41,7 +41,7 @@ const Section5 = () => {
           style={{ width: "248px" }}
           className="border border-light rounded-4 card"
         >
-          <Card.Img variant="top" src={CardImg} className="p-2" />
+          <Card.Img variant="top" src={CardImg} className="p-2 rounded-5" />
           <Card.Body>
             <Card.Title>
               <h5 className="fw-bold fs-normal py-3">Haryanto</h5>
@@ -52,7 +52,7 @@ const Section5 = () => {
           style={{ width: "248px" }}
           className="border border-light rounded-4 card"
         >
-          <Card.Img variant="top" src={CardImg} className="p-2" />
+          <Card.Img variant="top" src={CardImg} className="p-2 rounded-5" />
           <Card.Body>
             <Card.Title>
               <h5 className="fw-bold fs-normal py-3">Haryanto</h5>
@@ -63,7 +63,7 @@ const Section5 = () => {
           style={{ width: "248px" }}
           className="border border-light rounded-4 card"
         >
-          <Card.Img variant="top" src={CardImg} className="p-2" />
+          <Card.Img variant="top" src={CardImg} className="p-2 rounded-5" />
           <Card.Body>
             <Card.Title>
               <h5 className="fw-bold fs-normal py-3">Haryanto</h5>
