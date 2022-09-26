@@ -46,6 +46,10 @@
   font-size: 16px;
 }
 
+.fs-15 {
+  font-size: 15px;
+}
+
 .fs-14 {
   font-size: 14px !important;
 }
@@ -58,6 +62,10 @@
   font-size: 20px;
   font-weight: 400;
   color: #545659;
+}
+
+.lh-28 {
+  line-height: 28px;
 }
 
 .gap-72 {

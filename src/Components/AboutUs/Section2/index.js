@@ -26,7 +26,7 @@ const index = () => {
         <div className="row gap-72 mb-80">
           <div className="col bg-blur rounded-4 py-3 border-left">
             <h2 className="fw-bold fs-sm-title">2009</h2>
-            <h4 className="fs-20 fw-400">
+            <h4 className="fs-15 fw-400 lh-28">
               Started as small agency, served printing materials & promotional
               units (acrylic , plastic, and wood based)
             </h4>
@@ -37,7 +37,7 @@ const index = () => {
           <div className="col"></div>
           <div className="col bg-blur rounded-4 py-3 border-left">
             <h2 className="fw-bold fs-sm-title">2011</h2>
-            <h4 className="fs-20 fw-400">
+            <h4 className="fs-15 fw-400 lh-28">
             Build metal based workshop
             </h4>
           </div>
@@ -45,7 +45,7 @@ const index = () => {
         <div className="row gap-72 mb-80">
           <div className="col bg-blur rounded-4 py-3 border-left">
             <h2 className="fw-bold fs-sm-title">2015</h2>
-            <h4 className="fs-20 fw-400">
+            <h4 className="fs-15 fw-400 lh-28">
             More clients and bigger workshops
             </h4>
           </div>
@@ -55,7 +55,7 @@ const index = () => {
           <div className="col"></div>
           <div className="col bg-blur rounded-4 py-3 border-left">
             <h2 className="fw-bold fs-sm-title">2022 - Onwards</h2>
-            <h4 className="fs-20 fw-400">
+            <h4 className="fs-15 fw-400 lh-28">
             Establish SMD to build creative and agile teamwork with better system & technology
             </h4>
             <img src={TlLogo} alt='tllogo'/>
