@@ -4,7 +4,9 @@
 
 .carousel {
   gap: 70px;
-  margin-top: 60px;
+  margin-top: 56px;
+  cursor: grab;
+  overflow: hidden !important;
 }
 
 .img-card {
