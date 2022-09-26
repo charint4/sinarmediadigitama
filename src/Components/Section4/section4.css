@@ -70,3 +70,28 @@
   line-height: 32px;
   color: #545659;
 }
+@media only screen and (max-width: 572px) {
+  /* For desktop: */
+  .wrap-box {
+      margin-left: 150px !important;
+      margin-right: 150px !important;
+      padding: 32px;
+  }
+  
+  .map-img {
+    /* width: 100%; */
+    /* width: 80%; */
+    height: 600px;
+    /* height: 90%; */
+  }
+}
+@media only screen and (max-width: 768px) {
+  /* For desktop: */
+  
+  .map-img {
+    /* width: 100%; */
+    /* width: 80%; */
+    height: 450px;
+    /* height: 90%; */
+  }
+}

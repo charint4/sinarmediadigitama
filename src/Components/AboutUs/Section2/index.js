@@ -9,7 +9,7 @@ const index = () => {
     <>
       <div className="bg-navy py-140 text-center">
         <h2 className="fw-bold fs-sm-title">Our Purpose</h2>
-        <h2 className="fw-bold fs-big">
+        <h2 className="fw-bold fs-big quote">
           We take your brand’s image as our priority
         </h2>
       </div>
@@ -20,47 +20,50 @@ const index = () => {
             We Take Your Brand’s Image as our priority
           </h4>
         </div>
-        <div className="garis">
-          <img src={Timeline} alt="" className="garisnya" />
-        </div>
-        <div className="row gap-72 mb-80">
-          <div className="col bg-blur rounded-4 py-3 border-left">
-            <h2 className="fw-bold fs-sm-title">2009</h2>
-            <h4 className="fs-15 fw-400 lh-28">
-              Started as small agency, served printing materials & promotional
-              units (acrylic , plastic, and wood based)
-            </h4>
+        <div className="wrapper-timeline">
+          <div className="garis">
+            <img src={Timeline} alt="" className="garisnya" />
           </div>
-          <div className="col"></div>
-        </div>
-        <div className="row gap-72 mb-80">
-          <div className="col"></div>
-          <div className="col bg-blur rounded-4 py-3 border-left">
-            <h2 className="fw-bold fs-sm-title">2011</h2>
-            <h4 className="fs-15 fw-400 lh-28">
-            Build metal based workshop
-            </h4>
+          <div className="row gap-72 mb-80 wrap-timeline">
+            <div className="col-md bg-blur rounded-4 py-3 border-left">
+              <h2 className="fw-bold fs-sm-title">2009</h2>
+              <h4 className="fs-15 fw-400 lh-28">
+                Started as small agency, served printing materials & promotional
+                units (acrylic , plastic, and wood based)
+              </h4>
+            </div>
+            <div className="col-md disp-none"></div>
+          </div>
+          <div className="row gap-72 mb-80 wrap-timeline">
+            <div className="col-md disp-none"></div>
+            <div className="col-md bg-blur rounded-4 py-3 border-left">
+              <h2 className="fw-bold fs-sm-title">2011</h2>
+              <h4 className="fs-15 fw-400 lh-28">
+              Build metal based workshop
+              </h4>
+            </div>
+          </div>
+          <div className="row gap-72 mb-80 wrap-timeline">
+            <div className="col-md bg-blur rounded-4 py-3 border-left">
+              <h2 className="fw-bold fs-sm-title">2015</h2>
+              <h4 className="fs-15 fw-400 lh-28">
+              More clients and bigger workshops
+              </h4>
+            </div>
+            <div className="col-md disp-none"></div>
+          </div>
+          <div className="row gap-72 wrap-timeline">
+            <div className="col-md disp-none"></div>
+            <div className="col-md bg-blur rounded-4 py-3 border-left">
+              <h2 className="fw-bold fs-sm-title">2022 - Onwards</h2>
+              <h4 className="fs-15 fw-400 lh-28">
+              Establish SMD to build creative and agile teamwork with better system & technology
+              </h4>
+              <img src={TlLogo} alt='tllogo'/>
+            </div>
           </div>
         </div>
-        <div className="row gap-72 mb-80">
-          <div className="col bg-blur rounded-4 py-3 border-left">
-            <h2 className="fw-bold fs-sm-title">2015</h2>
-            <h4 className="fs-15 fw-400 lh-28">
-            More clients and bigger workshops
-            </h4>
-          </div>
-          <div className="col"></div>
-        </div>
-        <div className="row gap-72">
-          <div className="col"></div>
-          <div className="col bg-blur rounded-4 py-3 border-left">
-            <h2 className="fw-bold fs-sm-title">2022 - Onwards</h2>
-            <h4 className="fs-15 fw-400 lh-28">
-            Establish SMD to build creative and agile teamwork with better system & technology
-            </h4>
-            <img src={TlLogo} alt='tllogo'/>
-          </div>
-        </div>
+        
       </Container>
     </>
   );

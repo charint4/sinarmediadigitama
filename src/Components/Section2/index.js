@@ -13,7 +13,9 @@ const Section2 = () => {
           <h3>We take your brand's image as our priority</h3>
           <div className="col-md cont-sec2">
             <img src={OOH}></img>
-            <h2>OOH out of home units</h2>
+            <div className="wrap-abs">
+              <h2>OOH out of home units</h2>
+            </div>
           </div>
           <div className="col-md cont-sec2">
             <img src={OOH}></img>

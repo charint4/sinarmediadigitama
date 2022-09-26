@@ -1,4 +1,8 @@
+.wrapper-timeline {
+  position: relative;
+}
 .garis {
+  
   position: absolute;
   /* top: 91%; */
   left: 50%;
@@ -15,4 +19,50 @@
 
 .border-right {
   border-right: 5px solid #ac2523;
+}
+@media only screen and (max-width: 768px) {
+  /* For desktop: */
+  .disp-none {
+    display: none;
+  }
+  .wrap-timeline {
+    margin-bottom: 40px;
+  }
+  .garisnya {
+    height: 505px;
+    /* width: 8px; */
+  }
+}
+@media only screen and (max-width: 572px) {
+  /* For desktop: */
+  .disp-none {
+    display: none;
+  }
+  .wrap-timeline {
+    padding: 15px;
+  }
+  .garis {
+    top: 20px;
+  }
+
+}
+@media screen 
+  and (min-width: 454px) 
+  and (max-width: 574px){
+    .garisnya {
+      height: 605px;
+      /* width: 8px; */
+    }
+}
+@media only screen and (max-width: 454px) {
+  /* For desktop: */
+  .garisnya {
+    height: 705px;
+    /* width: 8px; */
+  }
+  .quote {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
 }
