@@ -6,8 +6,13 @@ import CardImg3 from "../../Images/ourteam2.png";
 import CardImg2 from "../../Images/ourteam3.png";
 import CardImg4 from "../../Images/bulina.png";
 import CardImg5 from "../../Images/pakbagus.png";
+import { useRef } from "react";
+import { useDraggable } from "react-use-draggable-scroll";
 
 const Section5 = () => {
+  const ref = useRef(); // We will use React useRef hook to reference the wrapping div:
+  const { events } = useDraggable(ref); // Now we pass the reference to the useDraggable hook:
+
   return (
     <Container>
       <div className="text d-flex flex-column sec5 text-center">
@@ -18,9 +23,9 @@ const Section5 = () => {
           their differences complement one another’s skills
         </h4>
       </div>
-      <div className="carousel d-flex">
+      <div className="carousel d-flex flex-row flex-nowrap overflow-auto" {...events} ref={ref}>
         <Card
-          style={{ width: "248px" }}
+          style={{ minWidth: "248px" }}
           className="border border-light rounded-4 card"
         >
           <Card.Img variant="top" src={CardImg4} className="p-2 rounded-5" />
@@ -31,7 +36,7 @@ const Section5 = () => {
           </Card.Body>
         </Card>
         <Card
-          style={{ width: "248px" }}
+          style={{ minWidth: "248px" }}
           className="border border-light rounded-4 card"
         >
           <Card.Img variant="top" src={CardImg5} className="p-2 rounded-5" />
@@ -42,7 +47,7 @@ const Section5 = () => {
           </Card.Body>
         </Card>
         <Card
-          style={{ width: "248px" }}
+          style={{ minWidth: "248px" }}
           className="border border-light rounded-4 card"
         >
           <Card.Img variant="top" src={CardImg1} className="p-2 rounded-5" />
@@ -53,7 +58,7 @@ const Section5 = () => {
           </Card.Body>
         </Card>
         <Card
-          style={{ width: "248px" }}
+          style={{ minWidth: "248px" }}
           className="border border-light rounded-4 card"
         >
           <Card.Img variant="top" src={CardImg2} className="p-2 rounded-5" />
@@ -64,7 +69,7 @@ const Section5 = () => {
           </Card.Body>
         </Card>
         <Card
-          style={{ width: "248px" }}
+          style={{ minWidth: "248px" }}
           className="border border-light rounded-4 card"
         >
           <Card.Img variant="top" src={CardImg3} className="p-2 rounded-5" />
