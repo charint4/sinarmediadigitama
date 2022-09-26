@@ -4,7 +4,7 @@
 
 .carousel {
   gap: 70px;
-  margin-top: 56px;
+  margin-top: 60px;
   cursor: grab;
   overflow: hidden !important;
 }
