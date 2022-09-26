@@ -21,36 +21,38 @@ const Section6 = () => {
           Send us a message
         </h2>
         <Form.Group className="mb-3" controlId="formBasicEmail">
-          <Form.Label className="fs-normal fw-500 text-dark">Name</Form.Label>
-          <Form.Control type="text" placeholder="Ex: Imanuel Simatupang" />
+          <Form.Label className="fs-18 fw-500 text-dark">Name</Form.Label>
+          <Form.Control type="text" placeholder="Ex: Imanuel Simatupang" className="fs-14"/>
         </Form.Group>
         <Form.Group className="mb-3" controlId="formBasicEmail">
-          <Form.Label className="fs-normal fw-500 text-dark">Email</Form.Label>
+          <Form.Label className="fs-18 fw-500 text-dark">Email</Form.Label>
           <Form.Control
             type="email"
             placeholder="Ex: simatupang30@example.com"
+            className="fs-14"
           />
         </Form.Group>
         <Form.Group className="mb-3" controlId="formBasicEmail">
-          <Form.Label className="fs-normal fw-500 text-dark">
+          <Form.Label className="fs-18 fw-500 text-dark">
             Subject
           </Form.Label>
-          <Form.Control type="text" placeholder="Ex: New Project Proposal" />
+          <Form.Control type="text" placeholder="Ex: New Project Proposal" className="fs-14" />
         </Form.Group>
         <Form.Group className="mb-3" controlId="formBasicEmail">
-          <Form.Label className="fs-normal fw-500 text-dark">
+          <Form.Label className="fs-18 fw-500 text-dark">
             Message
           </Form.Label>
           <Form.Control
             as="textarea"
             placeholder="Write your message here"
             style={{ height: "144px" }}
+            className="fs-14"
           />
         </Form.Group>
         <Button
           variant="primary"
           type="submit"
-          className="bg-navy btn-submit float-end fw-bold px-5 py-3 ls-1 rounded-4"
+          className="bg-navy btn-submit float-end fw-bold px-5 py-3 ls-1 rounded-4 fs-18"
         >
           Send message
         </Button>

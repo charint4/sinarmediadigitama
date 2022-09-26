@@ -27,15 +27,31 @@
 }
 
 .fs-sm-title {
-  font-size: 32px;
+  font-size: 28px;
 }
 
 .fs-big {
-  font-size: 64px;
+  font-size: 50px;
 }
 
 .fs-bigger {
-  font-size: 72px;
+  font-size: 64px;
+}
+
+.fs-20 {
+  font-size: 20px;
+}
+
+.fs-16 {
+  font-size: 16px;
+}
+
+.fs-14 {
+  font-size: 14px !important;
+}
+
+.fs-18 {
+  font-size: 18px !important;
 }
 
 .fs-normal {
@@ -91,6 +107,10 @@
 
 .color-navy {
   color: #0e5579 !important;
+}
+
+.color-gray {
+  color:#545659; 
 }
 
 .bg-navy {
