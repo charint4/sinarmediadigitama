@@ -4,7 +4,7 @@ import Section1 from '../../Section1'
 import "./section1abt.css";
 const Section1abt = () => {
   return (
-    <Container>
+    <Container className=''>
       <div className="section1abt">
         <Section1 />
       </div>

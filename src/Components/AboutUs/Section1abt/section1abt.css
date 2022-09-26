@@ -1,3 +1,7 @@
 .section1abt {
     margin-top: 150px;
+    /* background */
+}
+.wrap-sec1-ab {
+    background-image: url(./../../../Images/bg-abt1.png);
 }

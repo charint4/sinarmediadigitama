@@ -156,3 +156,34 @@
   background-position: center;
   padding-top: 80px;
 } */
+.wrap-sec1-ab {
+  background-image: url(./Images/bg-abt1.png);
+  padding-bottom: 100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.wrap-sec2-ab {
+  background-image: url(./Images/bg-abt2.png);
+  padding-bottom: 100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* padding-top: 80px; */
+}
+.wrap-sec3-ab {
+  background-image: url(./Images/bg-abt3.png);
+  padding-bottom: 100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* padding-top: 80px; */
+}
+.wrap-sec13-serv {
+  background-image: url(./Images/bg-serv.png);
+  padding-bottom: 100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* padding-top: 80px; */
+}

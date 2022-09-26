@@ -15,8 +15,7 @@ const index = () => {
                 </div>
                 <div className="col-md cont-abt3">
                     <h3>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                    </h3>
+                    One Stop Marketing Solutions arose from our desire to be a comprehensive marketing agency that delivers cohesive results to our clients, regardless of the service you need.                    </h3>
                 </div>
             </div>
             <div className="row wrap-cont-abt2 mt-5">
@@ -27,7 +26,7 @@ const index = () => {
                 </div>
                 <div className="col-md cont-abt3">
                     <h3>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                    Choosing the best placement for your ad is crucial for your brand and product. Successful ad placement will elevate your brand awareness and visibility. Allow us to assist you in choosing the best option for your marketing strategy.
                     </h3>
                 </div>
             </div>
@@ -39,7 +38,7 @@ const index = () => {
                 </div>
                 <div className="col-md cont-abt3">
                     <h3>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                    Our experience in the advertising industry has helped brands attain larger and more targeted audiences. We understand what the audience desires in order to convey an unforgettable brand.
                     </h3>
                 </div>
             </div>

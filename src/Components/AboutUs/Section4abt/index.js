@@ -20,9 +20,9 @@ const index = () => {
                 <h2>
                     Projects Handled
                 </h2>
-                <h3>
+                {/* <h3>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magn
-                </h3>
+                </h3> */}
             </div>
             <div className="col-md bg-blur cont-abt4 text-center p-4">
                 <img src={Groups}></img>
@@ -32,9 +32,9 @@ const index = () => {
                 <h2>
                     Clients Satisfied
                 </h2>
-                <h3>
+                {/* <h3>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magn
-                </h3>
+                </h3> */}
             </div>
         </div>
         <Section5 />

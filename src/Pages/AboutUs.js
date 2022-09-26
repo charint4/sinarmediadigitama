@@ -8,12 +8,18 @@ import Footer from "../Components/Footer";
 
 const AboutUs = () => {
   return (
-    <div className="">
-      <Section1 />
-      <Section2 />
-      <Section3abt />
-      <Section4abt />
-      <Section5abt />
+    <div >
+      <div className="wrap-sec1-ab">
+        <Section1 />
+      </div>
+      <div className="wrap-sec2-ab">
+        <Section2 />
+        <Section3abt />
+        <Section4abt />
+      </div>
+      <div className="wrap-sec3-ab">
+        <Section5abt />
+      </div>
       {/* <Footer /> */}
     </div>
   );

@@ -6,9 +6,11 @@ import Section3serv from "../Components/Services/Section3serv";
 const Services = () => {
   return (
     <>
-      <Header className="mb-100" />
-      <Section1serv />
-      <Section3serv />
+      <Header className="" />
+      <div className="wrap-sec13-serv">
+        <Section1serv />
+        <Section3serv />
+      </div>
     </>
   );
 };

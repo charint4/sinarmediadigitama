@@ -9,7 +9,7 @@
 .wrap-img {
     border-radius: 15px;
 }
-.wrap-img > img{
+.wrap-img > img{    
     border-radius: 15px;
     width: 100% !important;
     /* width: auto !important; */
@@ -33,6 +33,6 @@
     margin-left:27px;
   }
 .slick-list {
-margin-left:-27px;
+    margin-left:-27px;
 }
 
