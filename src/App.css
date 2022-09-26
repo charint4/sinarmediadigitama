@@ -64,6 +64,9 @@
   color: #545659;
 }
 
+.lh-30 {
+  line-height: 30px;
+}
 .lh-28 {
   line-height: 28px;
 }
@@ -76,7 +79,7 @@
   margin-bottom: 200px;
 }
 .mt-200 {
-  margin-top: 200px;
+  margin-top: 200px !important;
 }
 .mt-100 {
   margin-top: 100px;
