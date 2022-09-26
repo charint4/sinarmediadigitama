@@ -14,20 +14,42 @@ const Section2 = () => {
           <div className="col-md cont-sec2">
             <img src={OOH}></img>
             <div className="wrap-abs">
+            </div>
+            <div className="wrap-text">
               <h2>OOH out of home units</h2>
+              <p>Nationwide</p>
+              <a href="#">read more</a>
             </div>
           </div>
           <div className="col-md cont-sec2">
             <img src={OOH}></img>
-            <h2>Promotional Units</h2>
+            <div className="wrap-abs">
+            </div>
+            <div className="wrap-text">
+              <h2>Promotional Units</h2>
+              <p>Paper, wood, acrylic, & metal based</p>
+              <a href="#">read more</a>
+            </div>
           </div>
           <div className="col-md cont-sec2">
             <img src={OOH}></img>
-            <h2>Creative Development Promotional Units</h2>
+            <div className="wrap-abs">
+            </div>
+            <div className="wrap-text">
+              <h2>Creative Development Promotional Units</h2>
+              <p className="p3">Paper, wood, acrylic, & metal based</p>
+              <a href="#">read more</a>
+            </div>
           </div>
           <div className="col-md cont-sec2">
             <img src={OOH}></img>
-            <h2>Printed Material</h2>
+            <div className="wrap-abs">
+            </div>
+            <div className="wrap-text">
+              <h2>Printed Material</h2>
+              <p>Paper, wood, acrylic, & metal based</p>
+              <a href="#">read more</a>
+            </div>
           </div>
         </div>
       </Container>
