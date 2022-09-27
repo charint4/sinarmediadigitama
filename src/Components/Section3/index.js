@@ -100,6 +100,30 @@ const Section3 = () => {
               </div>
             </div>
           </div>
+          <div className="wrap-client-resp p-3 bg-blur">
+            <div className="wrap-cont-row-client">
+              <img className="img-client" src={client1}></img>
+              <img className="img-client" src={client2}></img>
+              <img className="img-client" src={client3}></img>
+              <img className="img-client" src={client4}></img>
+              <img className="img-client" src={client5}></img>
+              <img className="img-client" src={client6}></img>
+              <img className="img-client" src={client7}></img>
+              <img className="img-client" src={client8}></img>
+              <img className="img-client" src={client9}></img>
+              <img className="img-client" src={client10}></img>
+              <img className="img-client" src={client11}></img>
+              <img className="img-client" src={client12}></img>
+              <img className="img-client" src={client13}></img>
+              <img className="img-client" src={client14}></img>
+              <img className="img-client" src={client15}></img>
+              <img className="img-client" src={client16}></img>
+              <img className="img-client" src={client17}></img>
+              <img className="img-client" src={client18}></img>
+              <img className="img-client" src={client19}></img>
+              <img className="img-client" src={client20}></img>
+            </div>
+          </div>
         </div>
       </Container>
     </>
