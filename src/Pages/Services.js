@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Header from "../Components/Services/Header";
 import Section1serv from "../Components/Services/Section1serv";
 import Section3serv from "../Components/Services/Section3serv";
@@ -7,7 +7,11 @@ import Data from '../Components/Section2/Data'
 
 const Services = () => {
   const {title, id} = new useParams()
-  // console.log(title)
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+
+
 
   return (
     <>
