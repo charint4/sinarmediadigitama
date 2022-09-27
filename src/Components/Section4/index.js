@@ -73,7 +73,7 @@ const Section4 = () => {
             </Marker>
           </MapContainer>
         </div>
-        <div className="col-md bg-text wrap-box">
+        <div className="col-lg-5 bg-text wrap-box">
           <h3 className="title">Get in touch</h3>
           <h4 className="text1 mb-5">
             Jl. Aria Putra No. 8 RT 01 / RW 06 <br /> Kel. Sarua Indah, Kec.
