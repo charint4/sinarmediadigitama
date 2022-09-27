@@ -30,7 +30,9 @@
 .cont-sec2 > img {
     border-radius: 10px;
     width: 200px;
+    height: 200px;
     text-align: center;
+    object-fit: cover;
 }
 .cont-sec2 > h2 {
     font-weight: 700;
