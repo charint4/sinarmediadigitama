@@ -170,9 +170,11 @@
 .wrap-sec2-ab {
   background-image: url(./Images/bg-abt2.png);
   /* padding-bottom: 150px; */
+  /* padding-left: -1000px; */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  /* object-fit:fill ; */
   /* padding-top: 80px; */
 }
 .wrap-sec3-ab {
