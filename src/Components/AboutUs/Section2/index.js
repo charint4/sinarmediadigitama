@@ -54,7 +54,7 @@ const index = () => {
           </div>
           <div className="row gap-72 wrap-timeline">
             <div className="col-md disp-none"></div>
-            <div className="col-md bg-blur rounded-4 py-3 border-left">
+            <div className="col-md bg-blur py-3 border-left rounded-4 wrap-boxd">
               <h2 className="fw-bold fs-sm-title">2022 - Onwards</h2>
               <h4 className="fs-15 fw-400 lh-28">
               Establish SMD to build creative and agile teamwork with better system & technology
