@@ -12,8 +12,10 @@ function BasicExample() {
   return (
     <Navbar bg="light" expand="lg" className="p-3 fixed-top">
       <Container>
-        <Navbar.Brand href="#home">
+        <Navbar.Brand>
+        <Link to="/">
           <img src={Logo} className="nav-logo"></img>
+              </Link>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
