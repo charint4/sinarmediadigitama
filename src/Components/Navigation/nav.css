@@ -27,3 +27,41 @@
 .contact-btn:hover {
     background-color: #0E5579 !important;
   }
+.navbar-light {
+    color:#AC2532 !important;
+    border-color:#AC2532 !important ;
+    /* background-color: #AC2532 !important; */
+}
+.navbar-toggler {
+    border: 0 !important;
+}
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+@media only screen and (max-width: 454px) {
+    /* For desktop: */
+    .nav-logo {
+        height: 20px;
+    }
+
+}
+@media screen 
+  and (min-width: 992px) 
+  and (max-width: 1200px){
+    .nav-btn {
+        gap: 40px;
+        /* margin-left: 10%; */
+    }
+}
+@media only screen and (max-width: 991px) {
+    /* For desktop: */
+    .nav-btn {
+        gap: 10px;
+        /* margin-left: 10%; */
+        margin-bottom: 20px;
+    }
+
+}
