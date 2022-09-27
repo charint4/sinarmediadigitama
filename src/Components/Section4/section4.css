@@ -4,11 +4,10 @@
   gap: 30px;
 }
 
-.map-img {
-  /* width: 100%; */
-  /* width: 80%; */
+.leaflet-container {
   height: 600px;
-  /* height: 90%; */
+  overflow: hidden;
+  border-radius: 15px;
 }
 
 .bg-text {
@@ -79,19 +78,13 @@
   }
   
   .map-img {
-    /* width: 100%; */
-    /* width: 80%; */
     height: 600px;
-    /* height: 90%; */
   }
 }
 @media only screen and (max-width: 768px) {
   /* For desktop: */
   
   .map-img {
-    /* width: 100%; */
-    /* width: 80%; */
     height: 450px;
-    /* height: 90%; */
   }
 }
