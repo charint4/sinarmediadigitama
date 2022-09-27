@@ -1,4 +1,4 @@
-import React from "react";
+import React , {useEffect}from "react";
 import "../App.css";
 import Header from "../Components/Header";
 import Section1 from "../Components/Section1";
@@ -9,13 +9,16 @@ import Section5 from "../Components/Section5";
 import Section6 from "../Components/Section6";
 
 const Home = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   return (
     <div className="Home">
       <header className="App-header">
         <Header />
         <section className="sec-1-3">        
           <Section1 />
-          <Section2 />
+          <Section2 id='section2'/>
           <Section3 />
           <Section4 />
           <Section5 />
