@@ -10,7 +10,7 @@ const Footer = () => {
     <section className="wrap-footer">
         <Container>
             <div className="row pt-5 pb-5">
-                <div className="col-md-5 cont-footer">
+                <div className="col-md-4 cont-footer">
                     <img src={Logowhite}></img>
                     <h1>We Take Your Brand's Image as Our Priority</h1>
                 </div>
@@ -21,11 +21,11 @@ const Footer = () => {
                     <h3>Services</h3>
                     <h3>Contact Us</h3>
                 </div>
-                <div className="col-md cont-footer">
+                <div className="col-md-3 cont-footer">
                     <h1>Get in touch</h1>
-                    <h3>Jl. Aria Putra No. 8 RT 01 / RW 06
+                    <h3>Jl. Aria Putra No. 8 RT 01 / RW 06 <br></br>
                     Kel. Sarua Indah, Kec. Ciputat,
-                    Tangerang Selatan 15414</h3>
+                    <br></br> Tangerang Selatan 15414</h3>
                     <h3>
                     bagus.sms@gmail.com <br></br>
                     sinarmediasakti.adv@gmail.com <br></br>
