@@ -11,7 +11,6 @@ const Services = () => {
 
   return (
     <>
-      {/* <h1 className="mt-200">id : {id}</h1> */}
       <Header className="" data={Data[id]}/>
       <div className="wrap-sec13-serv">
         <Section1serv data={Data[id]}/>
