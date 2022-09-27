@@ -26,6 +26,7 @@
     margin-top: 60px;
     text-align: center;
     position: relative;
+    width: auto;
 }
 .cont-sec2 > img {
     border-radius: 10px;
