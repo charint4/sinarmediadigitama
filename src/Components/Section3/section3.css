@@ -1,5 +1,6 @@
 .img-client {
-    height: 60px;
+    max-height: 60px;
+    height: auto;
 }
 .container-sec3 {
     margin-top: 150px;

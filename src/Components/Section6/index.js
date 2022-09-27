@@ -8,17 +8,17 @@ const Section6 = () => {
     <Container className="wrapper-cta">
       <div className="row justify-content-center gap-3">
 
-        <div className="t1-s6 col-md-6">
-          <h2 className="fw-bold fs-big mb-5 py-5">
+        <div className="t1-s6 col-md-4">
+          <h2 className="fw-bold fs-title mb-3 py-5">
             Your company <br />
             will go places,
             <br />
             yet you can stay <br />
             under our roof
           </h2>
-          <h1 className="fs-bigger fw-bold text-color-rb">Tell us your <br></br> needs!</h1>
+          <h1 className="fs-title fw-bold text-color-rb">Tell us your <br></br> needs!</h1>
         </div>
-        <Form className="bg-blur p-4 w-30 rounded-4 col-md-5">
+        <Form className="bg-blur p-4 w-30 rounded-4 col-md">
           <h2 className="fs-sm-title fw-bold color-navy mb-5">
             Send us a message
           </h2>
@@ -47,14 +47,14 @@ const Section6 = () => {
             <Form.Control
               as="textarea"
               placeholder="Write your message here"
-              style={{ height: "144px" }}
+              style={{ height: "80px" }}
               className="fs-14"
             />
           </Form.Group>
           <Button
             variant="primary"
             type="submit"
-            className="bg-navy btn-submit float-end fw-bold px-5 py-3 ls-1 rounded-4 fs-18"
+            className="bg-navy btn-submit float-end fw-bold px-3 py-2 rounded-2 fs-15"
           >
             Send message
           </Button>

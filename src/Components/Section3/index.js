@@ -32,70 +32,70 @@ const Section3 = () => {
           <h3>Finest Clients</h3>
           <div className="wrap-client p-3 bg-blur">
             <div className="row cont-row-client">
-              <div className="col-md cont-sec3 mx-auto">
+              <div className="col cont-sec3 mx-auto">
                 <img className="img-client" src={client1}></img>
               </div>
-              <div className="col-md cont-sec3">
+              <div className="col cont-sec3">
                 <img className="img-client" src={client2}></img>
               </div>
-              <div className="col-md cont-sec3">
+              <div className="col cont-sec3">
                 <img className="img-client" src={client3}></img>
               </div>
-              <div className="col-md cont-sec3">
+              <div className="col cont-sec3">
                 <img className="img-client" src={client4}></img>
               </div>
-              <div className="col-md cont-sec3">
+              <div className="col cont-sec3">
                 <img className="img-client" src={client5}></img>
               </div>
             </div>
             <div className="row cont-row-client">
-              <div className="col-md cont-sec3 mx-auto">
+              <div className="col cont-sec3 mx-auto">
                 <img className="img-client" src={client6}></img>
               </div>
-              <div className="col-md cont-sec3">
+              <div className="col cont-sec3">
                 <img className="img-client" src={client7}></img>
               </div>
-              <div className="col-md cont-sec3">
+              <div className="col cont-sec3">
                 <img className="img-client" src={client8}></img>
               </div>
-              <div className="col-md cont-sec3">
+              <div className="col cont-sec3">
                 <img className="img-client" src={client9}></img>
               </div>
-              <div className="col-md cont-sec3">
+              <div className="col cont-sec3">
                 <img className="img-client" src={client10}></img>
               </div>
             </div>
             <div className="row cont-row-client">
-              <div className="col-md cont-sec3 mx-auto">
+              <div className="col cont-sec3 mx-auto">
                 <img className="img-client" src={client11}></img>
               </div>
-              <div className="col-md cont-sec3">
+              <div className="col cont-sec3">
                 <img className="img-client" src={client12}></img>
               </div>
-              <div className="col-md cont-sec3">
+              <div className="col cont-sec3">
                 <img className="img-client" src={client13}></img>
               </div>
-              <div className="col-md cont-sec3">
+              <div className="col cont-sec3">
                 <img className="img-client" src={client14}></img>
               </div>
-              <div className="col-md cont-sec3">
+              <div className="col cont-sec3">
                 <img className="img-client" src={client15}></img>
               </div>
             </div>
             <div className="row cont-row-client">
-              <div className="col-md cont-sec3 mx-auto">
+              <div className="col cont-sec3 mx-auto">
                 <img className="img-client" src={client16}></img>
               </div>
-              <div className="col-md cont-sec3">
+              <div className="col cont-sec3">
                 <img className="img-client" src={client17}></img>
               </div>
-              <div className="col-md cont-sec3">
+              <div className="col cont-sec3">
                 <img className="img-client" src={client18}></img>
               </div>
-              <div className="col-md cont-sec3">
+              <div className="col cont-sec3">
                 <img className="img-client" src={client19}></img>
               </div>
-              <div className="col-md cont-sec3">
+              <div className="col cont-sec3">
                 <img className="img-client" src={client20}></img>
               </div>
             </div>
