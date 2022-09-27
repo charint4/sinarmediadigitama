@@ -10,3 +10,6 @@
 .wrap-services {
   gap: 200px;
 }
+.wrap-services > div {
+  border-radius: 15px;
+}
