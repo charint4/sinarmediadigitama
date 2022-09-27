@@ -78,13 +78,14 @@ export default class MultipleItems extends Component {
         infinite: true,
         speed: 500,
         slidesToShow: 2,
-        slidesToScroll: 2
+        slidesToScroll: 2,
+        adaptiveHeight: true
       };
       return (
         <Container>
             <div className="wrap-abt5-sec">
             <h1 className="text-center"> Our Office </h1>
-            <Slider {...settings} className="slick-container container-wrap">
+            <Slider {...settings} className="slick-container container-wrap ">
                 <div className="item wrap-img bg-blur p-3" data-value="1">
                     <img className="img-abt" src={frontOffice}>
                     </img>
