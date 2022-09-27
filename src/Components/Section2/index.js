@@ -6,6 +6,7 @@ import Button from "react-bootstrap/Button";
 import { useRef } from "react";
 import { useDraggable } from "react-use-draggable-scroll";
 import Data from "./Data";
+import { Link } from "react-router-dom";
 
 const Section2 = () => {
   const ref = useRef(); // We will use React useRef hook to reference the wrapping div:
@@ -31,7 +32,13 @@ const Section2 = () => {
                 <div className="wrap-text">
                   <h2>{data.name}</h2>
                   <p>{data.texts}</p>
-                  <a href="#">{data.quotes}</a>
+                  <Link 
+                  to={`Service/${data.name.replaceAll(' ', '-')}/${index}`} 
+                  // to={`Service/${index}`}
+                  >
+                    {data.quotes}
+                  </Link>
+                  {/* <a href="#">{data.quotes}</a> */}
                 </div>
               </div>
 

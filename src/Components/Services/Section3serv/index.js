@@ -72,22 +72,38 @@ import "slick-carousel/slick/slick-theme.css";
 //   }
 // }
 
-export default class MultipleItems extends Component {
-    render() {
-      const settings = {
-        dots: false,
-        infinite: true,
-        speed: 500,
-        slidesToShow: 3,
-        slidesToScroll: 3,
-        adaptiveHeight: true
-      };
+const MultipleItems = (props) => {
+    const {data} = props
+
+    const settings = {
+    dots: false,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 2,
+    slidesToScroll: 3,
+    adaptiveHeight: true
+    };
+
+    //   console.log(this.props.data.products.map((product, index) => (
+    //     <div className="item wrap-imga bg-blur p-3" data-value={index+1} key={index}>
+    //          <img className="img-abt" src={product.img}>
+    //          </img>
+    //          <h1 className="fs-20">{product.title}</h1>
+    //      </div>
+    //     )))
       return (
         <Container>
             <div className="wrap-serv5-sec">
             <h1 className="text-center"> Our Products </h1>
             <Slider {...settings}>
-                <div className="item wrap-imga bg-blur p-3" data-value="1">
+                {data.products.map((product, index) => (
+                <div className="item wrap-imga bg-blur p-3" data-value={index+1} key={index}>
+                     <img className="img-abt" src={product.img}>
+                     </img>
+                     <h1 className="fs-20">{product.title}</h1>
+                 </div>
+                ))}
+                {/* <div className="item wrap-imga bg-blur p-3" data-value="1">
                     <img className="img-abt" src={Product1}>
                     </img>
                     <h1 className="fs-20">Front Office</h1>
@@ -112,10 +128,10 @@ export default class MultipleItems extends Component {
                     <img className="img-abt" src={Product6}>
                     </img>
                     <h1 className="fs-20">Work Room</h1>
-                </div>
+                </div> */}
             </Slider>
             </div>
         </Container>
       );
     }
-  }
+export default MultipleItems;

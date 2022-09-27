@@ -2,14 +2,20 @@ import React from "react";
 import Header from "../Components/Services/Header";
 import Section1serv from "../Components/Services/Section1serv";
 import Section3serv from "../Components/Services/Section3serv";
+import { useParams } from "react-router-dom";
+import Data from '../Components/Section2/Data'
 
 const Services = () => {
+  const {title, id} = new useParams()
+  // console.log(title)
+
   return (
     <>
-      <Header className="" />
+      {/* <h1 className="mt-200">id : {id}</h1> */}
+      <Header className="" data={Data[id]}/>
       <div className="wrap-sec13-serv">
-        <Section1serv />
-        <Section3serv />
+        <Section1serv data={Data[id]}/>
+        <Section3serv data={Data[id]}/>
       </div>
     </>
   );

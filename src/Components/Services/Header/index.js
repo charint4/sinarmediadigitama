@@ -6,19 +6,20 @@ import asset1 from "../../../Images/bi_arrow-down-right.png";
 import asset2 from "../../../Images/Group.png";
 import asset3 from "../../../Images/digitama-new-full.png";
 
-const Header = () => {
+const Header = (props) => {
+  const {data} = props;
+  // console.log(data.name)
   return (
     <>
-      <div className="wrap-heads">
+      <div className="wrap-heads" 
+      style={{backgroundImage: `url(${data.ava})`}}
+      >
         <Container>
           <div className="row container-head">
             <div className="col-md-7 cont-heads">
-              <h1>OOH (Out of Home Units)</h1>
+              <h1>{data.name}</h1>
               <h3>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat.
+               {data.texts}
               </h3>
               <Button className="services-btn px-4">Contact Us</Button>{" "}
             </div>

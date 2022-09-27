@@ -27,7 +27,7 @@ const Section5 = () => {
       {...events} ref={ref}
       >
         <Card
-          style={{ minWidth: "200`px" }}
+          style={{ minWidth: "200px" }}
           className="border border-light rounded-4 card"
         >
           <Card.Img variant="top" src={CardImg4} className="p-2 rounded-5" />
