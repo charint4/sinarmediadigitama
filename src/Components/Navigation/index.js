@@ -6,9 +6,11 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 import Logo from "../../Images/smd-logo.png";
 import "../Navigation/nav.css";
 import Button from "react-bootstrap/Button";
-import { Link } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
+import { HashLink} from 'react-router-hash-link';
 
 function BasicExample() {
+
   return (
     <Navbar bg="light" expand="lg" className="p-3 fixed-top">
       <Container>
@@ -31,9 +33,9 @@ function BasicExample() {
               </Link>
             </Nav.Link>
             <Nav.Link>
-              <Link to="/Services" className="nav-link">
+              <HashLink smooth to="/#section2" className="nav-link">
                 Services
-              </Link>
+              </HashLink>
             </Nav.Link>
           </Nav>
           <Nav>

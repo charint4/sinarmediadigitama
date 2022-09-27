@@ -13,6 +13,7 @@ const Section2 = () => {
   const { events } = useDraggable(ref); // Now we pass the reference to the useDraggable hook:
   return (
     <>
+      <div id="section2"></div>
       <Container>
         {/* {Data.map((data, index) => (
           

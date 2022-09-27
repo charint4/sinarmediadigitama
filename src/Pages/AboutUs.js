@@ -1,4 +1,4 @@
-import React from "react";
+import React , {useEffect} from "react";
 import Section1 from "../Components/AboutUs/Section1abt";
 import Section2 from "../Components/AboutUs/Section2";
 import Section3abt from "../Components/AboutUs/Section3abt";
@@ -7,6 +7,10 @@ import Section5abt from "../Components/AboutUs/Section5abt";
 import Footer from "../Components/Footer";
 
 const AboutUs = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+
   return (
     <div >
       <div className="wrap-sec1-ab">
