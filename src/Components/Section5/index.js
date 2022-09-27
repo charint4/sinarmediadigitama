@@ -23,7 +23,9 @@ const Section5 = () => {
           their differences complement one another’s skills
         </h4>
       </div>
-      <div className="carousel d-flex flex-row flex-nowrap overflow-auto" {...events} ref={ref}>
+      <div className="carousel d-flex flex-row flex-nowrap overflow-auto" 
+      {...events} ref={ref}
+      >
         <Card
           style={{ minWidth: "248px" }}
           className="border border-light rounded-4 card"
