@@ -14,6 +14,7 @@ const Section2 = () => {
   return (
     <>
       <div id="section2"></div>
+      
       <Container>
         {/* {Data.map((data, index) => (
           
