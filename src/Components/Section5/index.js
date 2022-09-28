@@ -30,10 +30,10 @@ const Section5 = () => {
           style={{ minWidth: "200px" }}
           className="border border-light rounded-4 card"
         >
-          <Card.Img variant="top" src={CardImg4} className="p-2 rounded-5" />
+          <Card.Img variant="top" src={CardImg4} className="p-2 rounded-5 img-card-team" />
           <Card.Body>
             <Card.Title>
-              <h5 className="fw-bold fs-16 fw-400 color-gray py-3">Derlina</h5>
+              <h5 className="fw-bold fs-16 fw-400 color-gray py-3">Derlina Yusuf</h5>
             </Card.Title>
           </Card.Body>
         </Card>
@@ -41,10 +41,10 @@ const Section5 = () => {
           style={{ minWidth: "200px" }}
           className="border border-light rounded-4 card"
         >
-          <Card.Img variant="top" src={CardImg5} className="p-2 rounded-5" />
+          <Card.Img variant="top" src={CardImg5} className="p-2 rounded-5 img-card-team" />
           <Card.Body>
             <Card.Title>
-              <h5 className="fw-bold fs-16 fw-400 color-gray py-3">Bagus</h5>
+              <h5 className="fw-bold fs-16 fw-400 color-gray py-3">Bagus Asyhari</h5>
             </Card.Title>
           </Card.Body>
         </Card>
@@ -52,7 +52,7 @@ const Section5 = () => {
           style={{ minWidth: "200px" }}
           className="border border-light rounded-4 card"
         >
-          <Card.Img variant="top" src={CardImg1} className="p-2 rounded-5" />
+          <Card.Img variant="top" src={CardImg1} className="p-2 rounded-5 img-card-team" />
           <Card.Body>
             <Card.Title>
               <h5 className="fw-bold fs-16 fw-400 color-gray py-3">Anna Lumintang</h5>
@@ -63,7 +63,7 @@ const Section5 = () => {
           style={{ minWidth: "200px" }}
           className="border border-light rounded-4 card"
         >
-          <Card.Img variant="top" src={CardImg2} className="p-2 rounded-5" />
+          <Card.Img variant="top" src={CardImg2} className="p-2 rounded-5 img-card-team" />
           <Card.Body>
             <Card.Title>
               <h5 className="fw-bold fs-16 fw-400 color-gray py-3">Seni</h5>
@@ -74,7 +74,7 @@ const Section5 = () => {
           style={{ minWidth: "200px" }}
           className="border border-light rounded-4 card"
         >
-          <Card.Img variant="top" src={CardImg3} className="p-2 rounded-5" />
+          <Card.Img variant="top" src={CardImg3} className="p-2 rounded-5 img-card-team" />
           <Card.Body>
             <Card.Title>
               <h5 className="fw-bold fs-16 fw-400 color-gray py-3">Ebiet Mubharak</h5>

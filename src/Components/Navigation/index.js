@@ -39,7 +39,9 @@ function BasicExample() {
             </Nav.Link>
           </Nav>
           <Nav>
-            <Button className="contact-btn px-4">Contact Us</Button>{" "}
+            <HashLink smooth to='/#section6'>
+              <Button className="contact-btn px-4">Contact Us</Button>{" "}
+            </HashLink>
           </Nav>
         </Navbar.Collapse>
       </Container>

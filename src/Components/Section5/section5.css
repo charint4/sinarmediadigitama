@@ -5,16 +5,18 @@
   margin-bottom: -150px !important;
 }
 .carousel {
-  gap: 70px;
+  gap: 25px;
   margin-top: 60px;
   cursor: grab;
   overflow:scroll;
   padding-bottom: 30px;
+  /* justify-content: center; */
 }
 
-.img-card {
-  height: 224px;
-  width: 224px;
+.img-card-team {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
 }
 
 .card {
