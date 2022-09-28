@@ -30,8 +30,8 @@
 }
 .cont-sec2 > img {
     border-radius: 10px;
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     text-align: center;
     object-fit: cover;
 }
@@ -45,13 +45,13 @@
 
 .wrap-abs {
     position: absolute;
-    width: 200px;
-    height: 40px;
+    width: 250px;
+    height: 60px;
     margin-left: auto;
     margin-right: auto;
     left: 0;
     right: 0;
-    top: 160px;
+    top: 190px;
     text-align: left;
     border-radius: 0 0 10px 10px;
     background: rgba(0, 0, 0, 0.3);
@@ -61,37 +61,37 @@
 }
 .wrap-text {
     position: absolute;
-    width: 200px;
+    width: 250px;
     /* height: 40px; */
     margin-left: auto;
     margin-right: auto;
     left: 0;
     right: 0;
-    top: 160px;
+    top: 190px;
     text-align: end;
     transition: transform .5s , border-radius 1s;
 }
 
 .cont-sec2:hover > .wrap-abs {
-    transform : scaleY(2) translateY(-0.5px) ; 
+    transform : scaleY(2) translateY(0.1px) ; 
     border-radius: 0 0 6.85px 6.85px;
 }
 
 .cont-sec2:hover > .wrap-text {
-    transform: translateY(-40px);
+    transform: translateY(-60px);
 }
 
 .cont-sec2:hover > .wrap-text a {
-    font-size: 10px;
+    font-size: 14px;
 }
 
 .cont-sec2:hover > .wrap-text p {
-    font-size: 6px;
+    font-size: 10px;
 }
 .wrap-abs > h2, .wrap-text > h2 {
     color: white;
     font-weight: 700;
-    font-size: 10px;
+    font-size: 16px;
     margin-left: 10px;
     margin-top: 8px;
     text-align: left;
@@ -104,7 +104,7 @@
     text-align: left;
     margin-left: 10px;
     margin-top: 20px;
-    margin-bottom: 0;
+    margin-bottom: 20px;
     transition: font-size .5s;
 }
 
@@ -115,16 +115,14 @@
     text-align: end;
     text-decoration: none;
     margin-right: 10px;
+    /* margin-top: 300px !important; */
     transition: font-size .5s;
 }
 
 .p3 {
-    margin-top: 5px !important;
+    margin-top: -5px !important;
 }
 
-/* .carousel > div {
-    
-} */
 
 .sec2wrap {
     overflow-x: scroll !important;
