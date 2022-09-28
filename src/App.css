@@ -179,12 +179,12 @@
 }
 .wrap-sec3-ab {
   background-image: url(./Images/bg-abt3.png);
-  /* padding-bottom: 150px; */
+  padding-bottom: 150px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   /* margin-bottom: -350px !important; */
-  padding-top: 150px;
+  padding-top: 120px;
 }
 .wrap-sec13-serv {
   background-image: url(./Images/bg-serv.png);
