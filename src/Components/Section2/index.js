@@ -32,68 +32,16 @@ const Section2 = () => {
                 </div>
                 <div className="wrap-text">
                   <h2>{data.name}</h2>
-                  <p>{data.texts}</p>
+                  <p className={index === 2 ? 'p3' : ''}>{data.texts}</p>
                   <Link 
                   to={`Service/${data.name.replaceAll(' ', '-')}/${index}`} 
-                  // to={`Service/${index}`}
                   >
                     {data.quotes}
                   </Link>
-                  {/* <a href="#">{data.quotes}</a> */}
                 </div>
               </div>
 
             ))}
-            {/* <div className="col-sm cont-sec2">
-              <img src={OOH}></img>
-              <div className="wrap-abs">
-              </div>
-              <div className="wrap-text">
-                <h2>OOH out of home units</h2>
-                <p>Nationwide</p>
-                <a href="#">read more</a>
-              </div>
-            </div> */}
-            {/* <div className="col-sm cont-sec2">
-              <img src={OOH}></img>
-              <div className="wrap-abs">
-              </div>
-              <div className="wrap-text">
-                <h2>Promotional Units</h2>
-                <p>Paper, wood, acrylic, & metal based</p>
-                <a href="#">read more</a>
-              </div>
-            </div> */}
-            {/* <div className="col-sm cont-sec2">
-              <img src={OOH}></img>
-              <div className="wrap-abs">
-              </div>
-              <div className="wrap-text">
-                <h2>Creative Development Promotional Units</h2>
-                <p className="p3">Paper, wood, acrylic, & metal based</p>
-                <a href="#">read more</a>
-              </div>
-            </div> */}
-            {/* <div className="col-sm cont-sec2">
-              <img src={OOH}></img>
-              <div className="wrap-abs">
-              </div>
-              <div className="wrap-text">
-                <h2>Printed Material</h2>
-                <p>Paper, wood, acrylic, & metal based</p>
-                <a href="#">read more</a>
-              </div>
-            </div> */}
-            {/* <div className="col-sm cont-sec2">
-              <img src={OOH}></img>
-              <div className="wrap-abs">
-              </div>
-              <div className="wrap-text">
-                <h2>Printed Material</h2>
-                <p>Paper, wood, acrylic, & metal based</p>
-                <a href="#">read more</a>
-              </div>
-            </div> */}
           </div>
         </div>
       </Container>
