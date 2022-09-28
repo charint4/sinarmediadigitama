@@ -7,6 +7,9 @@
   background-position: 0% 20%;
   box-shadow: inset 0 0 0 1000px rgba(0,0,0,.5);
 }
+.ar-down {
+  display: none;
+}
 .cont-head {
   text-align: center;
   display: flex;
@@ -21,4 +24,15 @@
 .cont-head > img {
   /* opacity: 50%; */
   height: 100px;
+}
+@media only screen and (max-width: 767px) {
+  .ar-down {
+    display: block;
+  }
+  .ar-left {
+    display: none;
+  }
+  .container-head {
+    gap: 50px;
+  }
 }
