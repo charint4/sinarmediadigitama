@@ -7,18 +7,18 @@ import TlLogo from "../../../Images/timeline-logo.png";
 const index = () => {
   return (
     <>
-      <div className="bg-navy py-150 text-center">
+      {/* <div className="bg-navy py-150 text-center">
         <h2 className="fw-bold fs-sm-title">Our Purpose</h2>
         <h2 className="fw-bold fs-big quote">
           We take your brand’s image as our priority
         </h2>
-      </div>
-      <Container className="mt-150 mb-150">
+      </div> */}
+      <Container className="mb-150">
         <div className="text-center mb-5">
           <h2 className="fw-bold fs-sm-title text-center">Our History</h2>
-          <h4 className="fw-400 fs-20 text-center">
+          {/* <h4 className="fw-400 fs-20 text-center">
             We Take Your Brand’s Image as our priority
-          </h4>
+          </h4> */}
         </div>
         <div className="wrapper-timeline">
           <div className="garis">
