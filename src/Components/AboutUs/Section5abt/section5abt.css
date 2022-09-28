@@ -1,6 +1,9 @@
 .wrap-abt5-sec {
     padding-bottom: 150px;
 }
+.wrap-abt-slide {
+    padding-bottom: 120px;
+}
 .wrap-abt-slide > h1 {
     font-weight: bold;
     margin-bottom: 60px;
@@ -8,7 +11,7 @@
 }
 .wrap-img {
     border-radius: 15px;
-    height: 100%;
+    height: 360px;
     max-height: 490px;
 }
 .wrap-img > img{    
@@ -34,9 +37,13 @@
     padding-bottom: 30px !important;
   }
   .img-card-slide {
-    /* height: 400px; */
+    height: 350px;
     width: 450px;
-    object-fit: cover;
+    object-fit:cover;
+    /* object-position: 0px; */
+  }
+  .stor {
+    object-position: 0px;
   }
   .wrap-card-ofc {
     border-radius: 15px;

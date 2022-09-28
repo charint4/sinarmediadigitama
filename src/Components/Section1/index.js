@@ -13,16 +13,10 @@ const Section1 = () => {
           </div>
           <div className="col-md cont-sec1-right">
             <h3>
-              PT. Sinar Media Digitama has a vision to provide 360 marketing
-              services to business owners or brand owners who need one-stop
-              services or one-stop solutions for marketing campaign needs for
-              FMCG, MSMEs and your private business{" "}
+            PT. Sinar Media Digitama has the vision to offer 360 marketing services for creative entrepreneurs who need a one-stop service for their marketing campaign needs. 
             </h3>
             <h3>
-              In accordance with the company's mission to always prioritize
-              added value in every service and prioritize customer satisfaction,
-              we hope to be a professional partner in helping develop your brand
-              or product so that it always shines.
+            In line with our company's mission of always prioritizing the added value of every service and customer satisfaction, we aspire to be your professional partner in helping you develop your brand or product so that they always shine. We believe that our future endeavors have the potential to bring breathtaking results.
             </h3>
           </div>
         </div>
