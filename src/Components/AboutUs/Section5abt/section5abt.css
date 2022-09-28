@@ -40,7 +40,7 @@
     height: 350px;
     width: 450px;
     object-fit:cover;
-    image-resolution: from-image 300dpi;
+    /* image-resolution: from-image 10dpi; */
     /* object-position: 0px; */
   }
   .stor {
