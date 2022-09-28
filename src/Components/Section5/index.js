@@ -16,7 +16,7 @@ const Section5 = () => {
   return (
     <Container>
       <div className="text d-flex flex-column sec5 text-center">
-        <h3 className="t1-s5 fw-bold fs-title">Meet our team</h3>
+        <h3 className="t1-s5 fw-bold fs-title">Meet Our Team</h3>
         <h4 className="t2-s5 fs-20 fw-400 lh-30">
           A group of highly motivated people with diverse backgrounds, extensive
           experience, special interest, and track records of success, while

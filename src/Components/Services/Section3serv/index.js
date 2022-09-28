@@ -95,6 +95,7 @@ const MultipleItems = (props) => {
         <Container>
             <div className="wrap-serv5-sec">
             <h1 className="text-center"> Our Products </h1>
+            <h3 className="text-center t2-s5 fs-20 fw-400 lh-30">Your Brand Image is Our Priority</h3>
             <Slider {...settings}>
                 {data.products.map((product, index) => (
                 <div className="item wrap-imga bg-blur p-3" data-value={index+1} key={index}>

@@ -10,7 +10,7 @@
   cursor: grab;
   overflow:scroll;
   padding-bottom: 30px;
-  /* justify-content: center; */
+  justify-content: center;
 }
 
 .img-card-team {
@@ -36,4 +36,9 @@
     gap: 30px;
   }
 
+}
+@media only screen and (max-width: 1396px) {
+  .carousel {
+    justify-content: left;
+  }
 }

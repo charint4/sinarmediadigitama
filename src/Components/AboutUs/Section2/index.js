@@ -28,8 +28,7 @@ const index = () => {
             <div className="col-md bg-blur rounded-4 py-3 border-left">
               <h2 className="fw-bold fs-sm-title">2009</h2>
               <h4 className="fs-15 fw-400 lh-28">
-                Started as small agency, served printing materials & promotional
-                units (acrylic , plastic, and wood based)
+              We started as a small agency that serves printing materials & promotional units (acrylic, plastic, and wood-based)
               </h4>
             </div>
             <div className="col-md disp-none"></div>
@@ -39,7 +38,7 @@ const index = () => {
             <div className="col-md bg-blur rounded-4 py-3 border-left">
               <h2 className="fw-bold fs-sm-title">2011</h2>
               <h4 className="fs-15 fw-400 lh-28">
-              Build metal based workshop
+              We expand our range of services that include metal workshops
               </h4>
             </div>
           </div>
@@ -47,7 +46,7 @@ const index = () => {
             <div className="col-md bg-blur rounded-4 py-3 border-left">
               <h2 className="fw-bold fs-sm-title">2015</h2>
               <h4 className="fs-15 fw-400 lh-28">
-              More clients and bigger workshops
+              Our number of projects has increased and we are able to hold even larger workshops
               </h4>
             </div>
             <div className="col-md disp-none"></div>
@@ -57,7 +56,7 @@ const index = () => {
             <div className="col-md bg-blur py-3 border-left rounded-4 wrap-boxd">
               <h2 className="fw-bold fs-sm-title">2022 - Onwards</h2>
               <h4 className="fs-15 fw-400 lh-28">
-              Establish SMD to build creative and agile teamwork with better system & technology
+              We established SMD that builds creative and agile teamwork using better systems & technology
               </h4>
               <img src={TlLogo} alt='tllogo'/>
             </div>
