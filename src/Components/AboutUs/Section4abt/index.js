@@ -12,7 +12,7 @@ const index = () => {
             <h1>Our Experiences</h1>
         </div>
         <div className="row wrap-cont-abt4 justify-content-center">
-            <div className="col-md bg-blur cont-abt4 text-center p-4">
+            <div className="col-md bg-blur cont-abt4 text-center p-4 align-items-center">
                 <img src={Vector}></img>
                 <h2>
                     1000+

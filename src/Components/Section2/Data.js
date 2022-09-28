@@ -1,4 +1,4 @@
-import OOh from '../../Images/ooh-1.jpeg'
+import OOh from '../../Images/ooh-2.jpeg'
 import Promo from '../../Images/promotional-1.jpeg'
 import Crepromo from '../../Images/crepromo-1.jpeg'
 import Crepromo2 from '../../Images/crepromo-2.jpeg'
@@ -15,7 +15,7 @@ import Product6 from '../../Images/PRODUK-6.jpg'
 
 export default [
     {
-      name: 'Out of home units',
+      name: 'Out Of Home Units',
       ava:  OOh ,
       texts: 
         'nationwide',

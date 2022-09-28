@@ -28,7 +28,7 @@ const index = () => {
             <div className="col-md bg-blur rounded-4 py-3 border-left">
               <h2 className="fw-bold fs-sm-title">2009</h2>
               <h4 className="fs-15 fw-400 lh-28">
-              We started as a small agency that serves printing materials & promotional units (acrylic, plastic, and wood-based)
+              Started as a small agency that serves printing materials and promotional units (acrylic, plastic, and wood-based)
               </h4>
             </div>
             <div className="col-md disp-none"></div>
@@ -38,7 +38,8 @@ const index = () => {
             <div className="col-md bg-blur rounded-4 py-3 border-left">
               <h2 className="fw-bold fs-sm-title">2011</h2>
               <h4 className="fs-15 fw-400 lh-28">
-              We expand our range of services that include metal workshops
+              Expanded range of services to include metal based units
+
               </h4>
             </div>
           </div>
@@ -46,7 +47,7 @@ const index = () => {
             <div className="col-md bg-blur rounded-4 py-3 border-left">
               <h2 className="fw-bold fs-sm-title">2015</h2>
               <h4 className="fs-15 fw-400 lh-28">
-              Our number of projects has increased and we are able to hold even larger workshops
+              Built larger workshops because of significance increase in number of projects
               </h4>
             </div>
             <div className="col-md disp-none"></div>
@@ -56,7 +57,8 @@ const index = () => {
             <div className="col-md bg-blur py-3 border-left rounded-4 wrap-boxd">
               <h2 className="fw-bold fs-sm-title">2022 - Onwards</h2>
               <h4 className="fs-15 fw-400 lh-28">
-              We established SMD that builds creative and agile teamwork using better systems & technology
+              Established Sinar Media Digitama as the umbrella company that builds creative and agile business processes using better systems and technology
+
               </h4>
               <img src={TlLogo} alt='tllogo'/>
             </div>
