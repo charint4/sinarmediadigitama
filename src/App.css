@@ -159,13 +159,6 @@
   padding-top: 150px;
   padding-bottom: 150px;
 }
-/* .sec-456 {
-  background-image: url(./Images/Bottom.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  padding-top: 80px;
-} */
 .wrap-sec1-ab {
   background-image: url(./Images/bg-abt1.png);
   padding-bottom: 150px;
@@ -199,4 +192,23 @@
   background-size: cover;
   background-position: center;
   padding-top: 150px;
+}
+@media only screen and (max-width: 377px) {
+  .sec-1-3 {
+    padding-top: 50px;
+    padding-bottom: 80px;
+  }
+  .wrap-sec1-ab {
+    padding-bottom: 100px;
+  }
+  .wrap-sec2-ab {
+    padding-top: 100px;
+  }
+  .wrap-sec3-ab {
+    padding-top: 70px;
+  }
+  .wrap-sec13-serv {
+    padding-bottom: 100px;
+    padding-top: 100px;
+  }
 }

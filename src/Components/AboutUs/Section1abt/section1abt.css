@@ -3,3 +3,11 @@
     /* background */
     padding-top: 200px;
 }
+@media only screen and (max-width: 377px) {
+    .section1abt {
+        /* margin-top: 200px; */
+        /* background */
+        padding-top: 100px;
+    }
+  
+  }

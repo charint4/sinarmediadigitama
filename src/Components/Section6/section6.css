@@ -12,3 +12,11 @@
 #section6 {
   scroll-margin-top: 150px;
 }
+@media only screen and (max-width: 377px) {
+  .wrapper-cta {
+    margin-top: 100px;
+  }
+  #section6 {
+    scroll-margin-top: 100px;
+  }
+}
