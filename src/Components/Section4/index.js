@@ -76,15 +76,17 @@ const Section4 = () => {
         <div className="col-lg-5 bg-text wrap-box">
           <h3 className="title">Get in touch</h3>
           <h4 className="text1 mb-5">
+            <b>Address</b> <br></br>
             Jl. Aria Putra No. 8 RT 01 / RW 06 <br /> Kel. Sarua Indah, Kec.
             Ciputat, Tangerang Selatan 15414
           </h4>
           <h4 className="text2 mb-5">
+            <b>Email</b> <br></br>
             bagus.sms@gmail.com sinarmediasakti.adv@gmail.com
             baliho.sms@gmail.com
           </h4>
           <h4 className="text3 mb-5">
-            Telp / Fax <br /> 021 - 74634075 - 74633530
+            <b>Telephone & Fax</b> <br /> 021 - 74634075 - 74633530
           </h4>
         </div>
       </div>

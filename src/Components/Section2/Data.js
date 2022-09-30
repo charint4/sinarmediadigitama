@@ -20,7 +20,7 @@ export default [
       texts: 
         'nationwide',
       quotes: 'read more',
-      description : 'We understand that choosing the right strategy to promote your brand is important. We can help you choose the best placements that will give you visibility within your budget. Our multiple OOH platforms provide national coverage for brands looking to advertise in the metropolitan area that generate high volumes of traffic through our platforms.',
+      description : 'We understand that choosing the right strategy to promote your brand is pivotal. We can assist you in selecting the best advertisement placements to increase your visibility within your budget. Our multiple OOH platforms provide nationwide coverage for brands looking to advertise in metropolitan areas and generate high traffic through our advertising platforms.',
       products: [
         {
           img: Product1,
@@ -64,7 +64,7 @@ export default [
       texts:
         'Digitally advertised',
       quotes: 'read more',
-      description : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.',
+      description : 'Eye-catching and memorable branding can hook loyal consumers. Manufacturing branding is not merely projecting an image to customers about what your company stands for. It’s about letting your consumer understand its meaning in making your quality product to the market. Good branding can add a human touch to your brand and make it more relatable. Over time, the image your brand conveys will grow into trust, and customers will come to rely on your products as the better option that distinguishes you from your competitors. Every entrepreneur understands that a product presentation is vital for their sales strategy. We are here to help you maximize the visibility of your branding booth and POSM while staying within your budget.',
       products: [
         {
           img: Product3,
@@ -130,7 +130,7 @@ export default [
         texts:
           'bringing you the best brand deals',
         quotes: 'read more',
-        description : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.',
+        description : 'The power of word of mouth can influence consumer behavior and engagement in their purchase. Today, most buying behavior and brand awareness are driven by influencers. Therefore, its critical to find influencers that fit your needs. We can help you find the best Talent, KOLs, and Influencers for your advertising campaign. Not only do we find the best, but we also help you manage the talents and ensure the highest quality of all outputs.',
         products: [
           {
             img: Product2,
@@ -152,7 +152,7 @@ export default [
         texts:
           'Instagram, tiktok, youtube',
         quotes: 'read more',
-        description : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.',
+        description : 'We believe creative content is a fundamental asset in communicating brand awareness to your audience. Crafting creative content increases audience trust and conversions across all channels. Through our services, we will help you navigate the three phases of social media management that cover strategic planning, post & content management, and monitoring & reporting.',
         products: [
           {
             img: Product3,
