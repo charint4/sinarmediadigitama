@@ -1,4 +1,5 @@
 import OOh from '../../Images/ooh-2.jpeg'
+import OOh2 from '../../Images/ooh-1.jpeg'
 import Promo from '../../Images/promotional-1.jpeg'
 import Crepromo from '../../Images/crepromo-1.jpeg'
 import Crepromo2 from '../../Images/crepromo-2.jpeg'
@@ -23,16 +24,12 @@ export default [
       description : 'We understand that choosing the right strategy to promote your brand is pivotal. We can assist you in selecting the best advertisement placements to increase your visibility within your budget. Our multiple OOH platforms provide nationwide coverage for brands looking to advertise in metropolitan areas and generate high traffic through our advertising platforms.',
       products: [
         {
-          img: Product1,
-          title: 'Front Office'
+          img: OOh2,
+          title: 'SGM Eksplor'
         },
         {
-          img: Product2,
-          title: 'Kitchen'
-        },
-        {
-          img: Product3,
-          title: 'Meeting Room'
+          img: OOh,
+          title: 'Camel'
         },
       ]
     },
@@ -108,7 +105,7 @@ export default [
         texts:
           'Indoor & outdoor event',
         quotes: 'read more',
-        description : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.',
+        description : 'Offering an intimate and engaging atmosphere with your loyal and potential consumers can be created through events. Events provide an opportunity to make a lasting impression through direct interaction between your brand and consumers. A successful event can strengthen positive relationships between clients, prospects, consumers, and employees. We can deliver product launches and corporate, business, and social events to help your brand shine.',
         products: [
           {
             img: Product1,
