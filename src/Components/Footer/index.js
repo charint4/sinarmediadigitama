@@ -39,11 +39,11 @@ const Footer = () => {
                 <div className="col-md">
                     <div className="cont-logo">
                         <img src={Whatsapp}></img>
-                        <h3>Contact us via Whatsapp</h3>
+                        <a href='https://api.whatsapp.com/send?phone=085692403618'>Contact us via Whatsapp</a>
                     </div>
                     <div className="cont-logo">
                         <img src={Gmail}></img>
-                        <h3>Contact us via Email</h3>
+                        <a>Contact us via Email</a>
                     </div>
                 </div>
             </div>
