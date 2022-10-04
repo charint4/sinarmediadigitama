@@ -17,6 +17,7 @@ const Secslide = () => {
     autoplaySpeed: 4000,
     cssEase: "linear",
     adaptiveHeight: true,
+    // adaptiveWeight: true,
     arrows: false,
     pauseOnHover: false,
     responsive: [
@@ -73,7 +74,7 @@ const Secslide = () => {
         <h1 className="text-center">Our Facilities</h1>
         <Slider
           {...settings}
-          className="carousel-abt-slide d-flex flex-row flex-nowrap overflow-auto py-2"
+          className="carousel-abt-slide"
         >
           {/* <div
           className="carousel-abt-slide d-flex flex-row flex-nowrap overflow-auto py-2"
@@ -82,7 +83,7 @@ const Secslide = () => {
         > */}
           {Data.map((data, index) => (
             <Card
-              className="border border-light rounded-4 p-2"
+              className="border border-light rounded-4 p-2 cont-card-abt"
               key={index}
               style={{ minWidth: "350px" }}
             >
@@ -93,7 +94,7 @@ const Secslide = () => {
               />
               <Card.Body>
                 <Card.Title>
-                  <h5 className="fw-bold fs-16 fw-400 color-gray p-3">
+                  <h5 className="fw-bold fs-16 fw-400 color-gray font-fac">
                     {data.name}
                   </h5>
                 </Card.Title>

@@ -30,15 +30,24 @@
   display: none;
 }
 .carousel-abt-slide {
-  gap: 30px;
+  /* display: flex !important;
+  gap: 30px !important; */
   /* margin-top: 60px; */
-  cursor: grab;
-  overflow: scroll;
+  /* cursor: grab;
+  overflow: scroll; */
   padding-bottom: 30px !important;
+}
+.cont-card-abt {
+  height: 440px !important;
+  /* height: auto; */
+  max-width: 455px !important;
+  width: auto !important;
+  /* max-width: fit-content; */
 }
 .img-card-slide {
   height: 350px;
-  max-width: 450px;
+  /* height: auto; */
+  max-width: 435px;
   width: auto;
   object-fit: cover;
   /* image-resolution: from-image 10dpi; */
@@ -51,7 +60,89 @@
   border-radius: 15px;
 }
 
-@media only screen and (max-width: 575px) {
+@media only screen and (max-width: 1399px) {
+  .cont-card-abt {
+    height: 440px !important;
+    max-width: 400px !important;
+    width: auto !important;
+  }
+  .img-card-slide {
+    height: 350px;
+    max-width: 380px;
+    width: auto;
+    /* image-resolution: from-image 10dpi; */
+    /* object-position: 0px; */
+  }
+}
+@media only screen and (max-width: 1199px) {
+  .cont-card-abt {
+    height: 390px !important;
+    max-width: 350px !important;
+  }
+  .img-card-slide {
+    height: 300px;
+    max-width: 330px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .cont-card-abt {
+    height: 340px !important;
+    max-width: 260px !important;
+  }
+  .img-card-slide {
+    height: 250px;
+    max-width: 240px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .cont-card-abt {
+    height: 280px !important;
+    max-width: 220px !important;
+  }
+  .img-card-slide {
+    height: 180px;
+    max-width: 180px;
+  }
+}
+@media only screen and (max-width: 475px) {
+  .cont-card-abt {
+    height: 260px !important;
+    max-width: 180px !important;
+  }
+  .img-card-slide {
+    height: 160px;
+    max-width: 160px;
+  }
+}
+@media only screen and (max-width: 397px) {
+  .cont-card-abt {
+    height: 260px !important;
+    max-width: 160px !important;
+  }
+  .img-card-slide {
+    height: 140px;
+    max-width: 140px;
+  }
+  .font-fac {
+    font-size: 11px !important;
+    margin-left: -10px !important;
+  }
+}
+@media only screen and (max-width: 325px) {
+  .cont-card-abt {
+    height: 210px !important;
+    max-width: 130px !important;
+  }
+  .img-card-slide {
+    height: 110px;
+    max-width: 110px;
+  }
+  .font-fac {
+    font-size: 10px !important;
+    margin-left: -20px !important;
+  }
+}
+/* @media only screen and (max-width: 575px) {
   .img-card-slide {
     width: 350px;
     height: 300px;
@@ -83,4 +174,4 @@
     width: 200px;
     height: 150px;
   }
-}
+} */
