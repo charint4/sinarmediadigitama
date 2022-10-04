@@ -14,6 +14,7 @@ const Section2 = () => {
     autoplaySpeed: 1500,
     cssEase: "linear",
     adaptiveHeight: true,
+    arrows: false,
     responsive: [
       {
         breakpoint: 991,
