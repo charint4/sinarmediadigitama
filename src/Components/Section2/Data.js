@@ -7,7 +7,6 @@ import Printed from "../../Images/printed1.png";
 import Sosmed from "../../Images/sosmed.png";
 import Influe from "../../Images/influe.jpg";
 import Event from "../../Images/event.jpg";
-// import Promo from '../../Images/promotional-1.jpeg'
 import Product1 from "../../Images/PRODUK-1.jpg";
 import Product2 from "../../Images/PRODUK-2.jpg";
 import Product3 from "../../Images/PRODUK-3.jpg";
