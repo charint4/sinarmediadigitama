@@ -13,15 +13,10 @@ import Seni from "../../Images/seni.png";
 import Syafrudin from "../../Images/syafrudin.png";
 import Retno from "../../Images/siska.png";
 import Slider from "react-slick";
-import { useRef } from "react";
-import { useDraggable } from "react-use-draggable-scroll";
 
 const Section5 = () => {
-  // const ref = useRef(); // We will use React useRef hook to reference the wrapping div:
-  // const { events } = useDraggable(ref); // Now we pass the reference to the useDraggable hook:
-
   const settings = {
-    slidesToShow: 6,
+    slidesToShow: 6.5,
     slidesToScroll: 1,
     autoplay: true,
     speed: 1500,
@@ -69,7 +64,7 @@ const Section5 = () => {
       {
         breakpoint: 360,
         settings: {
-          slidesToShow: 1.8,
+          slidesToShow: 1.65,
         },
       },
     ],
