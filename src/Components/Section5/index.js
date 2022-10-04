@@ -24,6 +24,7 @@ const Section5 = () => {
     cssEase: "linear",
     adaptiveHeight: true,
     arrows: false,
+    pauseOnHover: false,
     responsive: [
       {
         breakpoint: 991,

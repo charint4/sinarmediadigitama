@@ -16,6 +16,7 @@ const Secslide = () => {
     cssEase: "linear",
     adaptiveHeight: true,
     arrows: false,
+    pauseOnHover: false,
     responsive: [
       {
         breakpoint: 1024,
