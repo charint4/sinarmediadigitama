@@ -7,7 +7,7 @@ const index = (props) => {
   const { data } = props;
   return (
     <Container>
-      <div className="row wrap-services">
+      <div className="row wrap-services bg-blur">
         <div className="col-md-6 p-5 cont-services">
           <h3>{data.description}</h3>
         </div>

@@ -14,7 +14,8 @@
 }
 
 .wrap-services {
-  gap: 200px;
+  gap: 0px;
+  border-radius: 15px;
 }
 .wrap-services > div {
   border-radius: 15px;
