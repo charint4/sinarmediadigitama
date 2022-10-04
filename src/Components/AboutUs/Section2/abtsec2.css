@@ -2,15 +2,32 @@
   position: relative;
 }
 .garis {
-  
   position: absolute;
-  /* top: 91%; */
-  left: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  /* height: 100%; */
 }
-
+.wrap-img-tl {
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+}
+.wrap-img-tl > img {
+  height: 40px;
+}
+.row-tl {
+  margin-top: -80px !important;
+}
 .garisnya {
-  height: 790px;
+  height: 550px; 
+  
   width: 8px;
+}
+.disp-none {
+  display: block;
 }
 .wrap-boxd > h4{
   /* text-align: justify; */
@@ -22,10 +39,27 @@
 .border-right {
   border-right: 5px solid #ac2523;
 }
-/* .wrap-boxd > img {
-  margin-left: auto;
-  margin-right: auto;
-} */
+@media screen 
+  and (min-width: 1200px) 
+  and (max-width: 1399px){
+    .garisnya {
+      height: 605px;
+    }
+}
+@media screen 
+  and (min-width: 992px) 
+  and (max-width: 1199px){
+    .garisnya {
+      height: 660px;
+    }
+}
+@media screen 
+  and (min-width: 769px) 
+  and (max-width: 991px){
+    .garisnya {
+      height: 740px;
+    }
+}
 @media only screen and (max-width: 768px) {
   /* For desktop: */
   .disp-none {
@@ -37,6 +71,9 @@
   .garisnya {
     height: 505px;
     /* width: 8px; */
+  }
+  .row-tl {
+    margin-top: 0px !important;
   }
 }
 @media only screen and (max-width: 572px) {
@@ -56,7 +93,7 @@
   and (min-width: 454px) 
   and (max-width: 574px){
     .garisnya {
-      height: 605px;
+      height: 705px !important;
       /* width: 8px; */
     }
 }

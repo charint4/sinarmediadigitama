@@ -19,8 +19,8 @@ const Section5 = () => {
     slidesToShow: 6.5,
     slidesToScroll: 1,
     autoplay: true,
-    speed: 1500,
-    autoplaySpeed: 1500,
+    speed: 2000,
+    autoplaySpeed: 2000,
     cssEase: "linear",
     adaptiveHeight: true,
     arrows: false,
@@ -81,7 +81,7 @@ const Section5 = () => {
           their differences complement one another’s skills
         </h4>
       </div>
-      <Slider {...settings}>
+      <Slider {...settings} className="slick-team">
         <Card
           style={{ minWidth: "200px" }}
           className="border border-light rounded-4 card"
