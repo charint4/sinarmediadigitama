@@ -130,7 +130,7 @@ const Section5 = () => {
           <Card.Body>
             <Card.Title>
               <h5 className="fw-bold fs-16 fw-400 color-gray py-3">Syafrudin Asyhari</h5>
-              <h5 className="fs-16 fw-400 color-gray">Production Speacalist</h5>
+              <h5 className="fs-16 fw-400 color-gray">Production Specialist</h5>
             </Card.Title>
           </Card.Body>
         </Card>

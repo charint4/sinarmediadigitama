@@ -3,6 +3,7 @@ import { Container } from "react-bootstrap";
 import Gmail from "../..//Images/gmail.png";
 import Logowhite from "../../Images/logowhite.png";
 import Whatsapp from "../../Images/whatsapp.png";
+import Instagram from "../../Images/ig-icon.png";
 import "./footer.css";
 import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
@@ -33,19 +34,17 @@ const Footer = () => {
           </div>
           <div className="col-md-3 cont-footer">
             <h1>Get in touch</h1>
-            <h3>
-              Jl. Aria Putra No. 8 RT 01 / RW 06 <br></br>
-              Kel. Sarua Indah, Kec. Ciputat,
-              <br></br> Tangerang Selatan 15414
+            <h3 className="">
+            <b>PT. Sinar Media Digitama</b><br></br> 
+            Aria Putra 8, Sarua Indah<br></br> 
+            Ciputat South Tangerang
             </h3>
             <h3>
-              bagus.sms@gmail.com <br></br>
-              sinarmediasakti.adv@gmail.com <br></br>
-              baliho.sms@gmail.com
+            info@smdigitama.com
             </h3>
             <h3>
-              Telp / Fax <br></br>
-              021 - 74634075 - 74633530
+              Telephone<br></br>
+              021 - 74634075 
             </h3>
           </div>
           <div className="col-md">
@@ -58,6 +57,10 @@ const Footer = () => {
             <div className="cont-logo">
               <img src={Gmail}></img>
               <a>Contact us via Email</a>
+            </div>
+            <div className="cont-logo">
+              <img src={Instagram}></img>
+              <a href="https://www.instagram.com/smdigitama/">@smdigitama</a>
             </div>
           </div>
         </div>

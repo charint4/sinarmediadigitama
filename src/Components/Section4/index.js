@@ -79,16 +79,15 @@ const Section4 = () => {
           <h3 className="title">Get in touch</h3>
           <h4 className="text1 mb-5">
             <b>Address</b> <br></br>
-            Jl. Aria Putra No. 8 RT 01 / RW 06 <br /> Kel. Sarua Indah, Kec.
-            Ciputat, Tangerang Selatan 15414
+            Aria Putra 8, Sarua Indah
+Ciputat - South Tangerang
           </h4>
           <h4 className="text2 mb-5">
             <b>Email</b> <br></br>
-            bagus.sms@gmail.com sinarmediasakti.adv@gmail.com
-            baliho.sms@gmail.com
+            info@smdigitama.com
           </h4>
           <h4 className="text3 mb-5">
-            <b>Telephone & Fax</b> <br /> 021 - 74634075 - 74633530
+            <b>Telephone</b> <br /> 021 - 74634075
           </h4>
         </div>
       </div>

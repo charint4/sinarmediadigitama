@@ -5,7 +5,7 @@
 }
 
 .leaflet-container {
-  height: 665px;
+  height: 500px;
   overflow: hidden;
   border-radius: 15px;
 }
@@ -16,20 +16,13 @@
   justify-content: space-between;
   align-items: flex-start;
   padding: 52px;
-  /* margin-left: 100px; */
-
-  /* Linear/White Glass Fill */
-
-  /* From https://css.glass */
+  height: 500px;
   background: rgba(255, 255, 255, 0.27);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(15px);
   -webkit-backdrop-filter: blur(15px);
   border: 1px solid rgba(255, 255, 255, 0.3);
-  /* -webkit-filter: blur(15px); */
-  /* Note: backdrop-filter has minimal browser support */
-
   border-radius: 30px;
 }
 
@@ -78,7 +71,7 @@
   }
   
   .map-img {
-    height: 600px;
+    height: 450px;
   }
 }
 @media only screen and (max-width: 768px) {
