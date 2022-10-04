@@ -5,6 +5,8 @@ import "./section5abt.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Data from "./Data";
+import { useRef } from "react";
+import { useDraggable } from "react-use-draggable-scroll";
 
 const Secslide = () => {
   const settings = {
@@ -62,11 +64,22 @@ const Secslide = () => {
       },
     ],
   };
+
+  // const ref = useRef();
+  // const { events } = useDraggable(ref);
   return (
     <Container>
       <div className="mt-120 wrap-abt-slide">
         <h1 className="text-center">Our Facilities</h1>
-        <Slider {...settings}>
+        <Slider
+          {...settings}
+          className="carousel-abt-slide d-flex flex-row flex-nowrap overflow-auto py-2"
+        >
+          {/* <div
+          className="carousel-abt-slide d-flex flex-row flex-nowrap overflow-auto py-2"
+          {...events}
+          ref={ref}
+        > */}
           {Data.map((data, index) => (
             <Card
               className="border border-light rounded-4 p-2"
@@ -87,6 +100,7 @@ const Secslide = () => {
               </Card.Body>
             </Card>
           ))}
+          {/* </div> */}
         </Slider>
       </div>
     </Container>
