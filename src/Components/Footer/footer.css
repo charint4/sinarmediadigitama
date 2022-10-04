@@ -1,46 +1,52 @@
 .wrap-footer {
-    background-color: #0E5579;
-    /* margin-top: 70px; */
+  background-color: #0e5579;
+  /* margin-top: 70px; */
 }
 .cont-logo {
-    display: flex;
-    gap: 10px;
-    align-items: center !important;
-    margin-top: 10px;
-    text-align: center;
+  display: flex;
+  gap: 10px;
+  align-items: center !important;
+  margin-top: 10px;
+  text-align: center;
 }
 .cont-logo > img {
-    width: 21px;
-    /* height: 22px; */
+  width: 21px;
+  /* height: 22px; */
 }
 .cont-logo > a {
-    /* align-items: center; */
-    margin-top: auto;
-    margin-bottom: auto;
-    align-self: center !important;
-    text-align: center;
-    font-weight: normal;
-    font-size: 10px;
-    color:white !important;
-    text-decoration: none;
-    /* line-height: 10px; */
+  /* align-items: center; */
+  margin-top: auto;
+  margin-bottom: auto;
+  align-self: center !important;
+  text-align: center;
+  font-weight: normal;
+  font-size: 10px;
+  color: white !important;
+  text-decoration: none;
+  /* line-height: 10px; */
 }
 .cont-footer > img {
-    width: 200px;
-    margin-bottom: 30px;
+  width: 200px;
+  margin-bottom: 30px;
 }
+
 /* .qt {
     margin-left: 20%;
 } */
 .cont-footer > h1 {
-    
-    font-weight: bold;
-    color: white;
-    font-size: 15px;
+  font-weight: bold;
+  color: white;
+  font-size: 15px;
 }
-.cont-footer > h3 {
-    font-weight: normal;
-    color: white;
-    font-size: 10px;
-    line-height: 15px;
+
+.cont-footer > h3,
+.footer-nav > h3 {
+  font-weight: normal;
+  color: white;
+  font-size: 10px;
+  line-height: 15px;
+}
+
+.footer-nav {
+  text-decoration: none;
 }
