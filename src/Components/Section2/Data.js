@@ -18,11 +18,12 @@ import eventComp from "../../Images/event-comp.png";
 import printComp from "../../Images/printed-comp.png";
 import sosmedComp from "../../Images/sosmed-comp.png";
 import creComp from "../../Images/cre-comp.png";
+import Camol from "../../Images/camol.jpg";
 
 export default [
   {
     name: "Out Of Home Units",
-    ava: OOh,
+    ava: Camol,
     texts: "nationwide",
     quotes: "read more",
     description:
