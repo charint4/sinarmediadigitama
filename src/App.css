@@ -182,11 +182,11 @@
 }
 .wrap-sec13-serv {
   background-image: url(./Images/bg-serv.png);
-  padding-bottom: 150px;
+  padding-bottom: 80px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  padding-top: 150px;
+  padding-top: 80px;
 }
 @media only screen and (max-width: 377px) {
   .sec-1-3 {
