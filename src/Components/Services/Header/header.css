@@ -36,3 +36,7 @@
   color: #0e5579;
   width: 150px;
 }
+.services-btn:hover {
+  background-color: #0e5579 !important;
+  color: white !important;
+}

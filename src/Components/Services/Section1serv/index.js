@@ -8,12 +8,12 @@ const index = (props) => {
   return (
     <Container>
       <div className="row wrap-services">
-        <div className="col-md bg-blur p-5 cont-services">
+        <div className="col-md-6 p-5 cont-services">
           <h3>{data.description}</h3>
         </div>
         <div className="col-md cont-services d-flex flex-wrap align-items-center justify-content-center">
           <img
-            src={data.products.length ? data.products[0].img : services}
+            src={data.ava2}
             alt="services"
           />
         </div>

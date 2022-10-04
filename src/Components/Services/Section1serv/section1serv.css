@@ -1,9 +1,16 @@
+.cont-services {
+  display: flex;
+  align-items: center;
+}
 .cont-services > h3 {
   font-size: 18px;
   font-weight: normal;
+  line-height: 30px;
+  text-align: justify;
 }
 .cont-services > img {
-  width: 280px;
+  width: 400px;
+  object-fit: cover;
 }
 
 .wrap-services {
