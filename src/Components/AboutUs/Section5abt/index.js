@@ -72,10 +72,7 @@ const Secslide = () => {
     <Container>
       <div className="mt-120 wrap-abt-slide">
         <h1 className="text-center">Our Facilities</h1>
-        <Slider
-          {...settings}
-          className="carousel-abt-slide"
-        >
+        <Slider {...settings} className="carousel-abt-slide">
           {/* <div
           className="carousel-abt-slide d-flex flex-row flex-nowrap overflow-auto py-2"
           {...events}
