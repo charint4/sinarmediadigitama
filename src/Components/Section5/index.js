@@ -46,6 +46,7 @@ const Section5 = () => {
           <Card.Body>
             <Card.Title>
               <h5 className="fw-bold fs-16 fw-400 color-gray py-3">Bagus F. Asyhari</h5>
+              <h5 className="fs-16 fw-400 color-gray">Founder</h5>
             </Card.Title>
           </Card.Body>
         </Card>
@@ -57,6 +58,7 @@ const Section5 = () => {
           <Card.Body>
             <Card.Title>
               <h5 className="fw-bold fs-16 fw-400 color-gray py-3">Derlina Yusuf</h5>
+              <h5 className="fs-16 fw-400 color-gray">Managing Director</h5>
             </Card.Title>
           </Card.Body>
         </Card>
@@ -68,6 +70,7 @@ const Section5 = () => {
           <Card.Body>
             <Card.Title>
               <h5 className="fw-bold fs-16 fw-400 color-gray py-3">Tety Kartikasari</h5>
+              <h5 className="fs-16 fw-400 color-gray">HRGA Director</h5>
             </Card.Title>
           </Card.Body>
         </Card>
@@ -79,6 +82,7 @@ const Section5 = () => {
           <Card.Body>
             <Card.Title>
               <h5 className="fw-bold fs-16 fw-400 color-gray py-3">Franciska Retno</h5>
+              <h5 className="fs-16 fw-400 color-gray">Business Development</h5>
             </Card.Title>
           </Card.Body>
         </Card>
@@ -90,6 +94,7 @@ const Section5 = () => {
           <Card.Body>
             <Card.Title>
               <h5 className="fw-bold fs-16 fw-400 color-gray py-3">Malki Jaehanto</h5>
+              <h5 className="fs-16 fw-400 color-gray">Head of Production</h5>
             </Card.Title>
           </Card.Body>
         </Card>
@@ -100,7 +105,8 @@ const Section5 = () => {
           <Card.Img variant="top" src={Anna} className="p-2 rounded-5 img-card-team" />
           <Card.Body>
             <Card.Title>
-              <h5 className="fw-bold fs-16 fw-400 color-gray py-3">Amerlina H. Lumintang</h5>
+              <h5 className="fw-bold fs-16 fw-400 color-gray py-3">Amerlina H. L.</h5>
+              <h5 className="fs-16 fw-400 color-gray">Strategic Planning</h5>
             </Card.Title>
           </Card.Body>
         </Card>
@@ -112,6 +118,7 @@ const Section5 = () => {
           <Card.Body>
             <Card.Title>
               <h5 className="fw-bold fs-16 fw-400 color-gray py-3">Evy Ariza</h5>
+              <h5 className="fs-16 fw-400 color-gray">General Affair</h5>
             </Card.Title>
           </Card.Body>
         </Card>
@@ -123,6 +130,7 @@ const Section5 = () => {
           <Card.Body>
             <Card.Title>
               <h5 className="fw-bold fs-16 fw-400 color-gray py-3">Syafrudin Asyhari</h5>
+              <h5 className="fs-16 fw-400 color-gray">Production Speacalist</h5>
             </Card.Title>
           </Card.Body>
         </Card>
@@ -134,6 +142,7 @@ const Section5 = () => {
           <Card.Body>
             <Card.Title>
               <h5 className="fw-bold fs-16 fw-400 color-gray py-3">Ikrar H. Mahardika</h5>
+              <h5 className="fs-16 fw-400 color-gray">Head of Marketing</h5>
             </Card.Title>
           </Card.Body>
         </Card>
@@ -145,6 +154,7 @@ const Section5 = () => {
           <Card.Body>
             <Card.Title>
               <h5 className="fw-bold fs-16 fw-400 color-gray py-3">Seni Iriani Loka</h5>
+              <h5 className="fs-16 fw-400 color-gray">Head of Digital & Partnership</h5>
             </Card.Title>
           </Card.Body>
         </Card>
@@ -156,6 +166,7 @@ const Section5 = () => {
           <Card.Body>
             <Card.Title>
               <h5 className="fw-bold fs-16 fw-400 color-gray py-3">Ebiet Mubharak</h5>
+              <h5 className="fs-16 fw-400 color-gray">Head of Creative</h5>
             </Card.Title>
           </Card.Body>
         </Card>
