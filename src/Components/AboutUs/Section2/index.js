@@ -3,6 +3,8 @@ import { Container } from "react-bootstrap";
 import "./abtsec2.css";
 import Timeline from "../../../Images/timeline.png";
 import TlLogo from "../../../Images/timeline-logo.png";
+import logoSMD from "../../../Images/logosmd.png";
+import logoSMS from "../../../Images/logosms.png";
 
 const index = () => {
   return (
@@ -33,7 +35,7 @@ const index = () => {
             </div>
             <div className="col-md disp-none"></div>
           </div>
-          <div className="row gap-72 mb-80 wrap-timeline">
+          <div className="row gap-72 mb-80 wrap-timeline row-tl">
             <div className="col-md disp-none"></div>
             <div className="col-md bg-blur rounded-4 py-3 border-left">
               <h2 className="fw-bold fs-sm-title">2011</h2>
@@ -43,7 +45,7 @@ const index = () => {
               </h4>
             </div>
           </div>
-          <div className="row gap-72 mb-80 wrap-timeline">
+          <div className="row gap-72 mb-80 wrap-timeline row-tl">
             <div className="col-md bg-blur rounded-4 py-3 border-left">
               <h2 className="fw-bold fs-sm-title">2015</h2>
               <h4 className="fs-15 fw-400 lh-28">
@@ -52,7 +54,7 @@ const index = () => {
             </div>
             <div className="col-md disp-none"></div>
           </div>
-          <div className="row gap-72 wrap-timeline">
+          <div className="row gap-72 wrap-timeline row-tl">
             <div className="col-md disp-none"></div>
             <div className="col-md bg-blur py-3 border-left rounded-4 wrap-boxd">
               <h2 className="fw-bold fs-sm-title">2022 - Onwards</h2>
@@ -60,7 +62,11 @@ const index = () => {
               Established Sinar Media Digitama as the umbrella company that builds creative and agile business processes using better systems and technology
 
               </h4>
-              <img src={TlLogo} alt='tllogo'/>
+              <div className="wrap-img-tl">
+                <img src={logoSMS} width='110'alt='tllogo'/>
+                <img src={logoSMD} alt='tllogo'/>
+              </div>
+              
             </div>
           </div>
         </div>
