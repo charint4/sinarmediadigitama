@@ -1,11 +1,23 @@
 .wrap-head {
   /* background-color: aquamarine; */
-  background-image: url(../../Images/header.jpg);
+  /* background-image: url(../../Images/header.jpg); */
   background-size: cover;
   padding: 200px 50px 200px 50px;
   /* margin-bottom: 150px; */
   background-position: 0% 20%;
-  box-shadow: inset 0 0 0 1000px rgba(0,0,0,.5);
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0,.28);
+  position: relative;
+}
+#slide-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  z-index: -1;
 }
 .ar-down {
   display: none;

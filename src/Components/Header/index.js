@@ -6,11 +6,13 @@ import asset1 from '../../Images/bi_arrow-down-right.png';
 import arrow from '../../Images/arrow-down.png';
 import asset2 from '../../Images/Group.png';
 import asset3 from '../../Images/digitama-new-full.png';
+import videoBg from '../../Images/slide-pro.mp4'
 
 const Header = () => {
     return (
       <>
             <div className="wrap-head">
+                <video src={videoBg} autoPlay loop muted id="slide-bg"/>
             <Container>
                 <div className="row container-head">
                     <div className="col-md cont-head">
