@@ -4,9 +4,9 @@ import Promo from "../../Images/promotional-1.jpeg";
 import Crepromo from "../../Images/crepromo-1.jpeg";
 import Crepromo2 from "../../Images/crepromo-2.jpeg";
 import Printed from "../../Images/printed1.png";
-import Event from "../../Images/sosmed.png";
-import Sosmed from "../../Images/influe.jpg";
-import Influe from "../../Images/event.jpg";
+import Sosmed from "../../Images/sosmed.png";
+import Influe from "../../Images/influe.jpg";
+import Event from "../../Images/event.jpg";
 // import Promo from '../../Images/promotional-1.jpeg'
 import Product1 from "../../Images/PRODUK-1.jpg";
 import Product2 from "../../Images/PRODUK-2.jpg";
@@ -100,9 +100,9 @@ export default [
     ],
   },
   {
-    name: "Event",
+    name: "Events",
     ava: Event,
-    texts: "Indoor & outdoor event",
+    texts: "Indoor, outdoor, and digital events",
     quotes: "read more",
     description:
       "Offering an intimate and engaging atmosphere with your loyal and potential consumers can be created through events. Events provide an opportunity to make a lasting impression through direct interaction between your brand and consumers. A successful event can strengthen positive relationships between clients, prospects, consumers, and employees. We can deliver product launches and corporate, business, and social events to help your brand shine.",
