@@ -7,11 +7,11 @@ import Slider from "react-slick";
 
 const Section2 = () => {
   const settings = {
-    slidesToShow: 4,
+    slidesToShow: 5,
     slidesToScroll: 1,
     autoplay: true,
-    speed: 1000,
-    autoplaySpeed: 1000,
+    speed: 1500,
+    autoplaySpeed: 1500,
     cssEase: "linear",
     adaptiveHeight: true,
     responsive: [
