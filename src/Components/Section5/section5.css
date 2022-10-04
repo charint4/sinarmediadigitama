@@ -19,15 +19,17 @@
   object-fit: cover;
   /* object-position:0mm 0.01mm */
 }
-
-.card {
+.slick-team {
+  margin-top: 60px;
+}
+.card{
   background: linear-gradient(
     180deg,
     rgba(255, 255, 255, 0.6) 0%,
     rgba(255, 255, 255, 0.6) 0.01%,
     rgba(255, 255, 255, 0.234) 100%
   );
-
+  height: 340px !important;
   -webkit-backdrop-filter: blur(5px);
   backdrop-filter: blur(5px);
 }
