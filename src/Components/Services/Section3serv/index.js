@@ -17,44 +17,44 @@ const MultipleItems = (props) => {
     adaptiveHeight: true,
     arrows: false,
     pauseOnHover: false,
-    responsive: [
-      {
-        breakpoint: 991,
-        settings: {
-          slidesToShow: 4,
-        },
-      },
-      {
-        breakpoint: 810,
-        settings: {
-          slidesToShow: 1.5,
-        },
-      },
-      {
-        breakpoint: 767,
-        settings: {
-          slidesToShow: 1.1,
-        },
-      },
-      {
-        breakpoint: 412,
-        settings: {
-          slidesToShow: 1.2,
-        },
-      },
-      {
-        breakpoint: 375,
-        settings: {
-          slidesToShow: 1.3,
-        },
-      },
-      {
-        breakpoint: 360,
-        settings: {
-          slidesToShow: 1.3,
-        },
-      },
-    ],
+    // responsive: [
+    //   {
+    //     breakpoint: 991,
+    //     settings: {
+    //       slidesToShow: 4,
+    //     },
+    //   },
+    //   {
+    //     breakpoint: 810,
+    //     settings: {
+    //       slidesToShow: 1.5,
+    //     },
+    //   },
+    //   {
+    //     breakpoint: 767,
+    //     settings: {
+    //       slidesToShow: 1.1,
+    //     },
+    //   },
+    //   {
+    //     breakpoint: 412,
+    //     settings: {
+    //       slidesToShow: 1.2,
+    //     },
+    //   },
+    //   {
+    //     breakpoint: 375,
+    //     settings: {
+    //       slidesToShow: 1.3,
+    //     },
+    //   },
+    //   {
+    //     breakpoint: 360,
+    //     settings: {
+    //       slidesToShow: 1.3,
+    //     },
+    //   },
+    // ],
   };
 
   return (
@@ -90,10 +90,10 @@ const MultipleItems = (props) => {
           </div>
         ) : (
           // <></>
-          <Slider {...settings}>
+          <Slider {...settings} className="carousel-abt-slide">
             {data.products.map((product, index) => (
               <Card
-                className="border border-light rounded-4 card p-2"
+                className="border border-light rounded-4 card p-2 cont-card-abt"
                 data-value={index + 1}
                 key={index}
                 style={{ maxWidth: "500px" }}

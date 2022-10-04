@@ -39,10 +39,8 @@
 }
 .cont-card-abt {
   height: 440px !important;
-  /* height: auto; */
   max-width: 455px !important;
   width: auto !important;
-  /* max-width: fit-content; */
 }
 .img-card-slide {
   height: 350px;
