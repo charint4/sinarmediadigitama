@@ -6,6 +6,18 @@ import CardImg3 from "../../Images/ourteam2.png";
 import CardImg2 from "../../Images/ourteam3.png";
 import CardImg4 from "../../Images/bulina.png";
 import CardImg5 from "../../Images/pakbagus.png";
+import Bagus from "../../Images/bagus.png"
+import Lina from "../../Images/lina.png"
+import Ebiet from "../../Images/bhara.png"
+import Anna from "../../Images/anna.png"
+import Tety from "../../Images/tety.png"
+import Malki from "../../Images/malki.png"
+import Ikrar from "../../Images/ikrar.png"
+import Evy from "../../Images/evy.png"
+import Seni from "../../Images/seni.png"
+import Syafrudin from "../../Images/syafrudin.png"
+import Retno from "../../Images/siska.png"
+
 import { useRef } from "react";
 import { useDraggable } from "react-use-draggable-scroll";
 
@@ -30,7 +42,18 @@ const Section5 = () => {
           style={{ minWidth: "200px" }}
           className="border border-light rounded-4 card"
         >
-          <Card.Img variant="top" src={CardImg4} className="p-2 rounded-5 img-card-team" />
+          <Card.Img variant="top" src={Bagus} className="p-2 rounded-5 img-card-team" />
+          <Card.Body>
+            <Card.Title>
+              <h5 className="fw-bold fs-16 fw-400 color-gray py-3">Bagus F. Asyhari</h5>
+            </Card.Title>
+          </Card.Body>
+        </Card>
+        <Card
+          style={{ minWidth: "200px" }}
+          className="border border-light rounded-4 card"
+        >
+          <Card.Img variant="top" src={Lina} className="p-2 rounded-5 img-card-team" />
           <Card.Body>
             <Card.Title>
               <h5 className="fw-bold fs-16 fw-400 color-gray py-3">Derlina Yusuf</h5>
@@ -41,10 +64,10 @@ const Section5 = () => {
           style={{ minWidth: "200px" }}
           className="border border-light rounded-4 card"
         >
-          <Card.Img variant="top" src={CardImg5} className="p-2 rounded-5 img-card-team" />
+          <Card.Img variant="top" src={Tety} className="p-2 rounded-5 img-card-team" />
           <Card.Body>
             <Card.Title>
-              <h5 className="fw-bold fs-16 fw-400 color-gray py-3">Bagus Asyhari</h5>
+              <h5 className="fw-bold fs-16 fw-400 color-gray py-3">Tety Kartikasari</h5>
             </Card.Title>
           </Card.Body>
         </Card>
@@ -52,10 +75,10 @@ const Section5 = () => {
           style={{ minWidth: "200px" }}
           className="border border-light rounded-4 card"
         >
-          <Card.Img variant="top" src={CardImg1} className="p-2 rounded-5 img-card-team" />
+          <Card.Img variant="top" src={Retno} className="p-2 rounded-5 img-card-team" />
           <Card.Body>
             <Card.Title>
-              <h5 className="fw-bold fs-16 fw-400 color-gray py-3">Anna Lumintang</h5>
+              <h5 className="fw-bold fs-16 fw-400 color-gray py-3">Franciska Retno</h5>
             </Card.Title>
           </Card.Body>
         </Card>
@@ -63,10 +86,10 @@ const Section5 = () => {
           style={{ minWidth: "200px" }}
           className="border border-light rounded-4 card"
         >
-          <Card.Img variant="top" src={CardImg2} className="p-2 rounded-5 img-card-team" />
+          <Card.Img variant="top" src={Malki} className="p-2 rounded-5 img-card-team" />
           <Card.Body>
             <Card.Title>
-              <h5 className="fw-bold fs-16 fw-400 color-gray py-3">Seni</h5>
+              <h5 className="fw-bold fs-16 fw-400 color-gray py-3">Malki Jaehanto</h5>
             </Card.Title>
           </Card.Body>
         </Card>
@@ -74,7 +97,62 @@ const Section5 = () => {
           style={{ minWidth: "200px" }}
           className="border border-light rounded-4 card"
         >
-          <Card.Img variant="top" src={CardImg3} className="p-2 rounded-5 img-card-team" />
+          <Card.Img variant="top" src={Anna} className="p-2 rounded-5 img-card-team" />
+          <Card.Body>
+            <Card.Title>
+              <h5 className="fw-bold fs-16 fw-400 color-gray py-3">Amerlina H. Lumintang</h5>
+            </Card.Title>
+          </Card.Body>
+        </Card>
+        <Card
+          style={{ minWidth: "200px" }}
+          className="border border-light rounded-4 card"
+        >
+          <Card.Img variant="top" src={Evy} className="p-2 rounded-5 img-card-team" />
+          <Card.Body>
+            <Card.Title>
+              <h5 className="fw-bold fs-16 fw-400 color-gray py-3">Evy Ariza</h5>
+            </Card.Title>
+          </Card.Body>
+        </Card>
+        <Card
+          style={{ minWidth: "200px" }}
+          className="border border-light rounded-4 card"
+        >
+          <Card.Img variant="top" src={Syafrudin} className="p-2 rounded-5 img-card-team" />
+          <Card.Body>
+            <Card.Title>
+              <h5 className="fw-bold fs-16 fw-400 color-gray py-3">Syafrudin Asyhari</h5>
+            </Card.Title>
+          </Card.Body>
+        </Card>
+        <Card
+          style={{ minWidth: "200px" }}
+          className="border border-light rounded-4 card"
+        >
+          <Card.Img variant="top" src={Ikrar} className="p-2 rounded-5 img-card-team" />
+          <Card.Body>
+            <Card.Title>
+              <h5 className="fw-bold fs-16 fw-400 color-gray py-3">Ikrar H. Mahardika</h5>
+            </Card.Title>
+          </Card.Body>
+        </Card>
+        <Card
+          style={{ minWidth: "200px" }}
+          className="border border-light rounded-4 card"
+        >
+          <Card.Img variant="top" src={Seni} className="p-2 rounded-5 img-card-team" />
+          <Card.Body>
+            <Card.Title>
+              <h5 className="fw-bold fs-16 fw-400 color-gray py-3">Seni Iriani Loka</h5>
+            </Card.Title>
+          </Card.Body>
+        </Card>
+        <Card
+          style={{ minWidth: "200px" }}
+          className="border border-light rounded-4 card"
+        >
+          <Card.Img variant="top" src={Ebiet} className="p-2 rounded-5 img-card-team" />
           <Card.Body>
             <Card.Title>
               <h5 className="fw-bold fs-16 fw-400 color-gray py-3">Ebiet Mubharak</h5>

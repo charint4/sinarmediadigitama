@@ -10,13 +10,14 @@
   cursor: grab;
   overflow:scroll;
   padding-bottom: 30px;
-  justify-content: center;
+  /* justify-content: center; */
 }
 
 .img-card-team {
   height: 200px;
   width: 200px;
   object-fit: cover;
+  /* object-position:0mm 0.01mm */
 }
 
 .card {
