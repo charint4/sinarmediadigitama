@@ -1,7 +1,7 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 import "./sectionvid.css";
-import circAnim from "../../Images/circ-red.png";
+import circAnim from "../../Images/webp/circ-red.webp";
 
 const Sectionvid = () => {
   return (
