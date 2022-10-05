@@ -1,23 +1,7 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 import "../SectionMap/section4.css";
-import {
-  MapContainer,
-  LayersControl,
-  Marker,
-  Popup,
-  TileLayer,
-} from "react-leaflet";
-import "leaflet/dist/leaflet.css";
-import ReactLeafletGoogleLayer from "react-leaflet-google-layer";
-import L from "leaflet";
 
-const myIcon = () => {
-  return L.icon({
-    iconUrl: require("../../Images/marker2.png"),
-    iconSize: [32, 32],
-  });
-};
 const Section4 = () => {
   return (
     <Container>
