@@ -188,6 +188,11 @@
   background-position: center;
   padding-top: 80px;
 }
+@media only screen and (max-width: 768px) {
+  .sec-1-3 {
+    background-image: url(./Images/ng-land-ipad.png);
+  }
+}
 @media only screen and (max-width: 377px) {
   .sec-1-3 {
     padding-top: 50px;
