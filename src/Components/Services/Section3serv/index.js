@@ -17,6 +17,7 @@ const MultipleItems = (props) => {
     adaptiveHeight: true,
     arrows: false,
     pauseOnHover: false,
+    infinite: true,
     // responsive: [
     //   {
     //     breakpoint: 991,

@@ -15,6 +15,7 @@ const Section2 = () => {
     cssEase: "linear",
     adaptiveHeight: true,
     arrows: false,
+    infinite: true,
     responsive: [
       {
         breakpoint: 1200,

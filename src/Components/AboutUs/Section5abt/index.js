@@ -10,16 +10,17 @@ import { useDraggable } from "react-use-draggable-scroll";
 
 const Secslide = () => {
   const settings = {
-    slidesToShow: 2.85,
+    slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,
     speed: 4000,
     autoplaySpeed: 4000,
     cssEase: "linear",
     adaptiveHeight: true,
-    // adaptiveWeight: true,
+    adaptiveWeight: true,
     arrows: false,
     pauseOnHover: false,
+    infinite: true,
     // responsive: [
     //   {
     //     breakpoint: 1024,
