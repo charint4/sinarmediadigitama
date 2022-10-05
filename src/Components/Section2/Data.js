@@ -27,7 +27,7 @@ export default [
     texts: "nationwide",
     quotes: "read more",
     description:
-      "We understand that choosing the right strategy to promote your brand is pivotal. We can assist you in selecting the best advertisement placements to increase your visibility within your budget. Our multiple OOH platforms provide nationwide coverage for brands looking to advertise in metropolitan areas and generate high traffic through our advertising platforms.",
+      "We understand that choosing the right strategy to promote your brand is pivotal. We can assist you in selecting the best advertisement placements to increase your visibility within your budget. Our multiple OOH platforms provide nationwide coverage for brands looking to advertise in cities areas and generate high traffic through our advertising platforms.",
     ava2: oohComp,
     products: [
       {

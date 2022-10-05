@@ -14,17 +14,17 @@ const Header = () => {
             <div className="wrap-head">
                 <video src={videoBg} autoPlay loop muted id="slide-bg"/>
             <Container>
-                <div className="row container-head">
-                    <div className="col-md cont-head">
-                        <img align="middle" className="img-client" src={asset3}></img>
+                <div className="container-head">
+                    <div className="cont-head">
+                        <img align="middle" className="" src={asset3}></img>
                     </div>
-                    <div className="col-md cont-head">
-                        <img align="middle" className="img-client ar-left" src={asset1}></img>
-                        <img align="middle" className="img-client ar-down" src={arrow}></img>
-                    </div>
-                    <div className="col-md cont-head">
+                    <div className="cont-head">
+                        <img className=" ar-left" src={asset1}></img>
+                        <img align="middle" className=" ar-down" src={arrow}></img>
                         <h2>just call us</h2>
-                        <img align="middle" className="img-client" src={asset2}></img>
+                    </div>
+                    <div className="cont-head">
+                        <img align="middle" className="" src={asset2}></img>
                     </div>
                 </div>
                 </Container>
