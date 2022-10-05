@@ -1,0 +1,91 @@
+.sec4 {
+  /* padding-top: 100px; */
+  margin-top: 150px;
+  gap: 30px;
+}
+
+.leaflet-container {
+  height: 500px;
+  overflow: hidden;
+  border-radius: 15px;
+}
+
+.bg-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 52px;
+  height: 500px;
+  background: rgba(255, 255, 255, 0.27);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 30px;
+}
+
+.bg-text::after {
+  -webkit-filter: blur(15px);
+}
+
+/* .text {
+  position: relative;
+  z-index: 2;
+} */
+
+.title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 87px;
+  color: #004c92;
+}
+
+.text1 {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 32px;
+  color: #545659;
+}
+.text2 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 32px;
+  color: #545659;
+}
+.text3 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 32px;
+  color: #545659;
+}
+
+@media screen and (max-width: 991px) {
+  .map {
+    height: 500px;
+    /* width: 100%; */
+  }
+}
+
+@media only screen and (max-width: 572px) {
+  /* For desktop: */
+  .wrap-box {
+    margin-left: 150px !important;
+    margin-right: 150px !important;
+    padding: 32px;
+  }
+
+  .map-img {
+    height: 450px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  /* For desktop: */
+
+  .map-img {
+    height: 450px;
+  }
+}
