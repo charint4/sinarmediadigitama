@@ -1,17 +1,17 @@
 import React from "react";
 import { Card, Container } from "react-bootstrap";
 import "./section5.css";
-import Bagus from "../../Images/bagus.png";
-import Lina from "../../Images/lina.png";
-import Ebiet from "../../Images/bhara.png";
-import Anna from "../../Images/anna.png";
-import Tety from "../../Images/tety.png";
-import Malki from "../../Images/malki.png";
-import Ikrar from "../../Images/ikrar.png";
-import Evy from "../../Images/evy.png";
-import Seni from "../../Images/seni.png";
-import Syafrudin from "../../Images/syafrudin.png";
-import Retno from "../../Images/siska.png";
+import Bagus from "../../Images/webp/bagus.webp";
+import Lina from "../../Images/webp/lina-1.webp";
+import Ebiet from "../../Images/webp/bhara.webp";
+import Anna from "../../Images/webp/anna.webp";
+import Tety from "../../Images/webp/tety.webp";
+import Malki from "../../Images/webp/malki.webp";
+import Ikrar from "../../Images/webp/ikrar.webp";
+import Evy from "../../Images/webp/evy-1.webp";
+import Seni from "../../Images/webp/seni.webp";
+import Syafrudin from "../../Images/webp/syafrudin.webp";
+import Retno from "../../Images/webp/siska.webp";
 import Slider from "react-slick";
 
 const Section5 = () => {

@@ -2,10 +2,10 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Container from 'react-bootstrap/Container';
 import './header.css';
 import Button from 'react-bootstrap/Button';
-import asset1 from '../../Images/bi_arrow-down-right.png';
-import arrow from '../../Images/arrow-down.png';
-import asset2 from '../../Images/Group.png';
-import asset3 from '../../Images/digitama-new-full.png';
+import asset1 from '../../Images/webp/bi_arrow-down-right.webp';
+import arrow from '../../Images/webp/arrow-down.webp';
+import asset2 from '../../Images/webp/Group.webp';
+import asset3 from '../../Images/webp/digitama-new-full.webp';
 import videoBg from '../../Images/slide-pro.mp4'
 
 const Header = () => {

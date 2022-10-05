@@ -1,9 +1,9 @@
 import React from "react";
 import { Container } from "react-bootstrap";
-import Gmail from "../..//Images/gmail.png";
-import Logowhite from "../../Images/logowhite.png";
-import Whatsapp from "../../Images/whatsapp.png";
-import Instagram from "../../Images/ig-icon.png";
+import Gmail from "../../Images/webp/gmail.webp";
+import Logowhite from "../../Images/webp/logowhite.webp";
+import Whatsapp from "../../Images/webp/whatsapp.webp";
+import Instagram from "../../Images/webp/ig-icon.webp";
 import "./footer.css";
 import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";

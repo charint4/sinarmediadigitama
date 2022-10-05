@@ -1,10 +1,9 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 import "./abtsec2.css";
-import Timeline from "../../../Images/timeline.png";
-import TlLogo from "../../../Images/timeline-logo.png";
-import logoSMD from "../../../Images/logosmd.png";
-import logoSMS from "../../../Images/logosms.png";
+import Timeline from "../../../Images/webp/timeline.webp";
+import logoSMD from "../../../Images/webp/logosmd-1.webp";
+import logoSMS from "../../../Images/webp/logosms.webp";
 
 const index = () => {
   return (

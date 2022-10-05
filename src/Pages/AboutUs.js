@@ -26,7 +26,6 @@ const AboutUs = () => {
       {/* <div className="wrap-sec3-ab"> */}
         <Section5abt />
       </div>
-      {/* <Footer /> */}
     </div>
   );
 };

@@ -1,8 +1,8 @@
 import React from 'react'
 import { Container } from 'react-bootstrap'
 import "./section4abt.css"
-import Groups from "../../../Images/groups.png";
-import Vector from "../../../Images/Vector.png";
+import Groups from "../../../Images/webp/groups.webp";
+import Vector from "../../../Images/webp/Vector.webp";
 import Section5 from '../../Section5'
 
 const index = () => {

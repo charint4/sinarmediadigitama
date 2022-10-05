@@ -1,15 +1,15 @@
-import frontOffice from "../../../Images/resep.png";
-import kitchenOffice from "../../../Images/kitchen.jpg";
-import insideOffice from "../../../Images/Insideoffice.jpg";
-import transUnit from "../../../Images/transunit.jpg";
-import transUnita from "../../../Images/transunits.jpg";
-import storRoom1 from "../../../Images/storroom1.jpg";
-import storRoom2 from "../../../Images/storeroom2.png";
-import meetOffice from "../../../Images/meetoffice.jpg";
-import workShop from "../../../Images/acry.jpeg";
-import metalSec from "../../../Images/metalsec.jpg";
-import printSec from "../../../Images/MESIN3.jpg";
-import strRoom from "../../../Images/stream.png";
+import frontOffice from "../../../Images/webp/resep.webp";
+import kitchenOffice from "../../../Images/webp/kitchen.webp";
+import insideOffice from "../../../Images/webp/Insideoffice.webp";
+import transUnit from "../../../Images/webp/transunit.webp";
+import transUnita from "../../../Images/webp/transunits.webp";
+import storRoom1 from "../../../Images/webp/storroom1.webp";
+import storRoom2 from "../../../Images/webp/storeroom2.webp";
+import meetOffice from "../../../Images/webp/meetoffice.webp";
+import workShop from "../../../Images/webp/acry.webp";
+import metalSec from "../../../Images/webp/metalsec.webp";
+import printSec from "../../../Images/webp/MESIN3.webp";
+import strRoom from "../../../Images/webp/stream.webp";
 
 export default [
   {
