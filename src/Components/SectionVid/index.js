@@ -5,7 +5,8 @@ import circAnim from "../../Images/circ-red.png";
 
 const Sectionvid = () => {
   return (
-    <Container>
+    <div className="wrap-vid">
+      <Container>
       <div className="container-secvid">
         <h1>Our Company Profile</h1>
         <center>
@@ -17,11 +18,15 @@ const Sectionvid = () => {
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen
+            className="rounded-4"
           ></iframe>
         </center>
-        <img src={circAnim}></img>
+        
       </div>
     </Container>
+      {/* <img src={circAnim}></img> */}
+    </div>
+    
   );
 };
 
