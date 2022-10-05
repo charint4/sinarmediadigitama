@@ -1,7 +1,6 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 import "./section1serv.css";
-import services from "../../../Images/services.png";
 
 const index = (props) => {
   const { data } = props;
