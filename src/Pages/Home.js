@@ -45,8 +45,8 @@ const Home = () => {
         <Header />
         <section className="sec-1-3">
           <Section1 />
-          <Section2 />
           <Sectionvid />
+          <Section2 />
           <Section3 />
           <Section4 />
           <Section5 />
