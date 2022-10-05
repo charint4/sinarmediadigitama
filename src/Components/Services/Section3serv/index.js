@@ -65,13 +65,13 @@ const MultipleItems = (props) => {
           Your Brand Image is Our Priority
         </h3>
         {data.products.length < 4 ? (
-          <div className="d-flex justify-content-center gap-72">
+          <div className="d-flex justify-content-center">
             {data.products.map((product, index) => (
               <Card
-                className="border border-light rounded-4 card p-2"
+                className="border border-light rounded-4 card p-2 mx-3"
                 data-value={index + 1}
                 key={index}
-                style={{ minWidth: "334px" }}
+                style={{ minWidth: "100px" }}
               >
                 <Card.Img
                   variant="top"

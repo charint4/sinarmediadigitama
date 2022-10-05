@@ -28,6 +28,10 @@
   margin-right: 27px;
 }
 
+.gap-30 {
+  gap: 30px;
+}
+
 .carousel-abt-slide {
   padding-bottom: 30px !important;
 }
