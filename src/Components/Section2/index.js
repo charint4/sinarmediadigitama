@@ -17,6 +17,12 @@ const Section2 = () => {
     arrows: false,
     responsive: [
       {
+        breakpoint: 1200,
+        settings: {
+          slidesToShow: 4.5,
+        },
+      },
+      {
         breakpoint: 991,
         settings: {
           slidesToShow: 3,
