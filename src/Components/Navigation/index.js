@@ -3,21 +3,20 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
-import Logo from "../../Images/smd-logo.png";
+import Logo from "../../Images/webp/smd-logo.webp";
 import "../Navigation/nav.css";
 import Button from "react-bootstrap/Button";
 import { Link, useParams } from "react-router-dom";
-import { HashLink} from 'react-router-hash-link';
+import { HashLink } from "react-router-hash-link";
 
 function BasicExample() {
-
   return (
     <Navbar bg="light" expand="lg" className="p-3 fixed-top">
       <Container>
         <Navbar.Brand>
-        <Link to="/">
-          <img src={Logo} className="nav-logo"></img>
-              </Link>
+          <Link to="/">
+            <img src={Logo} className="nav-logo"></img>
+          </Link>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
@@ -39,7 +38,7 @@ function BasicExample() {
             </Nav.Link>
           </Nav>
           <Nav>
-            <HashLink smooth to='/#section6'>
+            <HashLink smooth to="/#section6">
               <Button className="contact-btn px-4">Contact Us</Button>{" "}
             </HashLink>
           </Nav>
