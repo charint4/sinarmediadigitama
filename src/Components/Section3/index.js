@@ -1,7 +1,6 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import Container from "react-bootstrap/Container";
 import "../Section3/section3.css";
-import Button from "react-bootstrap/Button";
 import client1 from "../../Images/Rectangle-1.png";
 import client2 from "../../Images/Rectangle-2.png";
 import client3 from "../../Images/Rectangle-3.png";
@@ -22,8 +21,29 @@ import client17 from "../../Images/Rectangle-31.png";
 import client18 from "../../Images/Rectangle-32.png";
 import client19 from "../../Images/Rectangle-33.png";
 import client20 from "../../Images/Rectangle-34.png";
+import Slider from "react-slick";
 
 const Section3 = () => {
+  const settings = {
+    slidesToShow: 3.5,
+    slidesToScroll: 1,
+    autoplay: true,
+    speed: 1500,
+    autoplaySpeed: 1500,
+    cssEase: "linear",
+    adaptiveHeight: true,
+    arrows: false,
+    pauseOnHover: false,
+    responsive: [
+      {
+        breakpoint: 526,
+        settings: {
+          slidesToShow: 2.5,
+        },
+      },
+    ],
+  };
+
   return (
     <>
       <Container>
@@ -101,7 +121,8 @@ const Section3 = () => {
             </div>
           </div>
           <div className="wrap-client-resp p-3 bg-blur">
-            <div className="wrap-cont-row-client">
+            {/* <div className="wrap-cont-row-client"> */}
+            <Slider {...settings} className="h-100">
               <img className="img-client" src={client1}></img>
               <img className="img-client" src={client2}></img>
               <img className="img-client" src={client3}></img>
@@ -122,7 +143,8 @@ const Section3 = () => {
               <img className="img-client" src={client18}></img>
               <img className="img-client" src={client19}></img>
               <img className="img-client" src={client20}></img>
-            </div>
+            </Slider>
+            {/* </div> */}
           </div>
         </div>
       </Container>
