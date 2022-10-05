@@ -1,4 +1,4 @@
-import frontOffice from "../../../Images/frontoffice.jpg";
+import frontOffice from "../../../Images/resep.png";
 import kitchenOffice from "../../../Images/kitchen.jpg";
 import insideOffice from "../../../Images/Insideoffice.jpg";
 import transUnit from "../../../Images/transunit.jpg";
@@ -13,7 +13,7 @@ import strRoom from "../../../Images/stream.png";
 
 export default [
   {
-    name: "Office Building",
+    name: "Receptionist",
     image: frontOffice,
   },
   {
