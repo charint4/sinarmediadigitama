@@ -1,7 +1,7 @@
 import React from 'react'
 import { Container } from 'react-bootstrap'
 import './sectionvid.css'
-import circAnim from '../../Images/circ.png'
+import circAnim from '../../Images/circ-red.png'
 
 const Sectionvid = () => {
   return (

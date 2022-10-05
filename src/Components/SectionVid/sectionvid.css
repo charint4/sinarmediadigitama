@@ -20,6 +20,7 @@
   .container-secvid > iframe {
     display:block;
     border-radius: 15px !important;
+    z-index: 1 !important;
   }
   @keyframes rotation {
     from {
@@ -33,7 +34,7 @@
   .container-secvid > img {
     position: absolute;
     /* top: 0; */
-    right: -400px;
+    right: -250px;
     bottom: 0;
     top: -250px;
     animation: rotation 8s infinite linear;
