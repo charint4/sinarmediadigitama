@@ -12,6 +12,9 @@
 #section6 {
   scroll-margin-top: 150px;
 }
+.anim-text {
+  animation: floattext 3s ease-in-out infinite;
+}
 @media only screen and (max-width: 377px) {
   .wrapper-cta {
     margin-top: 100px;

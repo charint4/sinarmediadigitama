@@ -28,7 +28,7 @@
 .ar-down {
   display: none;
 }
-@keyframes float {
+/* @keyframes float {
 	0% {
 		transform: translatey(0px);
 	}
@@ -44,7 +44,7 @@
 	100% {
 		transform: translatey(0px);
 	}
-}
+} */
 .cont-head {
   text-align: center;
   display: flex;

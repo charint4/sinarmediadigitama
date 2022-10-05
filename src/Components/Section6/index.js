@@ -40,7 +40,7 @@ const Section6 = ({ notify }) => {
               yet you can stay <br />
               under our roof
             </h2>
-            <h1 className="fs-title fw-bold text-color-rb">
+            <h1 className="fs-title fw-bold text-color-rb anim-text">
               Tell us your <br></br> needs!
             </h1>
           </div>

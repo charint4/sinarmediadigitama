@@ -13,7 +13,6 @@ const Sectionvid = () => {
             </center>
             <img src={circAnim}></img>
         </div>
-        
     </Container>
   )
 }
