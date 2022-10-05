@@ -9,6 +9,7 @@ import Section5 from "../Components/Section5";
 import Section6 from "../Components/Section6";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import Sectionvid from "../Components/SectionVid";
 
 const Home = () => {
   useEffect(() => {
@@ -45,6 +46,7 @@ const Home = () => {
         <section className="sec-1-3">
           <Section1 />
           <Section2 />
+          <Sectionvid />
           <Section3 />
           <Section4 />
           <Section5 />

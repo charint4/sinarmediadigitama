@@ -2,12 +2,14 @@ import frontOffice from "../../../Images/frontoffice.jpg";
 import kitchenOffice from "../../../Images/kitchen.jpg";
 import insideOffice from "../../../Images/Insideoffice.jpg";
 import transUnit from "../../../Images/transunit.jpg";
+import transUnita from "../../../Images/transunits.jpg";
 import storRoom1 from "../../../Images/storroom1.jpg";
 import storRoom2 from "../../../Images/storeroom2.png";
 import meetOffice from "../../../Images/meetoffice.jpg";
-import workShop from "../../../Images/workshop.jpg";
+import workShop from "../../../Images/acry.jpeg";
 import metalSec from "../../../Images/metalsec.jpg";
 import printSec from "../../../Images/MESIN3.jpg";
+import strRoom from "../../../Images/stream.png";
 
 export default [
   {
@@ -23,12 +25,20 @@ export default [
     image: meetOffice,
   },
   {
+    name: "Streaming Room",
+    image: strRoom,
+  },
+  {
     name: "Office Building",
     image: insideOffice,
   },
   {
-    name: "Transportation Units",
+    name: "Transportation Units A",
     image: transUnit,
+  },
+  {
+    name: "Transportation Units B",
+    image: transUnita,
   },
   {
     name: "Storage Room A",
