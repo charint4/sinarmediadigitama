@@ -148,7 +148,7 @@ const Section5 = () => {
           <Card.Body>
             <Card.Title>
               <h5 className="fw-bold fs-16 fw-400 color-gray py-3">
-                Franciska Retno
+                Francisca Retno
               </h5>
               <h5 className="fs-16 fw-400 color-gray">Business Development</h5>
             </Card.Title>
