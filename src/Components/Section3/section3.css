@@ -1,62 +1,65 @@
 .img-client {
-    max-height: 60px;
-    height: auto;
+  max-height: 60px;
+  height: auto;
 }
 .container-sec3 {
-    margin-top: 150px;
+  margin-top: 150px;
 }
 .container-sec3 > h1 {
-    text-align: center;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 40px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 40px;
 }
 .container-sec3 > h3 {
-    text-align: center;
-    margin-bottom: 60px;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 35px;
+  text-align: center;
+  margin-bottom: 60px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 35px;
 }
 .wrap-client {
-    /* margin-bottom: 40px; */
-    padding-bottom: 40px !important;
-    margin-left: 1%;
-    margin-right: 1%;
-    /* background: linear-gradient(180deg, rgba(255, 255, 255, 0.6) 0%, rgba(255, 255, 255, 0.6) 0.01%, rgba(255, 255, 255, 0.234) 100%);
+  /* margin-bottom: 40px; */
+  padding-bottom: 40px !important;
+  margin-left: 1%;
+  margin-right: 1%;
+  /* background: linear-gradient(180deg, rgba(255, 255, 255, 0.6) 0%, rgba(255, 255, 255, 0.6) 0.01%, rgba(255, 255, 255, 0.234) 100%);
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(15px); */
-    border-radius: 10px;
-    text-align: center;
-
+  border-radius: 10px;
+  text-align: center;
 }
 .wrap-client-resp {
-    display: none;
+  display: none;
 }
 .cont-row-client {
-    margin-top: 40px;
-    margin-left: auto;
-    margin-right: auto;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
 }
 @media only screen and (max-width: 767px) {
-    .wrap-client {
-        display: none;
-    }
-    .wrap-client-resp {
-        display: block;
-        padding-bottom: 40px !important;
-        margin-left: 1%;
-        margin-right: 1%;
-        border-radius: 10px;
-        text-align: center;
-        overflow-x: scroll !important;
-        overflow-y: hidden !important;
-        gap: 70px;
-        padding-bottom: 30px;
-        cursor: grab;
-    }
-    .wrap-cont-row-client {
-        display: flex;
-        gap: 30px;
-    }
+  .wrap-client {
+    display: none;
   }
+  .wrap-client-resp {
+    display: block;
+    /* padding-bottom: 40px !important; */
+    margin-left: 1%;
+    margin-right: 1%;
+    border-radius: 10px;
+    text-align: center;
+    overflow-x: scroll !important;
+    overflow-y: hidden !important;
+    gap: 70px;
+    /* padding-bottom: 30px; */
+    cursor: grab;
+  }
+  .wrap-cont-row-client {
+    display: flex;
+    /* gap: 30px; */
+  }
+
+  .img-client {
+    max-height: 100%;
+  }
+}
