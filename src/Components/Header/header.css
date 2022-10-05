@@ -45,16 +45,15 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  
+}
+.mid-anim {
   transform: translatey(0px);
 	animation: float 6s ease-in-out infinite;
 }
 .cont-head > h2 {
   /* opacity: 50%; */
   color: white;
-  animation-duration: 3s;
-  animation-name: slidein;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
 }
 .cont-head > img {
   /* opacity: 50%; */

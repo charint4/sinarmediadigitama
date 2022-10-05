@@ -18,7 +18,7 @@ const Header = () => {
                     <div className="cont-head">
                         <img align="middle" className="" src={asset3}></img>
                     </div>
-                    <div className="cont-head">
+                    <div className="cont-head mid-anim">
                         <img className=" ar-left" src={asset1}></img>
                         <img align="middle" className=" ar-down" src={arrow}></img>
                         <h2>just call us</h2>
