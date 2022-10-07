@@ -11,6 +11,8 @@
 .cont-services > img {
   width: 400px;
   object-fit: cover;
+  border-radius: 15px;
+
 }
 
 .wrap-services {
