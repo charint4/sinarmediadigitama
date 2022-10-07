@@ -69,18 +69,6 @@ const Section5 = () => {
           style={{ minWidth: "200px" }}
           className="border border-light rounded-4 card cont-card-team"
         >
-          <Card.Img variant="top" src={Bagus} className="p-2 rounded-5" />
-          <Card.Body>
-            <Card.Title>
-              <h5 className="card-text fw-bold py-3">Bagus F. Asyhari</h5>
-              <h5 className="card-text fw-400">Founder</h5>
-            </Card.Title>
-          </Card.Body>
-        </Card>
-        <Card
-          style={{ minWidth: "200px" }}
-          className="border border-light rounded-4 card cont-card-team"
-        >
           <Card.Img variant="top" src={Lina} className="p-2 rounded-5" />
           <Card.Body>
             <Card.Title>
@@ -196,6 +184,18 @@ const Section5 = () => {
             <Card.Title>
               <h5 className="card-text fw-bold py-3">Ebiet Mubharak</h5>
               <h5 className="card-text fw-400">Head of Creative</h5>
+            </Card.Title>
+          </Card.Body>
+        </Card>
+        <Card
+          style={{ minWidth: "200px" }}
+          className="border border-light rounded-4 card cont-card-team"
+        >
+          <Card.Img variant="top" src={Bagus} className="p-2 rounded-5" />
+          <Card.Body>
+            <Card.Title>
+              <h5 className="card-text fw-bold py-3">Bagus F. Asyhari</h5>
+              <h5 className="card-text fw-400">Founder</h5>
             </Card.Title>
           </Card.Body>
         </Card>
