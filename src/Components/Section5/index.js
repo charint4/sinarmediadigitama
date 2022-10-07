@@ -26,6 +26,7 @@ const Section5 = () => {
     arrows: false,
     pauseOnHover: false,
     infinite: true,
+    touchThreshold:100,
     responsive: [
       {
         breakpoint: 1200,

@@ -20,19 +20,19 @@ import sosmedComp from "../../Images/webp/sosmed-comp.webp";
 import creComp from "../../Images/webp/cre-comp.webp";
 import Camol from "../../Images/webp/camol.webp";
 import oohSGM from "../../Images/billboard-sgm.jpg"
-import oohSweety from "../../Images/billboard-sweety.jpg"
+import oohSweety from "../../Images/webp/billboard-sweety.webp"
 import creDev1 from "../../Images/creative-dev.jpg"
-import creDev2 from "../../Images/creative-dev2.jpg"
+import creDev2 from "../../Images/webp/creative-dev2.webp"
 import evEnt from "../../Images/eventz-1.jpg"
-import evEnt2 from "../../Images/eventz-2.jpg"
+import evEnt2 from "../../Images/webp/eventz-2.webp"
 import soCial from "../../Images/socmed.jpg"
-import soCial2 from "../../Images/socmed2.jpg"
+import soCial2 from "../../Images/webp/socmed2.webp"
 import inFlue from "../../Images/influencers-1.jpg"
-import inFlue2 from "../../Images/influencers-2.jpg"
+import inFlue2 from "../../Images/webp/influencers-2.webp"
 import printMat from "../../Images/printedmaterials.jpg"
-import printMat2 from "../../Images/printedmaterials2.jpg"
+import printMat2 from "../../Images/webp/printedmaterials2.webp"
 import promUnit from "../../Images/promotional-units.jpg"
-import promUnit2 from "../../Images/promotional-units2.jpg"
+import promUnit2 from "../../Images/webp/promotional-units2.webp"
 
 export default [
   {
