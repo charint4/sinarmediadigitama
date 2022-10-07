@@ -79,13 +79,6 @@ const MultipleItems = (props) => {
                   src={product.img}
                   className="p-2 rounded-5 img-card-slide"
                 />
-                <Card.Body>
-                  <Card.Title>
-                    <h5 className="fw-bold fs-16 fw-400 color-gray p-3">
-                      {product.title}
-                    </h5>
-                  </Card.Title>
-                </Card.Body>
               </Card>
             ))}
           </div>
