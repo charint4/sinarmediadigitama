@@ -60,7 +60,7 @@ export default [
     texts: "paper, woods, acrylic, metal based",
     quotes: "read more",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+      "We assist companies in creating versions of promotional materials that effectively communicate the product's USP to consumers. The main goal is to raise awareness of the product, draw customers in, and persuade them to purchase it over the competition.",
     ava2: promUnit2,
     products: [
       {
@@ -114,7 +114,7 @@ export default [
     texts: "offset, screen print, digital print",
     quotes: "read more",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+      "The essence of the contents is equally as vital as the printing. Our creative team, composed of several talented individuals, will support the brand with any ideas in copywriting, graphic design, editing, and web development. In addition, various printing devices are prepared to print all the documents and make your brand stand out in the crowd.",
     ava2: printMat2,
     products: [
       {
