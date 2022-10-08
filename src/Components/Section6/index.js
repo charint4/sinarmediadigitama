@@ -12,7 +12,7 @@ const Section6 = ({ notify }) => {
 
     emailjs
       .sendForm(
-        "service_2isq2kh",
+        "service_p63fjrf",
         "template_ph5k4gc",
         form.current,
         "L_x8LbXR3EiFWi0bQ"
