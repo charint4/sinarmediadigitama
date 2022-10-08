@@ -11,6 +11,14 @@ import Product2 from "../../Images/webp/PRODUK-2.webp";
 import Product3 from "../../Images/webp/PRODUK-3.webp";
 import Product5 from "../../Images/webp/PRODUK-5.webp";
 import Product6 from "../../Images/webp/PRODUK-6.webp";
+import Product4 from "../../Images/webp/PRODUK-4.webp";
+import Product7 from "../../Images/webp/PRODUK-7.webp";
+import Product8 from "../../Images/webp/PRODUK-8.webp";
+import Product9 from "../../Images/webp/PRODUK-9.webp";
+import Product10 from "../../Images/webp/PRODUK-10.webp";
+import Product11 from "../../Images/webp/PRODUK-11.webp";
+import Product12 from "../../Images/webp/PRODUK-12.webp";
+import Product13 from "../../Images/webp/PRODUK-13.webp";
 import infComp from "../../Images/webp/inf-comp.webp";
 import oohComp from "../../Images/webp/ooh-comp.webp";
 import promoComp from "../../Images/webp/promo-comp.webp";
@@ -64,6 +72,10 @@ export default [
     ava2: promUnit2,
     products: [
       {
+        img: Product1,
+        title: "Kitchen",
+      },
+      {
         img: Product2,
         title: "Kitchen",
       },
@@ -72,15 +84,43 @@ export default [
         title: "Meeting Room",
       },
       {
-        img: Product5,
-        title: "Work Room",
+        img: Product4,
+        title: "Kitchen",
       },
       {
         img: Product5,
         title: "Work Room",
       },
       {
-        img: Product5,
+        img: Product6,
+        title: "Work Room",
+      },
+      {
+        img: Product7,
+        title: "Work Room",
+      },
+      {
+        img: Product8,
+        title: "Work Room",
+      },
+      {
+        img: Product9,
+        title: "Work Room",
+      },
+      {
+        img: Product10,
+        title: "Work Room",
+      },
+      {
+        img: Product11,
+        title: "Work Room",
+      },
+      {
+        img: Product12,
+        title: "Work Room",
+      },
+      {
+        img: Product13,
         title: "Work Room",
       },
     ],

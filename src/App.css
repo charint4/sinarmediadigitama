@@ -221,6 +221,11 @@
     background-image: url(./Images/ng-land-ipad.png);
   }
 }
+@media only screen and (max-width: 397px) {
+  .wrap-sec13-serv {
+
+  }
+}
 @media only screen and (max-width: 377px) {
   .sec-1-3 {
     padding-top: 50px;
@@ -236,7 +241,7 @@
     padding-top: 70px;
   }
   .wrap-sec13-serv {
-    padding-bottom: 100px;
-    padding-top: 100px;
+    padding-bottom: 70px;
+    padding-top: 70px;
   }
 }

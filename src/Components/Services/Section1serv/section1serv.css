@@ -22,3 +22,16 @@
 .wrap-services > div {
   border-radius: 15px;
 }
+@media only screen and (max-width: 991px) {
+  /* .wrap-services {
+    padding-bottom: 40px;
+  } */
+}
+@media only screen and (max-width: 397px) {
+  .cont-services > h3 {
+    text-align: left;
+  }
+  .wrap-services {
+    gap: 30px;
+  }
+}
