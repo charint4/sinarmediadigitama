@@ -19,14 +19,14 @@ const Section5 = () => {
     slidesToShow: 6,
     slidesToScroll: 1,
     autoplay: true,
-    speed: 2000,
-    autoplaySpeed: 2000,
+    speed: 2500,
+    autoplaySpeed: 2500,
     cssEase: "linear",
     adaptiveHeight: true,
     arrows: false,
     pauseOnHover: false,
     infinite: true,
-    touchThreshold:100,
+    touchThreshold: 100,
     responsive: [
       {
         breakpoint: 1200,
