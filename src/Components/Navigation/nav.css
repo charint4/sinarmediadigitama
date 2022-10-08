@@ -1,67 +1,64 @@
 .nav-logo {
-    height: 29px;
+  height: 29px;
 }
 /* .Navbar {
     padding: 80px !important;
 } */
 .nav-btn {
-    gap: 100px;
-    margin-left: 10%;
+  gap: 100px;
+  margin-left: 10%;
 }
 .nav-link {
-    font-size: 15px !important;
+  font-size: 15px !important;
 }
-.nav-link:hover, .nav-link:focus {
-    color: #AC2532 !important;
-    font-weight: 700;
+.nav-link:hover,
+.nav-link:focus {
+  color: #ac2532 !important;
+  font-weight: 700;
 }
 
 .contact-btn {
-    background-color: #0E5579;
-    /* box-shadow: none !important; */
-    border: none;
-    font-weight: bold;
-    font-size: 15px;
-
+  background-color: #0e5579;
+  /* box-shadow: none !important; */
+  border: none;
+  font-weight: bold;
+  font-size: 15px;
 }
 .contact-btn:hover {
-    background-color: #0E5579 !important;
-  }
+  background-color: #0e5579 !important;
+}
 .navbar-light {
-    color:#AC2532 !important;
-    border-color:#AC2532 !important ;
-    /* background-color: #AC2532 !important; */
+  color: #ac2532 !important;
+  border-color: #ac2532 !important ;
+  /* background-color: #AC2532 !important; */
 }
 .navbar-toggler {
-    border: 0 !important;
+  border: 0 !important;
 }
 .navbar-toggler:focus,
 .navbar-toggler:active,
 .navbar-toggler-icon:focus {
-    outline: none !important;
-    box-shadow: none !important;
+  outline: none !important;
+  box-shadow: none !important;
 }
 @media only screen and (max-width: 454px) {
-    /* For desktop: */
-    .nav-logo {
-        height: 20px;
-    }
-
+  /* For desktop: */
+  .nav-logo {
+    height: 20px;
+  }
 }
-@media screen 
-  and (min-width: 992px) 
-  and (max-width: 1200px){
-    .nav-btn {
-        gap: 40px;
-        /* margin-left: 10%; */
-    }
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .nav-btn {
+    gap: 40px;
+    /* margin-left: 10%; */
+  }
 }
 @media only screen and (max-width: 991px) {
-    /* For desktop: */
-    .nav-btn {
-        gap: 10px;
-        /* margin-left: 10%; */
-        margin-bottom: 20px;
-    }
-
+  /* For desktop: */
+  .nav-btn {
+    gap: 10px;
+    margin-left: 0;
+    margin-bottom: 20px;
+    margin-top: 2.5%;
+  }
 }
