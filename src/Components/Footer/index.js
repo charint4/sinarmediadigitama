@@ -35,16 +35,15 @@ const Footer = () => {
           <div className="col-md-3 cont-footer">
             <h1>Get in touch</h1>
             <h3 className="">
-            <b>PT. Sinar Media Digitama</b><br></br> 
-            Aria Putra 8, Sarua Indah<br></br> 
-            Ciputat South Tangerang
+              <b>PT. Sinar Media Digitama</b>
+              <br></br>
+              Aria Putra 8, Serua Indah<br></br>
+              Ciputat South Tangerang
             </h3>
-            <h3>
-            info@smdigitama.com
-            </h3>
+            <h3>info@smdigitama.com</h3>
             <h3>
               Telephone<br></br>
-              021 - 74634075 
+              021 - 74634075
             </h3>
           </div>
           <div className="col-md">

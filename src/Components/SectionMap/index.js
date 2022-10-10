@@ -22,7 +22,7 @@ const Section4 = () => {
           <h3 className="title">Get in touch</h3>
           <h4 className="text1 mb-5">
             <b>Address</b> <br></br>
-            Aria Putra 8, Sarua Indah Ciputat - South Tangerang
+            Aria Putra 8, Serua Indah Ciputat - South Tangerang
           </h4>
           <h4 className="text2 mb-5">
             <b>Email</b> <br></br>
