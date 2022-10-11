@@ -157,7 +157,7 @@ const Section5 = () => {
           <Card.Img variant="top" src={Ikrar} className="p-2 rounded-5" />
           <Card.Body>
             <Card.Title>
-              <h5 className="card-text fw-bold py-3">Ikrar H. Mahardika</h5>
+              <h5 className="card-text fw-bold py-3">Ikrar H. Mahardhika</h5>
               <h5 className="card-text fw-400">Head of Marketing</h5>
             </Card.Title>
           </Card.Body>
