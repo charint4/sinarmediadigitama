@@ -15,7 +15,7 @@ const index = () => {
             <div className="col-md bg-blur cont-abt4 text-center p-4 align-items-center">
                 <img src={Vector}></img>
                 <h2>
-                    1000+
+                    50+
                 </h2>
                 <h2>
                     Projects Handled
@@ -27,7 +27,7 @@ const index = () => {
             <div className="col-md bg-blur cont-abt4 text-center p-4">
                 <img src={Groups}></img>
                 <h2>
-                    500+
+                    100+
                 </h2>
                 <h2>
                     Clients Satisfied

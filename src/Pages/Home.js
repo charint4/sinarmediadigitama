@@ -10,6 +10,7 @@ import Section6 from "../Components/Section6";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import Sectionvid from "../Components/SectionVid";
+import Section5alts from "../Components/Section5alts";
 
 const Home = () => {
   useEffect(() => {
@@ -50,6 +51,7 @@ const Home = () => {
           <Section3 />
           <SectionMap />
           <Section5 />
+          <Section5alts />
           <Section6 notify={handleNotify} />
         </section>
       </header>

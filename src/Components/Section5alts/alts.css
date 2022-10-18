@@ -1,0 +1,20 @@
+.wrap-team-card {
+    border-radius: 15px 15px 0 0;
+    position: relative;
+    /* height: 340px !important;
+    width: 455px !important; */
+}
+.wrap-team-card > img {
+    width: 345px;
+}
+.cont-team-card {
+
+    position: absolute;
+    background-color: #0E5579;
+    border-radius: 0 0 15px 15px;
+    color: white;
+    bottom: -90px;
+    width: 345px;
+    /* width: 455px;
+    height: 100px; */
+}
