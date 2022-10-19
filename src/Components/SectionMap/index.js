@@ -1,6 +1,7 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 import "../SectionMap/section4.css";
+import Data from "./Data"
 
 const Section4 = () => {
   return (
@@ -18,20 +19,27 @@ const Section4 = () => {
             className="rounded-4 "
           ></iframe>
         </div>
-        <div className="col-lg-5 bg-text wrap-box">
-          <h3 className="title">Get in touch</h3>
-          <h4 className="text1 mb-5">
-            <b>Address</b> <br></br>
-            Aria Putra 8, Serua Indah Ciputat - South Tangerang
-          </h4>
-          <h4 className="text2 mb-5">
-            <b>Email</b> <br></br>
-            info@smdigitama.com
-          </h4>
-          <h4 className="text3 mb-5">
-            <b>Telephone</b> <br /> 021 - 74634075
-          </h4>
-        </div>
+        {Data.map ((data, i) => (
+          <div className="col-lg-4 bg-text wrap-box" key={i}>
+            <h3 className="title">{data.head}</h3>
+            <h2 className="text1"><b>{data.subhead}</b></h2>
+            <h4 className="text1">
+              <b>{data.addy}</b> 
+              
+            </h4>
+            <h4 className="text2 ">
+              <span>
+                {/* <img src ={}></img> */}
+              </span>
+              <b>{data.mail}</b> 
+              
+            </h4>
+            <h4 className="text3 mb-5">
+              <b>{data.phone}</b> 
+            </h4>
+          </div>
+        ))}
+        
       </div>
     </Container>
   );

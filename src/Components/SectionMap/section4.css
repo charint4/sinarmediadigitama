@@ -38,7 +38,7 @@
 .title {
   font-weight: 700;
   font-size: 40px;
-  line-height: 87px;
+  line-height: 57px;
   color: #004c92;
 }
 
@@ -61,6 +61,9 @@
   font-size: 15px;
   line-height: 32px;
   color: #545659;
+}
+.wrap-box > h2 {
+  color:#004c92;
 }
 
 @media screen and (max-width: 991px) {
