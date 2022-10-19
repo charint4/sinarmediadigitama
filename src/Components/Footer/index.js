@@ -2,19 +2,22 @@ import React from "react";
 import { Container } from "react-bootstrap";
 import Gmail from "../../Images/webp/gmail.webp";
 import Logowhite from "../../Images/webp/logowhite.webp";
+import SMDw from "../../Images/smd-w.png"
 import Whatsapp from "../../Images/webp/whatsapp.webp";
 import Instagram from "../../Images/webp/ig-icon.webp";
 import "./footer.css";
 import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
+import mailW from "../../Images/mail-w.png";
+import phoneW from "../../Images/phone-w.png";
 
 const Footer = () => {
   return (
     <section className="wrap-footer">
       <Container>
-        <div className="row pt-5 pb-5">
+        <div className="row pt-5 pb-5 gap-5 ">
           <div className="col-md-4 cont-footer">
-            <img src={Logowhite}></img>
+            <img src={SMDw}></img>
             <h1>We Take Your Brand's Image as Our Priority</h1>
           </div>
           <div className="col-md-2 cont-footer">
@@ -32,18 +35,26 @@ const Footer = () => {
               <h3>Contact Us</h3>
             </HashLink>
           </div>
-          <div className="col-md-3 cont-footer">
-            <h1>Get in touch</h1>
+          <div className="col-md cont-footer getin">
+            <h1>Get in Touch with Us</h1>
             <h3 className="">
               <b>PT. Sinar Media Digitama</b>
               <br></br>
               Aria Putra 8, Serua Indah<br></br>
               Ciputat South Tangerang
             </h3>
-            <h3>info@smdigitama.com</h3>
             <h3>
-              Telephone<br></br>
-              021 - 74634075
+              <span className="img-foot">
+                <img src={mailW}></img>
+               : info@smdigitama.com
+              </span>
+              
+              </h3>
+            <h3>
+              <span className="img-foot">
+                <img src={phoneW}></img>
+                : 021 - 74634075
+              </span>
             </h3>
           </div>
           <div className="col-md">

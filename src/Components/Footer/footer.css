@@ -13,6 +13,9 @@
   width: 21px;
   /* height: 22px; */
 }
+.getin {
+  margin-left: -30px
+}
 .cont-logo > a {
   /* align-items: center; */
   margin-top: auto;
@@ -26,10 +29,15 @@
   /* line-height: 10px; */
 }
 .cont-footer > img {
-  width: 200px;
+  width: 300px;
+  /* margin-top: 10px; */
+  /* margin-bottom: auto; */
   margin-bottom: 30px;
 }
-
+.img-foot > img{
+  width: 10px;
+  margin-right: 5px;
+}
 /* .qt {
     margin-left: 20%;
 } */
@@ -49,4 +57,9 @@
 
 .footer-nav {
   text-decoration: none;
+}
+@media only screen and (max-width: 768px) {
+  .getin {
+    margin-left: 0px
+  }
 }
