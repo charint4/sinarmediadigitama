@@ -65,7 +65,14 @@
 .wrap-box > h2 {
   color:#004c92;
 }
-
+.mail {
+  margin-right: 5px;
+  width: 20px;
+}
+.phone {
+  margin-right: 5px;
+  width: 20px;
+}
 @media screen and (max-width: 991px) {
   .map {
     height: 500px;

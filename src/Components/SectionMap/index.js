@@ -2,6 +2,8 @@ import React from "react";
 import { Container } from "react-bootstrap";
 import "../SectionMap/section4.css";
 import Data from "./Data"
+import Mail from "../../Images/mail.png"
+import Phone from "../../Images/phone.png"
 
 const Section4 = () => {
   return (
@@ -20,7 +22,7 @@ const Section4 = () => {
           ></iframe>
         </div>
         {Data.map ((data, i) => (
-          <div className="col-lg-4 bg-text wrap-box" key={i}>
+          <div className="col-lg-4 bg-text wrap-box justify-content-center gap-2" key={i}>
             <h3 className="title">{data.head}</h3>
             <h2 className="text1"><b>{data.subhead}</b></h2>
             <h4 className="text1">
@@ -29,13 +31,18 @@ const Section4 = () => {
             </h4>
             <h4 className="text2 ">
               <span>
-                {/* <img src ={}></img> */}
+                <img className="mail" src ={Mail}></img>
+                <b>  : {data.mail}</b> 
               </span>
-              <b>{data.mail}</b> 
+              
               
             </h4>
-            <h4 className="text3 mb-5">
-              <b>{data.phone}</b> 
+            <h4 className="text3">
+               
+              <span>
+                <img className="phone" src ={Phone}></img>
+                <b> : {data.phone}</b>
+              </span>
             </h4>
           </div>
         ))}
