@@ -5,6 +5,8 @@ import AboutUs from "./Pages/AboutUs";
 import Services from "./Pages/Services";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Footer from "./Components/Footer";
+import Floatbtn from "./Components/Floatbtn";
+
 
 function App() {
   return (
@@ -17,7 +19,9 @@ function App() {
           <Route path="/Service/:title/:id" component={Services} exact />
           {/* <Route component={Error} /> */}
         </Switch>
+        <Floatbtn />
         <Footer />
+
         {/* <Home /> */}
       </BrowserRouter>
     </div>
