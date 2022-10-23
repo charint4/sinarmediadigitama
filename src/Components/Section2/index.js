@@ -18,15 +18,21 @@ const Section2 = () => {
     infinite: true,
     responsive: [
       {
+        breakpoint: 1400,
+        settings: {
+          slidesToShow: 4,
+        },
+      },
+      {
         breakpoint: 1200,
         settings: {
-          slidesToShow: 4.5,
+          slidesToShow: 3.5,
         },
       },
       {
         breakpoint: 991,
         settings: {
-          slidesToShow: 3,
+          slidesToShow: 2.5,
         },
       },
       {
@@ -36,21 +42,21 @@ const Section2 = () => {
         },
       },
       {
-        breakpoint: 440,
+        breakpoint: 530,
         settings: {
           slidesToShow: 1.7,
         },
       },
       {
-        breakpoint: 400,
+        breakpoint: 460,
         settings: {
           slidesToShow: 1.5,
         },
       },
       {
-        breakpoint: 340,
+        breakpoint: 400,
         settings: {
-          slidesToShow: 1.3,
+          slidesToShow: 1.2,
         },
       },
     ],
