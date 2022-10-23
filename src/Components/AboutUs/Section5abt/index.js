@@ -10,7 +10,7 @@ import { useDraggable } from "react-use-draggable-scroll";
 
 const Secslide = () => {
   const settings = {
-    slidesToShow: 3,
+    slidesToShow: 2.7,
     slidesToScroll: 1,
     autoplay: true,
     speed: 4000,
@@ -21,50 +21,26 @@ const Secslide = () => {
     arrows: false,
     pauseOnHover: false,
     infinite: true,
-    // responsive: [
-    //   {
-    //     breakpoint: 1024,
-    //     settings: {
-    //       slidesToShow: 2.05,
-    //     },
-    //   },
-    //   {
-    //     breakpoint: 810,
-    //     settings: {
-    //       slidesToShow: 1.55,
-    //     },
-    //   },
-    //   {
-    //     breakpoint: 412,
-    //     settings: {
-    //       slidesToShow: 1.3,
-    //     },
-    //   },
-    //   {
-    //     breakpoint: 414,
-    //     settings: {
-    //       slidesToShow: 1.32,
-    //     },
-    //   },
-    //   {
-    //     breakpoint: 375,
-    //     settings: {
-    //       slidesToShow: 1.4,
-    //     },
-    //   },
-    //   {
-    //     breakpoint: 428,
-    //     settings: {
-    //       slidesToShow: 1.8,
-    //     },
-    //   },
-    //   {
-    //     breakpoint: 360,
-    //     settings: {
-    //       slidesToShow: 1.34,
-    //     },
-    //   },
-    // ],
+    responsive: [
+      {
+        breakpoint: 1200,
+        settings: {
+          slidesToShow: 2.5,
+        },
+      },
+      {
+        breakpoint: 992,
+        settings: {
+          slidesToShow: 2.3,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1.8,
+        },
+      },
+    ],
   };
 
   // const ref = useRef();
