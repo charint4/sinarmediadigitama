@@ -50,7 +50,7 @@ const Home = () => {
           <Section2 />
           <Section3 />
           <SectionMap />
-          <Section5 />
+          {/* <Section5 /> */}
           <Section5alts />
           <Section6 notify={handleNotify} />
         </section>

@@ -1,19 +1,27 @@
-.wrap-team-card {
-  border-radius: 15px 15px 0 0;
+.sec5 {
+  margin-top: 150px;
+}
+
+.card-sec5 {
   position: relative;
-  /* height: 340px !important; */
-  max-width: 200px;
+  width: auto;
 }
-.wrap-team-card > img {
-  width: 200px;
+
+.card-sec5 > img {
+  min-width: 100px;
+  max-width: 224px;
+  width: 100%;
 }
-.cont-team-card {
-  position: absolute;
+
+.card-sec5-desc {
   background-color: #0e5579;
-  border-radius: 0 0 15px 15px;
+  position: relative;
+  min-width: 100px;
+  max-width: 224px;
   color: white;
-  bottom: -80px;
-  width: 200px;
+  /* padding-bottom: 10%; */
+  top: -10px;
+  border-radius: 0 0 1rem 1rem;
 }
 
 .linkedin {
@@ -21,17 +29,10 @@
   height: 15px;
 }
 
-.slick-list {
-  height: 300px;
+.role-text {
+  height: 48px;
 }
 
-.h3 {
-  background: #5f9ea0;
-  color: #fff;
-  font-size: 36px;
-  line-height: 100px;
-  margin: 10px;
-  padding: 2%;
-  position: relative;
-  text-align: center;
+.slick-list {
+  height: 360px;
 }
