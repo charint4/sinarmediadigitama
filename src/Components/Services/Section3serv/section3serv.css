@@ -24,8 +24,8 @@
 }
 
 .slick-slide {
-  margin-left: 27px;
-  margin-right: 27px;
+  /* margin-left: 27px;
+  margin-right: 27px; */
 }
 
 .gap-30 {
@@ -40,6 +40,13 @@
   height: 440px !important;
   max-width: 455px !important;
   width: auto !important;
+}
+
+.img-card-slide {
+  height: 350px;
+  max-width: 435px;
+  width: auto;
+  object-fit: cover;
 }
 
 @media only screen and (max-width: 1399px) {
