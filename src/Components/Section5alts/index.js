@@ -52,7 +52,7 @@ const Section5alts = () => {
           corner.
         </h4>
       </div>
-      <Slider {...settings}>
+      <Slider {...settings} className="mt-60">
         {Data.map((data, index) => (
           <div
             className="d-flex flex-column align-items-center"
