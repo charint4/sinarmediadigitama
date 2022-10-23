@@ -42,6 +42,13 @@
   width: auto !important;
 }
 
+.img-card-slide {
+  height: 350px;
+  max-width: 435px;
+  width: auto;
+  object-fit: cover;
+}
+
 @media only screen and (max-width: 1399px) {
   .cont-card-abt {
     height: 440px !important;

@@ -8,14 +8,15 @@ import "slick-carousel/slick/slick-theme.css";
 const MultipleItems = (props) => {
   const { data } = props;
   const settings = {
-    slidesToShow: 2.6,
+    slidesToShow: 2,
     slidesToScroll: 1,
-    autoplay: true,
-    speed: 2000,
-    autoplaySpeed: 2000,
-    cssEase: "linear",
+    // autoplay: true,
+    speed: 500,
+    // autoplaySpeed: 2000,
+    // cssEase: "linear",
     adaptiveHeight: true,
-    arrows: false,
+    arrows: true,
+    dots: true,
     pauseOnHover: false,
     infinite: true,
     responsive: [
@@ -28,7 +29,8 @@ const MultipleItems = (props) => {
       {
         breakpoint: 360,
         settings: {
-          slidesToShow: 1.5,
+          slidesToShow: 1,
+          slidesToScroll: 1,
         },
       },
     ],
@@ -42,7 +44,7 @@ const MultipleItems = (props) => {
           Your Brand Image is Our Priority
         </h3>
         {data.products.length < 4 ? (
-          <div className="d-flex overflow-scroll">
+          <div className="d-flex overflow-scroll justify-content-center">
             {data.products.map((product, index) => (
               <Card
                 className="border border-light rounded-4 card p-2 mx-3"
@@ -62,18 +64,20 @@ const MultipleItems = (props) => {
           // <></>
           <Slider {...settings} className="carousel-abt-slide">
             {data.products.map((product, index) => (
-              <Card
-                className="border border-light rounded-4 card p-2 cont-card-abt"
-                data-value={index + 1}
-                key={index}
-                style={{ maxWidth: "500px" }}
-              >
-                <Card.Img
-                  variant="top"
-                  src={product.img}
-                  className="p-2 rounded-5 img-card-slide"
-                />
-              </Card>
+              <div className="d-flex flex-column align-items-center">
+                <Card
+                  className="border border-light rounded-4 card p-2 cont-card-abt"
+                  data-value={index + 1}
+                  key={index}
+                  style={{ maxWidth: "500px" }}
+                >
+                  <Card.Img
+                    variant="top"
+                    src={product.img}
+                    className="p-2 rounded-5 img-card-slide"
+                  />
+                </Card>
+              </div>
             ))}
           </Slider>
         )}

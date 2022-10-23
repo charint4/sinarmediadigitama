@@ -8,14 +8,15 @@ import Slider from "react-slick";
 const Section2 = () => {
   const settings = {
     slidesToShow: 5,
-    slidesToScroll: 1,
+    slidesToScroll: 5,
     autoplay: true,
-    speed: 1500,
-    autoplaySpeed: 1500,
-    cssEase: "linear",
+    speed: 500,
+    // autoplaySpeed: 1500,
+    // cssEase: "linear",
     adaptiveHeight: true,
-    arrows: false,
-    infinite: true,
+    // arrows: true,
+    dots: true,
+    // infinite: true,
     responsive: [
       {
         breakpoint: 1400,
@@ -26,39 +27,43 @@ const Section2 = () => {
       {
         breakpoint: 1200,
         settings: {
-          slidesToShow: 3.5,
+          slidesToShow: 3,
+          slidesToScroll: 3,
         },
       },
       {
         breakpoint: 991,
         settings: {
-          slidesToShow: 2.5,
+          slidesToShow: 2,
+          slidesToScroll: 2,
         },
       },
       {
         breakpoint: 767,
         settings: {
           slidesToShow: 2,
+          slidesToScroll: 2,
         },
       },
       {
         breakpoint: 530,
         settings: {
-          slidesToShow: 1.7,
+          slidesToShow: 1,
+          slidesToScroll: 1,
         },
       },
-      {
-        breakpoint: 460,
-        settings: {
-          slidesToShow: 1.5,
-        },
-      },
-      {
-        breakpoint: 400,
-        settings: {
-          slidesToShow: 1.2,
-        },
-      },
+      // {
+      //   breakpoint: 460,
+      //   settings: {
+      //     slidesToShow: 1.5,
+      //   },
+      // },
+      // {
+      //   breakpoint: 400,
+      //   settings: {
+      //     slidesToShow: 1.2,
+      //   },
+      // },
     ],
   };
 
@@ -71,7 +76,10 @@ const Section2 = () => {
           <h3>We take your brand's image as our priority</h3>
           <Slider {...settings}>
             {Data.map((data, index) => (
-              <div className="col-sm cont-sec2" key={index}>
+              <div
+                className="col-sm cont-sec2 d-flex flex-column align-items-center"
+                key={index}
+              >
                 <img src={data.ava}></img>
                 <div className="wrap-abs"></div>
                 <div className="wrap-text">
