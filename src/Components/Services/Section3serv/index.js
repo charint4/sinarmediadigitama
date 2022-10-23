@@ -18,44 +18,20 @@ const MultipleItems = (props) => {
     arrows: false,
     pauseOnHover: false,
     infinite: true,
-    // responsive: [
-    //   {
-    //     breakpoint: 991,
-    //     settings: {
-    //       slidesToShow: 4,
-    //     },
-    //   },
-    //   {
-    //     breakpoint: 810,
-    //     settings: {
-    //       slidesToShow: 1.5,
-    //     },
-    //   },
-    //   {
-    //     breakpoint: 767,
-    //     settings: {
-    //       slidesToShow: 1.1,
-    //     },
-    //   },
-    //   {
-    //     breakpoint: 412,
-    //     settings: {
-    //       slidesToShow: 1.2,
-    //     },
-    //   },
-    //   {
-    //     breakpoint: 375,
-    //     settings: {
-    //       slidesToShow: 1.3,
-    //     },
-    //   },
-    //   {
-    //     breakpoint: 360,
-    //     settings: {
-    //       slidesToShow: 1.3,
-    //     },
-    //   },
-    // ],
+    responsive: [
+      {
+        breakpoint: 991,
+        settings: {
+          slidesToShow: 2,
+        },
+      },
+      {
+        breakpoint: 360,
+        settings: {
+          slidesToShow: 1.5,
+        },
+      },
+    ],
   };
 
   return (
