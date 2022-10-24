@@ -5,13 +5,11 @@ import "./section5abt.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Data from "./Data";
-import { useRef } from "react";
-import { useDraggable } from "react-use-draggable-scroll";
 
 const Secslide = () => {
   const settings = {
-    slidesToShow: 2,
-    slidesToScroll: 2,
+    slidesToShow: 3,
+    slidesToScroll: 3,
     // speed: 500,
     // autoplay: true,
     // autoplaySpeed: 4000,
@@ -26,7 +24,8 @@ const Secslide = () => {
       // {
       //   breakpoint: 1200,
       //   settings: {
-      //     slidesToShow: 2.5,
+      //     slidesToShow: 2,
+      //     slidesToScroll: 2,
       //   },
       // },
       // {
@@ -35,13 +34,13 @@ const Secslide = () => {
       //     slidesToShow: 2.3,
       //   },
       // },
-      {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-        },
-      },
+      // {
+      //   breakpoint: 768,
+      //   settings: {
+      //     slidesToShow: 1,
+      //     slidesToScroll: 1,
+      //   },
+      // },
     ],
   };
 

@@ -120,6 +120,11 @@
   text-fill-color: transparent;
 }
 
+.slick-prev:before,
+.slick-next:before {
+  color: #0e5579 !important;
+}
+
 .jse {
   justify-content: end;
 }
