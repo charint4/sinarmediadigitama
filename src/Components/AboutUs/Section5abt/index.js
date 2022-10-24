@@ -5,8 +5,6 @@ import "./section5abt.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Data from "./Data";
-import { useRef } from "react";
-import { useDraggable } from "react-use-draggable-scroll";
 
 const Secslide = () => {
   const settings = {
