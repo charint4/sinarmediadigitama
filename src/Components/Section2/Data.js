@@ -42,9 +42,25 @@ import printMat2 from "../../Images/webp/printedmaterials2.webp"
 import promUnit from "../../Images/webp/promotional-units.webp"
 import promUnit2 from "../../Images/webp/promotional-units2.webp"
 
+import oohSGMc from "../../Images/webp/billboard-sgm-c.webp"
+import oohSweetyc from "../../Images/webp/billboard-sweety-c.webp"
+import creDev1c from "../../Images/webp/creative-dev-c.webp"
+import creDev2c from "../../Images/webp/creative-dev2-c.webp"
+import evEntc from "../../Images/webp/eventz-1-c.webp"
+import evEnt2c from "../../Images/webp/eventz-2-c.webp"
+import soCialc from "../../Images/webp/socmed-c.webp"
+import soCial2c from "../../Images/webp/socmed2-c.webp"
+import inFluec from "../../Images/webp/influencers-1-c.webp"
+import inFlue2c from "../../Images/webp/influencers-2-c.webp"
+import printMatc from "../../Images/webp/printedmaterials-c.webp"
+import printMat2c from "../../Images/webp/printedmaterials2-c.webp"
+import promUnitc from "../../Images/webp/promotional-units-c.webp"
+import promUnit2c from "../../Images/webp/promotional-units2-c.webp"
+
 export default [
   {
     name: "Out Of Home Units",
+    cover: oohSGMc,
     ava: oohSGM,
     texts: "Nationwide",
     quotes: "read more",
@@ -64,6 +80,7 @@ export default [
   },
   {
     name: "Promotional Units",
+    cover: promUnitc,
     ava: promUnit,
     texts: "Paper, Woods, Acrylic, Metal based",
     quotes: "read more",
@@ -127,6 +144,7 @@ export default [
   },
   {
     name: "Creative Development Promotional Units",
+    cover: creDev1c,
     ava: creDev1,
     texts: "Give you a creative recommendation to promote your brand's campaign",
     quotes: "read more",
@@ -138,6 +156,7 @@ export default [
   },
   {
     name: "Printed Material",
+    cover: printMatc,
     ava: printMat,
     texts: "Offset, Screen Print, and Digital Print",
     quotes: "read more",
@@ -149,6 +168,7 @@ export default [
   },
   {
     name: "Events",
+    cover: evEntc,
     ava: evEnt,
     texts: "Indoor, Outdoor, and Digital events",
     quotes: "read more",
@@ -160,6 +180,7 @@ export default [
   },
   {
     name: "Influencer",
+    cover: inFluec,
     ava: inFlue,
     texts: "Bringing you the best brand deals",
     quotes: "read more",
@@ -171,6 +192,7 @@ export default [
   },
   {
     name: "Social media management",
+    cover: soCialc,
     ava: soCial,
     texts: "We support brands to increase their brand awareness on a social media platform",
     quotes: "read more",

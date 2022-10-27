@@ -80,7 +80,7 @@ const Section2 = () => {
                 className="col-sm cont-sec2 d-flex flex-column align-items-center"
                 key={index}
               >
-                <img src={data.ava}></img>
+                <img src={data.cover}></img>
                 <div className="wrap-abs"></div>
                 <div className="wrap-text">
                   <h2>{data.name}</h2>
