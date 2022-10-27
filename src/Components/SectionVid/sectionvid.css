@@ -1,7 +1,7 @@
 .wrap-vid {
   position: relative;
     overflow: hidden !important;
-    background-color: #0E5579;
+    /* background-color: #0E5579; */
 }
 .container-secvid {
     /* margin-top: 150px; */
@@ -22,7 +22,8 @@
     font-size: 40px;
     line-height: 40px;
     padding-bottom: 60px;
-    color: white;
+    /* color: white; */
+    /* color: #0E5579; */
   }
   .container-secvid > iframe {
     display:block;

@@ -6,6 +6,7 @@ import Section4abt from "../Components/AboutUs/Section4abt";
 import Section5abt from "../Components/AboutUs/Section5abt";
 import SectionQt from "../Components/AboutUs/SectionQt";
 import Footer from "../Components/Footer";
+import SectionVid from "../Components/SectionVid";
 import Section5alts from "../Components/Section5alts";
 
 const AboutUs = () => {
@@ -19,7 +20,9 @@ const AboutUs = () => {
         <Section1 />
       </div>
       <SectionQt />
+      
       <div className="wrap-sec2-ab">
+      <SectionVid />
         <Section2 />
         <Section3abt />
         <Section4abt />

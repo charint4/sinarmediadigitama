@@ -1,11 +1,5 @@
 import OOh from "../../Images/webp/ooh-2.webp";
 import OOh2 from "../../Images/webp/ooh-1.webp";
-import Promo from "../../Images/webp/promotional-1.webp";
-import Crepromo2 from "../../Images/webp/crepromo-2.webp";
-import Printed from "../../Images/webp/printed1.webp";
-import Sosmed from "../../Images/webp/sosmed.webp";
-import Influe from "../../Images/webp/influe.webp";
-import Event from "../../Images/webp/event.webp";
 import Product1 from "../../Images/webp/PRODUK-1.webp";
 import Product2 from "../../Images/webp/PRODUK-2.webp";
 import Product3 from "../../Images/webp/PRODUK-3.webp";
@@ -19,14 +13,6 @@ import Product10 from "../../Images/webp/PRODUK-10.webp";
 import Product11 from "../../Images/webp/PRODUK-11.webp";
 import Product12 from "../../Images/webp/PRODUK-12.webp";
 import Product13 from "../../Images/webp/PRODUK-13.webp";
-import infComp from "../../Images/webp/inf-comp.webp";
-import oohComp from "../../Images/webp/ooh-comp.webp";
-import promoComp from "../../Images/webp/promo-comp.webp";
-import eventComp from "../../Images/webp/event-comp.webp";
-import printComp from "../../Images/webp/printed-comp.webp";
-import sosmedComp from "../../Images/webp/sosmed-comp.webp";
-import creComp from "../../Images/webp/cre-comp.webp";
-import Camol from "../../Images/webp/camol.webp";
 import oohSGM from "../../Images/webp/billboard-sgm.webp"
 import oohSweety from "../../Images/webp/billboard-sweety.webp"
 import creDev1 from "../../Images/webp/creative-dev.webp"
@@ -41,7 +27,6 @@ import printMat from "../../Images/webp/printedmaterials.webp"
 import printMat2 from "../../Images/webp/printedmaterials2.webp"
 import promUnit from "../../Images/webp/promotional-units.webp"
 import promUnit2 from "../../Images/webp/promotional-units2.webp"
-
 import oohSGMc from "../../Images/webp/billboard-sgm-c.webp"
 import oohSweetyc from "../../Images/webp/billboard-sweety-c.webp"
 import creDev1c from "../../Images/webp/creative-dev-c.webp"
