@@ -74,9 +74,9 @@
     height: 340px;
   }
 }
-@media only screen and (max-width: 991px) {
+/* @media only screen and (max-width: 991px) {
   .cont-card-5abt {
-    height: 325px !important;
+    height: 350px !important;
     max-width: 225px !important;
   }
   .img-card-slide {
@@ -84,10 +84,10 @@
     max-width: 225px;
   }
   .slick-list {
-    height: 335px;
+    height: 350px;
   }
-}
-@media only screen and (max-width: 768px) {
+} */
+@media only screen and (max-width: 991px) {
   .cont-card-5abt {
     height: 255px !important;
     max-width: 220px !important;
@@ -97,6 +97,6 @@
     max-width: 316px;
   }
   .slick-list {
-    height: 265px;
+    height: 255px;
   }
 }
