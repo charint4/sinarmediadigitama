@@ -196,6 +196,17 @@
   background-position: center;
   padding-top: 80px;
 }
+.slick-dots li.slick-active button:before{
+  opacity: 100% !important;
+}
+.slick-dots li button:before
+{
+    font-family: 'slick';
+    font-size: 20px !important;
+    line-height: 30px !important;
+    color:#0e5579 !important;
+    padding-top: 10px !important;
+}
 @keyframes float {
   0% {
     transform: translatey(0px);
