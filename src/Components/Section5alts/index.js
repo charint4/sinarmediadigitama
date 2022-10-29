@@ -5,8 +5,10 @@ import Bhara from "../../Images/ourTeam/bhara.png";
 import LinkedIn from "../../Images/linkedin.png";
 import Slider from "react-slick";
 import Data from "./Data";
+import DataTitle from "./Data1.Js";
 
-const Section5alts = () => {
+const Section5alts = (props) => {
+  const { lang = "en" } = props;
   const settings = {
     dots: true,
     infinite: true,
@@ -42,41 +44,85 @@ const Section5alts = () => {
     ],
   };
 
+  const isEn = () => {
+    if (lang === "en") return true;
+  };
+
   return (
     <Container>
-      <div className="text d-flex flex-column sec5 text-center">
-        <h3 className="t1-s5 fw-bold fs-title">Meet Our Team</h3>
-        <h4 className="t2-s5 fs-20 fw-400 lh-30">
-          We are led by a group of highly motivated people with diverse
-          backgrounds and extensive experience to unlock creativity around every
-          corner.
-        </h4>
-      </div>
-      <Slider {...settings} className="mt-60">
-        {Data.map((data, index) => (
-          <div
-            className="d-flex flex-column align-items-center"
-            key={index + 1}
-          >
-            <div className="card-sec5">
-              <img src={data.image} className="rounded-4"></img>
-              <div className="p-3 card-sec5-desc">
-                <div className="d-flex justify-content-between align-items-center mb-3">
-                  <p className="mb-0">
-                    <b>{data.name}</b>
-                  </p>
-                  <a href={data.linkedin}>
-                    <img src={LinkedIn} alt="" className="rounded-1 linkedin" />
-                  </a>
-                </div>
-                <p className="role-text mb-0">
-                  <i>{data.role}</i>
-                </p>
-              </div>
-            </div>
+      {isEn() ? (
+        <>
+          <div className="text d-flex flex-column sec5 text-center">
+            <h3 className="t1-s5 fw-bold fs-title">{DataTitle[0].title}</h3>
+            <h4 className="t2-s5 fs-20 fw-400 lh-30">{DataTitle[0].desc}</h4>
           </div>
-        ))}
-      </Slider>
+          <Slider {...settings} className="mt-60">
+            {Data.map((data, index) => (
+              <div
+                className="d-flex flex-column align-items-center"
+                key={index + 1}
+              >
+                <div className="card-sec5">
+                  <img src={data.image} className="rounded-4"></img>
+                  <div className="p-3 card-sec5-desc">
+                    <div className="d-flex justify-content-between align-items-center mb-3">
+                      <p className="mb-0">
+                        <b>{data.name}</b>
+                      </p>
+                      <a href={data.linkedin}>
+                        <img
+                          src={LinkedIn}
+                          alt=""
+                          className="rounded-1 linkedin"
+                        />
+                      </a>
+                    </div>
+                    <p className="role-text mb-0">
+                      <i>{data.role}</i>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </Slider>
+        </>
+      ) : (
+        <>
+          <div className="text d-flex flex-column sec5 text-center">
+            <h3 className="t1-s5 fw-bold fs-title">{DataTitle[1].title}</h3>
+            <h4 className="t2-s5 fs-20 fw-400 lh-30">{DataTitle[1].desc}</h4>
+          </div>
+          <Slider {...settings} className="mt-60">
+            {Data.map((data, index) => (
+              <div
+                className="d-flex flex-column align-items-center"
+                key={index + 1}
+              >
+                <div className="card-sec5">
+                  <img src={data.image} className="rounded-4"></img>
+                  <div className="p-3 card-sec5-desc">
+                    <div className="d-flex justify-content-between align-items-center mb-3">
+                      <p className="mb-0">
+                        <b>{data.name}</b>
+                      </p>
+                      <a href={data.linkedin}>
+                        <img
+                          src={LinkedIn}
+                          alt=""
+                          className="rounded-1 linkedin"
+                        />
+                      </a>
+                    </div>
+                    <p className="role-text mb-0">
+                      <i>{data.role1}</i>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </Slider>
+        </>
+      )}
     </Container>
   );
 };
