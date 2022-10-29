@@ -244,9 +244,11 @@
 @media only screen and (max-width: 768px) {
   .slick-prev:before {
     margin-right: -50px !important;
+    display: none;
   }
   .slick-next:before {
     margin-left: -40px !important;
+    display: none;
   }
 }
 @media only screen and (max-width: 576px) {
