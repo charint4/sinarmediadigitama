@@ -8,7 +8,7 @@ import "../Navigation/nav.css";
 import Button from "react-bootstrap/Button";
 import { Link, useParams } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
-import Data from "./Data"
+import Data from "./Data";
 
 function BasicExample() {
   return (
@@ -20,7 +20,7 @@ function BasicExample() {
           </Link>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        {Data.map ((data, id) => (
+        {Data.map((data, id) => (
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto nav-btn">
               <Nav.Link>
@@ -29,13 +29,13 @@ function BasicExample() {
                 </Link>
               </Nav.Link>
               <Nav.Link>
-                <Link to="/AboutUs" className="nav-link">
-                {data.nav2}
+                <Link to="/AboutUs/en" className="nav-link">
+                  {data.nav2}
                 </Link>
               </Nav.Link>
               <Nav.Link>
                 <HashLink smooth to="/#section2" className="nav-link">
-                {data.nav3}
+                  {data.nav3}
                 </HashLink>
               </Nav.Link>
             </Nav>
@@ -46,7 +46,6 @@ function BasicExample() {
             </Nav>
           </Navbar.Collapse>
         ))}
-        
       </Container>
     </Navbar>
   );
