@@ -5,7 +5,8 @@ import Data from "./Data";
 import { Link } from "react-router-dom";
 import Slider from "react-slick";
 
-const Section2 = () => {
+const Section2 = (props) => {
+  const { lang = "en" } = props;
   const settings = {
     slidesToShow: 5,
     slidesToScroll: 5,
