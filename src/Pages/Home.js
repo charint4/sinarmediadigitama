@@ -11,8 +11,10 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import Sectionvid from "../Components/SectionVid";
 import Section5alts from "../Components/Section5alts";
+import { useParams } from "react-router-dom";
 
 const Home = () => {
+  const { lang } = new useParams();
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -43,16 +45,16 @@ const Home = () => {
         pauseOnHover={false}
       />
       <header className="App-header">
-        <Header />
+        <Header lang={lang} />
         <section className="sec-1-3">
-          <Section1 />
+          <Section1 lang={lang} />
           {/* <Sectionvid /> */}
-          <Section2 />
-          <Section3 />
-          <SectionMap />
+          <Section2 lang={lang} />
+          <Section3 lang={lang} />
+          <SectionMap lang={lang} />
           {/* <Section5 /> */}
-          <Section5alts />
-          <Section6 notify={handleNotify} />
+          <Section5alts lang={lang} />
+          <Section6 notify={handleNotify} lang={lang} />
         </section>
       </header>
     </div>
