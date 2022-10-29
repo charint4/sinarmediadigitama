@@ -8,8 +8,8 @@ import "slick-carousel/slick/slick-theme.css";
 const MultipleItems = (props) => {
   const { data } = props;
   const settings = {
-    slidesToShow: 2,
-    slidesToScroll: 1,
+    slidesToShow: 3,
+    slidesToScroll: 3,
     // autoplay: true,
     speed: 500,
     // autoplaySpeed: 2000,
@@ -20,19 +20,19 @@ const MultipleItems = (props) => {
     pauseOnHover: false,
     infinite: true,
     responsive: [
-      {
-        breakpoint: 991,
-        settings: {
-          slidesToShow: 2,
-        },
-      },
-      {
-        breakpoint: 360,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-        },
-      },
+      // {
+      //   breakpoint: 991,
+      //   settings: {
+      //     slidesToShow: 2,
+      //   },
+      // },
+      // {
+      //   breakpoint: 360,
+      //   settings: {
+      //     slidesToShow: 1,
+      //     slidesToScroll: 1,
+      //   },
+      // },
     ],
   };
 
@@ -44,7 +44,7 @@ const MultipleItems = (props) => {
           Your Brand Image is Our Priority
         </h3>
         {data.products.length < 4 ? (
-          <div className="d-flex overflow-scroll justify-content-center">
+          <div className="d-flex overflow-auto justify-content-center">
             {data.products.map((product, index) => (
               <Card
                 className="border border-light rounded-4 card p-2 mx-3"
