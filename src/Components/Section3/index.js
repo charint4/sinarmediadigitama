@@ -24,7 +24,8 @@ import client20 from "../../Images/webp/Rectangle-34.webp";
 import Slider from "react-slick";
 import Data from "./Data.js";
 
-const Section3 = () => {
+const Section3 = (props) => {
+  const { lang = "en" } = props;
   const settings = {
     slidesToShow: 3.5,
     slidesToScroll: 1,
@@ -48,108 +49,113 @@ const Section3 = () => {
   return (
     <>
       <Container>
-        {Data.map((data, index) => (
-          <div className="container-sec3" key={index}>
-            <h1>{data.head}</h1>
-            <h3>{data.subhead}</h3>
-            <div className="wrap-client p-3">
-              <div className="row cont-row-client">
-                <div className="col cont-sec3 mx-auto">
-                  <img className="img-client" src={client1}></img>
-                </div>
-                <div className="col cont-sec3">
-                  <img className="img-client" src={client2}></img>
-                </div>
-                <div className="col cont-sec3">
-                  <img className="img-client" src={client3}></img>
-                </div>
-                <div className="col cont-sec3">
-                  <img className="img-client" src={client4}></img>
-                </div>
-                <div className="col cont-sec3">
-                  <img className="img-client" src={client5}></img>
-                </div>
+        <div className="container-sec3">
+          {lang === "en" ? (
+            <>
+              <h1>{Data[0].head}</h1>
+              <h3>{Data[0].subhead}</h3>
+            </>
+          ) : (
+            <>
+              <h1>{Data[1].head}</h1>
+              <h3>{Data[1].subhead}</h3>
+            </>
+          )}
+          <div className="wrap-client p-3">
+            <div className="row cont-row-client">
+              <div className="col cont-sec3 mx-auto">
+                <img className="img-client" src={client1}></img>
               </div>
-              <div className="row cont-row-client">
-                <div className="col cont-sec3 mx-auto">
-                  <img className="img-client" src={client6}></img>
-                </div>
-                <div className="col cont-sec3">
-                  <img className="img-client" src={client7}></img>
-                </div>
-                <div className="col cont-sec3">
-                  <img className="img-client" src={client8}></img>
-                </div>
-                <div className="col cont-sec3">
-                  <img className="img-client" src={client9}></img>
-                </div>
-                <div className="col cont-sec3">
-                  <img className="img-client" src={client10}></img>
-                </div>
+              <div className="col cont-sec3">
+                <img className="img-client" src={client2}></img>
               </div>
-              <div className="row cont-row-client">
-                <div className="col cont-sec3 mx-auto">
-                  <img className="img-client" src={client11}></img>
-                </div>
-                <div className="col cont-sec3">
-                  <img className="img-client" src={client12}></img>
-                </div>
-                <div className="col cont-sec3">
-                  <img className="img-client" src={client13}></img>
-                </div>
-                <div className="col cont-sec3">
-                  <img className="img-client" src={client14}></img>
-                </div>
-                <div className="col cont-sec3">
-                  <img className="img-client" src={client15}></img>
-                </div>
+              <div className="col cont-sec3">
+                <img className="img-client" src={client3}></img>
               </div>
-              <div className="row cont-row-client">
-                <div className="col cont-sec3 mx-auto">
-                  <img className="img-client" src={client16}></img>
-                </div>
-                <div className="col cont-sec3">
-                  <img className="img-client" src={client17}></img>
-                </div>
-                <div className="col cont-sec3">
-                  <img className="img-client" src={client18}></img>
-                </div>
-                <div className="col cont-sec3">
-                  <img className="img-client" src={client19}></img>
-                </div>
-                <div className="col cont-sec3">
-                  <img className="img-client" src={client20}></img>
-                </div>
+              <div className="col cont-sec3">
+                <img className="img-client" src={client4}></img>
+              </div>
+              <div className="col cont-sec3">
+                <img className="img-client" src={client5}></img>
               </div>
             </div>
-            <div className="wrap-client-resp p-3">
-              {/* <div className="wrap-cont-row-client"> */}
-              <Slider {...settings} className="h-100">
-                <img className="img-client" src={client1}></img>
-                <img className="img-client" src={client2}></img>
-                <img className="img-client" src={client3}></img>
-                <img className="img-client" src={client4}></img>
-                <img className="img-client" src={client5}></img>
+            <div className="row cont-row-client">
+              <div className="col cont-sec3 mx-auto">
                 <img className="img-client" src={client6}></img>
+              </div>
+              <div className="col cont-sec3">
                 <img className="img-client" src={client7}></img>
+              </div>
+              <div className="col cont-sec3">
                 <img className="img-client" src={client8}></img>
+              </div>
+              <div className="col cont-sec3">
                 <img className="img-client" src={client9}></img>
+              </div>
+              <div className="col cont-sec3">
                 <img className="img-client" src={client10}></img>
+              </div>
+            </div>
+            <div className="row cont-row-client">
+              <div className="col cont-sec3 mx-auto">
                 <img className="img-client" src={client11}></img>
+              </div>
+              <div className="col cont-sec3">
                 <img className="img-client" src={client12}></img>
+              </div>
+              <div className="col cont-sec3">
                 <img className="img-client" src={client13}></img>
+              </div>
+              <div className="col cont-sec3">
                 <img className="img-client" src={client14}></img>
+              </div>
+              <div className="col cont-sec3">
                 <img className="img-client" src={client15}></img>
+              </div>
+            </div>
+            <div className="row cont-row-client">
+              <div className="col cont-sec3 mx-auto">
                 <img className="img-client" src={client16}></img>
+              </div>
+              <div className="col cont-sec3">
                 <img className="img-client" src={client17}></img>
+              </div>
+              <div className="col cont-sec3">
                 <img className="img-client" src={client18}></img>
+              </div>
+              <div className="col cont-sec3">
                 <img className="img-client" src={client19}></img>
+              </div>
+              <div className="col cont-sec3">
                 <img className="img-client" src={client20}></img>
-              </Slider>
-              {/* </div> */}
+              </div>
             </div>
           </div>
-        ))}
+          <div className="wrap-client-resp p-3">
+            <Slider {...settings} className="h-100">
+              <img className="img-client" src={client1}></img>
+              <img className="img-client" src={client2}></img>
+              <img className="img-client" src={client3}></img>
+              <img className="img-client" src={client4}></img>
+              <img className="img-client" src={client5}></img>
+              <img className="img-client" src={client6}></img>
+              <img className="img-client" src={client7}></img>
+              <img className="img-client" src={client8}></img>
+              <img className="img-client" src={client9}></img>
+              <img className="img-client" src={client10}></img>
+              <img className="img-client" src={client11}></img>
+              <img className="img-client" src={client12}></img>
+              <img className="img-client" src={client13}></img>
+              <img className="img-client" src={client14}></img>
+              <img className="img-client" src={client15}></img>
+              <img className="img-client" src={client16}></img>
+              <img className="img-client" src={client17}></img>
+              <img className="img-client" src={client18}></img>
+              <img className="img-client" src={client19}></img>
+              <img className="img-client" src={client20}></img>
+            </Slider>
+          </div>
+        </div>
       </Container>
     </>
   );
