@@ -9,12 +9,17 @@ import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import { Link, useParams } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
-import Data from "./Data";
 import { useContext } from "react";
 import langContext from "../../Context/languageContext";
+import Data from "./Data";
+import React, { useState } from "react";
+import BootstrapSwitchButton from "bootstrap-switch-button-react";
 
 function BasicExample() {
   const { lang, setLang } = useContext(langContext);
+  const onChange = () => {
+    lang === "en" ? setLang("id") : setLang("en");
+  };
   return (
     <Navbar bg="light" expand="lg" className="p-3 fixed-top">
       <Container>
@@ -43,10 +48,14 @@ function BasicExample() {
                 </HashLink>
               </Nav.Link>
               <Nav.Link>
-                <HashLink smooth to="/#section2" className="nav-link">
-                  <Form>
-                    <Form.Check type="switch" id="custom-switch" label="ENG" />
-                  </Form>
+                <HashLink smooth to="" className="nav-link">
+                  <BootstrapSwitchButton
+                    checked={lang === "en" ? false : true}
+                    size="xs"
+                    onlabel="ID"
+                    offlabel="ENG"
+                    onChange={onChange}
+                  />
                 </HashLink>
               </Nav.Link>
             </Nav>

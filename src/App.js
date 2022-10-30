@@ -10,7 +10,7 @@ import { createContext, useState } from "react";
 import langContext from "./Context/languageContext";
 
 function App() {
-  const [lang, setLang] = useState("id");
+  const [lang, setLang] = useState("en");
   const value = { lang, setLang };
 
   return (
