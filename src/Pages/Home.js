@@ -58,11 +58,6 @@ const Home = () => {
           {/* <Section5 /> */}
           <Section5alts lang={lang} />
           <Section6 notify={handleNotify} lang={lang} />
-          <button
-            onClick={() => (lang === "en" ? setLang("id") : setLang("en"))}
-          >
-            Switch lang (Current: {lang})
-          </button>
         </section>
       </header>
     </div>
