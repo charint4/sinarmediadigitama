@@ -5,7 +5,7 @@ import Button from "react-bootstrap/Button";
 import { HashLink } from "react-router-hash-link";
 
 const Header = (props) => {
-  const { data } = props;
+  const { data, lang = "en" } = props;
   return (
     <>
       <div
@@ -16,7 +16,7 @@ const Header = (props) => {
           <div className="row container-head">
             <div className="col-md-7 cont-heads">
               <h1>{data.name}</h1>
-              <h3>{data.texts}</h3>
+              <h3>{lang === "en" ? data.texts : data.texts1}</h3>
               <HashLink smooth to="/#section6">
                 <Button className="services-btn px-4">Contact Us</Button>{" "}
               </HashLink>

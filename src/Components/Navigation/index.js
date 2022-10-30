@@ -9,18 +9,16 @@ import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import { Link, useParams } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
-import Data from "./Data"
-import React, { useState } from 'react';
-import BootstrapSwitchButton from 'bootstrap-switch-button-react'
+import { useContext } from "react";
+import langContext from "../../Context/languageContext";
+import Data from "./Data";
+import React, { useState } from "react";
+import BootstrapSwitchButton from "bootstrap-switch-button-react";
 
 function BasicExample() {
-  // const [isSwitchOn, setIsSwitchOn] = useState(false);
-
-  // const onSwitchAction = () => {
-  //   setIsSwitchOn(!isSwitchOn);
-  // };
+  const { lang, setLang } = useContext(langContext);
   const onChange = () => {
-    console.log("onChange was called!");
+    lang === "en" ? setLang("id") : setLang("en");
   };
   return (
     <Navbar bg="light" expand="lg" className="p-3 fixed-top">
@@ -31,56 +29,79 @@ function BasicExample() {
           </Link>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        {Data.map ((data, id) => (
+        {lang === "en" ? (
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto nav-btn">
               <Nav.Link>
                 <Link to="/" className="nav-link">
-                  {data.nav1}
+                  {Data[0].nav1}
                 </Link>
               </Nav.Link>
               <Nav.Link>
                 <Link to="/AboutUs" className="nav-link">
-                {data.nav2}
+                  {Data[0].nav2}
                 </Link>
               </Nav.Link>
               <Nav.Link>
                 <HashLink smooth to="/#section2" className="nav-link">
-                {data.nav3}
+                  {Data[0].nav3}
                 </HashLink>
               </Nav.Link>
               <Nav.Link>
                 <HashLink smooth to="" className="nav-link">
-                  {/* <Form>
-                  <Form.Check 
-                      id="switch-1"
-                      type="switch"
-                      label="ENG"
-                      onChange={onChange}
-                    />
-                  </Form> */}
                   <BootstrapSwitchButton
-                      checked={false}
-                      size="xs"
-                      onlabel='ID'
-                      offlabel='ENG'
-                      // onChange={(checked: boolean) => {
-                      //     this.setState({ isUserAdmin: checked })
-                      // }}
-                      
+                    checked={lang === "en" ? false : true}
+                    size="xs"
+                    onlabel="ID"
+                    offlabel="ENG"
+                    onChange={onChange}
                   />
                 </HashLink>
               </Nav.Link>
-              
             </Nav>
             <Nav>
               <HashLink smooth to="/#section6">
-                <Button className="contact-btn px-4">{data.nav4}</Button>{" "}
+                <Button className="contact-btn px-4">{Data[0].nav4}</Button>{" "}
               </HashLink>
             </Nav>
           </Navbar.Collapse>
-        ))}
-        
+        ) : (
+          <Navbar.Collapse id="basic-navbar-nav">
+            <Nav className="me-auto nav-btn">
+              <Nav.Link>
+                <Link to="/" className="nav-link">
+                  {Data[1].nav1}
+                </Link>
+              </Nav.Link>
+              <Nav.Link>
+                <Link to="/AboutUs" className="nav-link">
+                  {Data[1].nav2}
+                </Link>
+              </Nav.Link>
+              <Nav.Link>
+                <HashLink smooth to="/#section2" className="nav-link">
+                  {Data[1].nav3}
+                </HashLink>
+              </Nav.Link>
+              <Nav.Link>
+                <HashLink smooth to="" className="nav-link">
+                  <BootstrapSwitchButton
+                    checked={lang === "en" ? false : true}
+                    size="xs"
+                    onlabel="ID"
+                    offlabel="ENG"
+                    onChange={onChange}
+                  />
+                </HashLink>
+              </Nav.Link>
+            </Nav>
+            <Nav>
+              <HashLink smooth to="/#section6">
+                <Button className="contact-btn px-4">{Data[1].nav4}</Button>{" "}
+              </HashLink>
+            </Nav>
+          </Navbar.Collapse>
+        )}
       </Container>
     </Navbar>
   );

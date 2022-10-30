@@ -2,28 +2,35 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Container from "react-bootstrap/Container";
 import "../Section1/section1.css";
 import Button from "react-bootstrap/Button";
-import Data from './Data.js'
+import Data from "./Data.js";
 
-const Section1 = () => {
+const Section1 = (props) => {
+  const { lang = "en" } = props;
+
   return (
     <>
       <Container>
-        {Data.map((data, index) => (
-          <div className="row container-sec1 bg-blur  p-5" key={index}>
-          <div className="col-md cont-sec1-left ">
-            <h1>{data.text1}</h1>
+        {lang === "en" ? (
+          <div className="row container-sec1 bg-blur  p-5">
+            <div className="col-md cont-sec1-left ">
+              <h1>{Data[0].text1}</h1>
+            </div>
+            <div className="col-md cont-sec1-right">
+              <h3>{Data[0].head}</h3>
+              <h3>{Data[0].subhead}</h3>
+            </div>
           </div>
-          <div className="col-md cont-sec1-right">
-            <h3>
-            {data.head}
-            </h3>
-            <h3>
-            {data.subhead}
-            </h3>
+        ) : (
+          <div className="row container-sec1 bg-blur  p-5">
+            <div className="col-md cont-sec1-left ">
+              <h1>{Data[1].text1}</h1>
+            </div>
+            <div className="col-md cont-sec1-right">
+              <h3>{Data[1].head}</h3>
+              <h3>{Data[1].subhead}</h3>
+            </div>
           </div>
-        </div>
-        ))}
-        
+        )}
       </Container>
     </>
   );

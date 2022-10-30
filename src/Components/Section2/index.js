@@ -2,10 +2,12 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Container from "react-bootstrap/Container";
 import "../Section2/section2.css";
 import Data from "./Data";
+import DataTitle from "./DataTitle";
 import { Link } from "react-router-dom";
 import Slider from "react-slick";
 
-const Section2 = () => {
+const Section2 = (props) => {
+  const { lang = "en" } = props;
   const settings = {
     slidesToShow: 5,
     slidesToScroll: 5,
@@ -72,8 +74,8 @@ const Section2 = () => {
       <div id="section2"></div>
       <Container>
         <div className="container-sec2">
-          <h1>Our Services</h1>
-          <h3>We take your brand's image as our priority</h3>
+          <h1>{lang === "en" ? DataTitle[0].title : DataTitle[1].title}</h1>
+          <h3>{DataTitle[0].desc}</h3>
           <Slider {...settings}>
             {Data.map((data, index) => (
               <div
