@@ -12,9 +12,12 @@ import "react-toastify/dist/ReactToastify.css";
 import Sectionvid from "../Components/SectionVid";
 import Section5alts from "../Components/Section5alts";
 import { useParams } from "react-router-dom";
+import { useState } from "react";
+import { useContext } from "react";
+import langContext from "../Context/languageContext";
 
 const Home = () => {
-  const { lang } = new useParams();
+  const { lang, setLang } = useContext(langContext);
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -55,6 +58,11 @@ const Home = () => {
           {/* <Section5 /> */}
           <Section5alts lang={lang} />
           <Section6 notify={handleNotify} lang={lang} />
+          <button
+            onClick={() => (lang === "en" ? setLang("id") : setLang("en"))}
+          >
+            Switch lang (Current: {lang})
+          </button>
         </section>
       </header>
     </div>

@@ -6,11 +6,14 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 import Logo from "../../Images/webp/smd-logo.webp";
 import "../Navigation/nav.css";
 import Button from "react-bootstrap/Button";
-import { Link, useParams } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 import Data from "./Data";
+import { useContext } from "react";
+import langContext from "../../Context/languageContext";
 
 function BasicExample() {
+  const { lang, setLang } = useContext(langContext);
   return (
     <Navbar bg="light" expand="lg" className="p-3 fixed-top">
       <Container>
