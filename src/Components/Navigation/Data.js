@@ -5,4 +5,10 @@ export default [
     nav3: "Services",
     nav4: "Contact Us",
   },
+  {
+    nav1: "Beranda",
+    nav2: "Tentang Kami",
+    nav3: "Services",
+    nav4: "Hubungi Kami",
+  },
 ];
