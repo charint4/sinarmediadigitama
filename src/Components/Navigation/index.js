@@ -6,12 +6,8 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 import Logo from "../../Images/webp/smd-logo.webp";
 import "../Navigation/nav.css";
 import Button from "react-bootstrap/Button";
-<<<<<<< HEAD
-import { Link } from "react-router-dom";
-=======
 import Form from "react-bootstrap/Form";
 import { Link, useParams } from "react-router-dom";
->>>>>>> 11213319ef6b17d80edd22e77e2d980b574d1788
 import { HashLink } from "react-router-hash-link";
 import Data from "./Data";
 import { useContext } from "react";
@@ -49,15 +45,10 @@ function BasicExample() {
               <Nav.Link>
                 <HashLink smooth to="/#section2" className="nav-link">
                   <Form>
-                  <Form.Check 
-                      type="switch"
-                      id="custom-switch"
-                      label="ENG"
-                    />
+                    <Form.Check type="switch" id="custom-switch" label="ENG" />
                   </Form>
                 </HashLink>
               </Nav.Link>
-              
             </Nav>
             <Nav>
               <HashLink smooth to="/#section6">
