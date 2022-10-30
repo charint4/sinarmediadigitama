@@ -10,8 +10,18 @@ import Form from "react-bootstrap/Form";
 import { Link, useParams } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 import Data from "./Data"
+import React, { useState } from 'react';
+import BootstrapSwitchButton from 'bootstrap-switch-button-react'
 
 function BasicExample() {
+  // const [isSwitchOn, setIsSwitchOn] = useState(false);
+
+  // const onSwitchAction = () => {
+  //   setIsSwitchOn(!isSwitchOn);
+  // };
+  const onChange = () => {
+    console.log("onChange was called!");
+  };
   return (
     <Navbar bg="light" expand="lg" className="p-3 fixed-top">
       <Container>
@@ -40,14 +50,25 @@ function BasicExample() {
                 </HashLink>
               </Nav.Link>
               <Nav.Link>
-                <HashLink smooth to="/#section2" className="nav-link">
-                  <Form>
+                <HashLink smooth to="" className="nav-link">
+                  {/* <Form>
                   <Form.Check 
+                      id="switch-1"
                       type="switch"
-                      id="custom-switch"
                       label="ENG"
+                      onChange={onChange}
                     />
-                  </Form>
+                  </Form> */}
+                  <BootstrapSwitchButton
+                      checked={false}
+                      size="xs"
+                      onlabel='ID'
+                      offlabel='ENG'
+                      // onChange={(checked: boolean) => {
+                      //     this.setState({ isUserAdmin: checked })
+                      // }}
+                      
+                  />
                 </HashLink>
               </Nav.Link>
               
