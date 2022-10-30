@@ -6,7 +6,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 const MultipleItems = (props) => {
-  const { data } = props;
+  const { data, lang = "en" } = props;
   const settings = {
     slidesToShow: 3,
     slidesToScroll: 3,

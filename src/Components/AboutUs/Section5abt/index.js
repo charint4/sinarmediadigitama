@@ -6,7 +6,8 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Data from "./Data";
 
-const Secslide = () => {
+const Secslide = (props) => {
+  const { lang } = props;
   const settings = {
     slidesToShow: 3,
     slidesToScroll: 3,
@@ -49,7 +50,9 @@ const Secslide = () => {
   return (
     <Container>
       <div className="mt-120 wrap-abt-slide">
-        <h1 className="text-center">Our Facilities</h1>
+        <h1 className="text-center">
+          {lang === "en" ? "Our Facilities" : "Fasilitas Kami"}
+        </h1>
         <Slider {...settings} className="carousel-abt-slide ">
           {/* <div
           className="carousel-abt-slide d-flex flex-row flex-nowrap overflow-auto py-2"
