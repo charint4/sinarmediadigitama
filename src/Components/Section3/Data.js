@@ -4,7 +4,7 @@ export default [
     subhead: "Finest Client",
   },
   {
-    head: "Klien Top kami",
-    subhead: "Klien Terbaik",
+    head: "Top Klien Kami",
+    subhead: "Finest Client",
   },
 ];

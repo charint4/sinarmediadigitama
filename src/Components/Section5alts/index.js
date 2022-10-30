@@ -5,7 +5,7 @@ import Bhara from "../../Images/ourTeam/bhara.png";
 import LinkedIn from "../../Images/linkedin.png";
 import Slider from "react-slick";
 import Data from "./Data";
-import DataTitle from "./Data1.Js";
+import Data1 from "./Data1";
 
 const Section5alts = (props) => {
   const { lang = "en" } = props;
@@ -47,14 +47,13 @@ const Section5alts = (props) => {
   const isEn = () => {
     if (lang === "en") return true;
   };
-
   return (
     <Container>
       {isEn() ? (
         <>
           <div className="text d-flex flex-column sec5 text-center">
-            <h3 className="t1-s5 fw-bold fs-title">{DataTitle[0].title}</h3>
-            <h4 className="t2-s5 fs-20 fw-400 lh-30">{DataTitle[0].desc}</h4>
+            <h3 className="t1-s5 fw-bold fs-title">{Data1[0].title}</h3>
+            <h4 className="t2-s5 fs-20 fw-400 lh-30">{Data1[0].desc}</h4>
           </div>
           <Slider {...settings} className="mt-60">
             {Data.map((data, index) => (
@@ -89,8 +88,8 @@ const Section5alts = (props) => {
       ) : (
         <>
           <div className="text d-flex flex-column sec5 text-center">
-            <h3 className="t1-s5 fw-bold fs-title">{DataTitle[1].title}</h3>
-            <h4 className="t2-s5 fs-20 fw-400 lh-30">{DataTitle[1].desc}</h4>
+            <h3 className="t1-s5 fw-bold fs-title">{Data1[1].title}</h3>
+            <h4 className="t2-s5 fs-20 fw-400 lh-30">{Data1[1].desc}</h4>
           </div>
           <Slider {...settings} className="mt-60">
             {Data.map((data, index) => (

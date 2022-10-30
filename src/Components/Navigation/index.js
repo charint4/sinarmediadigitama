@@ -33,7 +33,7 @@ function BasicExample() {
                 </Link>
               </Nav.Link>
               <Nav.Link>
-                <Link to="/AboutUs/en" className="nav-link">
+                <Link to="/AboutUs" className="nav-link">
                   {data.nav2}
                 </Link>
               </Nav.Link>

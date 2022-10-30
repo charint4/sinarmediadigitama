@@ -10,7 +10,7 @@ import { createContext, useState } from "react";
 import langContext from "./Context/languageContext";
 
 function App() {
-  const [lang, setLang] = useState("en");
+  const [lang, setLang] = useState("id");
   const value = { lang, setLang };
 
   return (
@@ -20,10 +20,7 @@ function App() {
           <Navigation />
           <Switch>
             <Route path="/" component={Home} exact />
-            <Route path="/:lang" component={Home} exact>
-              <Home />
-            </Route>
-            <Route path="/AboutUs/:lang" component={AboutUs} exact />
+            <Route path="/AboutUs" component={AboutUs} exact />
             <Route path="/Service/:title/:id" component={Services} exact />
             {/* <Route component={Error} /> */}
           </Switch>

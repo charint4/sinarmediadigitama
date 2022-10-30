@@ -10,8 +10,8 @@ export default [
     text6: "Send message",
   },
   {
-    head: "Perusahaan Anda akan pergi ke berbagai tempat, namun Anda dapat tetap berada di bawah atap kami",
-    subhead: "Beritahu kami kebutuhan Anda!",
+    head: "Your company will go places, yet you can stay under our roof",
+    subhead: "Tell us your needs!",
     text1: "Kirimi kami pesan",
     text2: "Nama",
     text3: "Email",
