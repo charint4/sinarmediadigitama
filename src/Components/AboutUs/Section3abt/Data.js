@@ -13,8 +13,8 @@ export default [
       "Our experience in the advertising industry has helped brands attain larger and more targeted audiences. We understand what the audience desires to convey a unique brand.",
   },
   {
-    head: "Why Us?",
-    subhead: "What makes us different?",
+    head: "Kenapa Kami?",
+    subhead: "Apa yang buat kami berbeda?",
     first: "One stop service",
     second:
       "Solusi One Stop Marketing muncul dari keinginan kami untuk menjadi agency pemasaran yang komprehensif dengan memberikan hasil yang memuaskan kepada klien kami, terlepas dari layanan yang dibutuhkan.",

@@ -4,7 +4,7 @@ export default [
     desc: "Your Brand image is our priority",
   },
   {
-    title: "Service Kami",
+    title: "Layanan Kami",
     desc: "We take your brand's image as our priority",
   },
 ];
