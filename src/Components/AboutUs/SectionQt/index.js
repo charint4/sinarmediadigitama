@@ -1,15 +1,19 @@
 import React from "react";
 import Data from "./Data";
 
-const SectionQt = () => {
+const SectionQt = (props) => {
+  const { lang = "en" } = props;
+
   return (
     <>
-      {Data.map((data, index) => (
-        <div className="bg-navy py-150 text-center">
-          <h2 className="fw-bold fs-sm-title">{data.head}</h2>
-          <h2 className="fw-bold fs-big quote">{data.subhead}</h2>
-        </div>
-      ))}
+      <div className="bg-navy py-150 text-center">
+        <h2 className="fw-bold fs-sm-title">
+          {lang === "en" ? Data[0].head : Data[1].head}
+        </h2>
+        <h2 className="fw-bold fs-big quote">
+          {lang === "en" ? Data[0].subhead : Data[1].subhead}
+        </h2>
+      </div>
     </>
   );
 };
