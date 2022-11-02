@@ -7,7 +7,7 @@ import "slick-carousel/slick/slick-theme.css";
 import Data from "./Data";
 
 const Secslide = (props) => {
-  const { lang } = props;
+  const { lang = "en" } = props;
   const settings = {
     slidesToShow: 3,
     slidesToScroll: 3,
@@ -74,7 +74,7 @@ const Secslide = (props) => {
                 <Card.Body>
                   <Card.Title>
                     <h5 className="fw-bold fs-16 fw-400 color-gray font-fac">
-                      {data.name}
+                      {lang === "en" ? data.name : data.nameId}
                     </h5>
                   </Card.Title>
                 </Card.Body>
