@@ -60,7 +60,7 @@ const Home = () => {
           {/* <Section5 /> */}
           <Section5alts lang={lang} />
           <SectionBlog />
-          <SectionIg />
+          {/* <SectionIg /> */}
           <Section6 notify={handleNotify} lang={lang} />
         </section>
       </header>
