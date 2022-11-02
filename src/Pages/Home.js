@@ -16,6 +16,7 @@ import { useState } from "react";
 import { useContext } from "react";
 import langContext from "../Context/languageContext";
 import SectionBlog from "../Components/SectionBlog";
+import SectionIg from "../Components/SectionIg";
 
 const Home = () => {
   const { lang, setLang } = useContext(langContext);
@@ -59,6 +60,7 @@ const Home = () => {
           {/* <Section5 /> */}
           <Section5alts lang={lang} />
           <SectionBlog />
+          <SectionIg />
           <Section6 notify={handleNotify} lang={lang} />
         </section>
       </header>
