@@ -15,6 +15,7 @@ import { useParams } from "react-router-dom";
 import { useState } from "react";
 import { useContext } from "react";
 import langContext from "../Context/languageContext";
+import SectionBlog from "../Components/SectionBlog";
 
 const Home = () => {
   const { lang, setLang } = useContext(langContext);
@@ -57,6 +58,7 @@ const Home = () => {
           <SectionMap lang={lang} />
           {/* <Section5 /> */}
           <Section5alts lang={lang} />
+          <SectionBlog />
           <Section6 notify={handleNotify} lang={lang} />
         </section>
       </header>
