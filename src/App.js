@@ -8,6 +8,7 @@ import Footer from "./Components/Footer";
 import Floatbtn from "./Components/Floatbtn";
 import { createContext, useState } from "react";
 import langContext from "./Context/languageContext";
+import SectionBlog from "./Components/SectionBlog";
 
 function App() {
   const [lang, setLang] = useState("en");
@@ -22,6 +23,7 @@ function App() {
             <Route path="/" component={Home} exact />
             <Route path="/AboutUs" component={AboutUs} exact />
             <Route path="/Service/:title/:id" component={Services} exact />
+            <Route path="/Blog/:title/:id" component={SectionBlog} exact />
             {/* <Route component={Error} /> */}
           </Switch>
           <Floatbtn />
