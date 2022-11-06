@@ -23,18 +23,28 @@ const Home = () => {
     window.scrollTo(0, 0);
   }, []);
 
-  const handleNotify = () =>
-    toast.success("Email sent!", {
-      position: "top-right",
-      autoClose: 5000,
-      hideProgressBar: false,
-      closeOnClick: true,
-      pauseOnHover: false,
-      draggable: true,
-      progress: undefined,
-      theme: "colored",
-    });
-
+  const handleNotify = (result) =>
+    result.status === 200
+      ? toast.success("Email sent!", {
+          position: "top-right",
+          autoClose: 5000,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: false,
+          draggable: true,
+          progress: undefined,
+          theme: "colored",
+        })
+      : toast.error("Error sending email!", {
+          position: "top-right",
+          autoClose: 5000,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: false,
+          draggable: true,
+          progress: undefined,
+          theme: "colored",
+        });
   return (
     <div className="Home">
       <ToastContainer

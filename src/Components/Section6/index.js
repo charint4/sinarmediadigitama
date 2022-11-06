@@ -13,18 +13,17 @@ const Section6 = ({ notify, lang = "en" }) => {
 
     emailjs
       .sendForm(
-        "service_p63fjrf",
-        "template_ph5k4gc",
+        process.env.REACT_APP_EMAIL_JS_SERVICE_ID,
+        process.env.REACT_APP_EMAIL_JS_TEMPLATE_ID,
         form.current,
-        "L_x8LbXR3EiFWi0bQ"
+        process.env.REACT_APP_EMAIL_JS_API_KEY
       )
       .then(
         (result) => {
-          console.log(result.text);
-          notify();
+          notify(result);
         },
         (error) => {
-          console.log(error.text);
+          notify(error);
         }
       );
   };
