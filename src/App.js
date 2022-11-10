@@ -3,6 +3,7 @@ import Home from "./Pages/Home";
 import Navigation from "./Components/Navigation";
 import AboutUs from "./Pages/AboutUs";
 import Services from "./Pages/Services";
+import Blog from "./Pages/Blog"
 import { BrowserRouter, Route, Switch, useParams } from "react-router-dom";
 import Footer from "./Components/Footer";
 import Floatbtn from "./Components/Floatbtn";
@@ -23,7 +24,7 @@ function App() {
             <Route path="/" component={Home} exact />
             <Route path="/AboutUs" component={AboutUs} exact />
             <Route path="/Service/:title/:id" component={Services} exact />
-            <Route path="/Blog/:title/:id" component={SectionBlog} exact />
+            <Route path="/Blog/:title/:id" component={Blog} exact />
             {/* <Route component={Error} /> */}
           </Switch>
           <Floatbtn />
