@@ -41,8 +41,8 @@
 }
 .cont-row-client {
   margin-top: 40px;
-  margin-left: auto;
-  margin-right: auto;
+  /* margin-left: auto;
+  margin-right: auto; */
 }
 @media only screen and (max-width: 767px) {
   .wrap-client {

@@ -1,4 +1,4 @@
-import Hashtag from "./../../Images/webp/hashtag.webp"
+import Hashtag from "./../../../Images/webp/hashtag.webp"
 
 export default [
     {

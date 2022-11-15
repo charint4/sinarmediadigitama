@@ -154,6 +154,23 @@ const Section3 = (props) => {
                 <img className="img-client" src={client25}></img>
               </div>
             </div>
+            <div className="row cont-row-client">
+              <div className="col cont-sec3">
+                <img className="img-client" src={client26}></img>
+              </div>
+              <div className="col cont-sec3">
+                <img className="img-client" src={client27}></img>
+              </div>
+              <div className="col cont-sec3">
+                {/* <img className="img-client" src={}></img> */}
+              </div>
+              <div className="col cont-sec3">
+                {/* <img className="img-client" src={}></img> */}
+              </div>
+              <div className="col cont-sec3">
+                {/* <img className="img-client" src={}></img> */}
+              </div>
+            </div>
           </div>
           <div className="wrap-client-resp p-3">
             <Slider {...settings} className="h-100">

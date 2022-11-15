@@ -48,6 +48,11 @@ function BasicExample() {
                 </HashLink>
               </Nav.Link>
               <Nav.Link>
+                <HashLink smooth to="/Blog" className="nav-link">
+                  {Data[0].nav5}
+                </HashLink>
+              </Nav.Link>
+              <Nav.Link>
                 <HashLink smooth to="" className="nav-link">
                   <BootstrapSwitchButton
                     checked={lang === "en" ? false : true}
