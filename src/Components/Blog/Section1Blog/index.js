@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import { Container } from 'react-bootstrap'
 import "./Section1blog.css"
 import Data from "./Data.js"
@@ -7,6 +7,10 @@ import { Link } from "react-router-dom";
 // const Section1Blog = (props) => {
 //     const {data} = props
 const Section1Blog = (props) => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   const { lang = "en" } = props;
   return (
     <Container>

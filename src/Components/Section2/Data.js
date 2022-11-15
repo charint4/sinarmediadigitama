@@ -51,7 +51,7 @@ export default [
     textsId: "Skala Nasional",
     quotes: "read more",
     description:
-      "We understand that choosing the right strategy to promote your brand is pivotal. We can assist you in selecting the best advertisement placements to increase your visibility within your budget. Our multiple OOH platforms provide nationwide coverage for brands looking to advertise in city areas and generate high traffic through our advertising platforms.",
+      "We understand how crucial it is to select the best plan for promoting your business. We can help you choose the most efficient advertising placements within your price range to boost your exposure. For brands wishing to advertise in urban locations and drive significant traffic through our advertising platforms, our many OOH platforms offer nationwide coverage.",
     descriptionId:
       "Kami memahami bahwa memilih strategi yang tepat untuk mempromosikan sebuah brand merupakan hal yang sangat penting. Kami dapat bantu memilih penempatan iklan terbaik untuk meningkatkan visibilitas iklan sesuai kebutuhanmu. Platform OOH kami mencakup skala nasional untuk brand yang ingin beriklan di wilayah kota yang menghasilkan angka traffic tinggi melalui platform OOH kami.",
     ava2: oohSweety,
@@ -74,7 +74,7 @@ export default [
     textId: "Paper, Woods, Acrylic, Metal based",
     quotes: "read more",
     description:
-      "We assist companies in creating versions of promotional materials that effectively communicate the product's USP to consumers. The main goal is to raise awareness of the product, draw customers in, and persuade them to purchase it over the competition.",
+      "We help businesses produce variants of promotional materials that successfully convey the product's USP to customers. The fundamental objective is to increase consumer awareness of the product, attract them in, and convince them to choose it above the competitors.",
     descriptionId:
       "Kami membantu klien dalam membuat materi promosi yang dapat secara efektif mengkomunikasikan unique selling point produk kepada konsumen. Tujuan utamanya adalah untuk meningkatkan kesadaran akan produk, menarik konsumen, dan mengajak mereka untuk membeli.",
     ava2: promUnit2,
@@ -157,7 +157,7 @@ export default [
     textId: "Offset, Screen Print, and Digital Print",
     quotes: "read more",
     description:
-      "The essence of the contents is equally as vital as the printing. Our creative team, composed of several talented individuals, will support the brand with any ideas in copywriting, graphic design, editing, and web development. In addition, various printing devices are prepared to print all the documents and make your brand stand out in the crowd.",
+      "The content's core is just as important as the printing. Our expert creative team will support the brand with any copywriting, graphic design, editing, and web development suggestions. Additionally, a number of printing machines are ready to print all the documents and help your business stand out from the competition.",
     descriptionId:
       "Inti dari sebuah konten sama pentingnya dengan pencetakan. Tim kreatif kami, yang terdiri dari beberapa individu berbakat, akan mendukung brand dengan ide kreatif copywriting, desain grafis, pengeditan, dan pengembangan web. Selain itu, berbagai perangkat pencetakan disiapkan untuk mencetak semua dokumen untuk membuat brand lebih menonjol.",
     ava2: printMat2,
@@ -171,21 +171,21 @@ export default [
     textsId: "Indoor, Outdoor, and Digital events",
     quotes: "read more",
     description:
-      "Offering an intimate and engaging atmosphere with your loyal and potential consumers can be created through events. Events provide an opportunity to make a lasting impression through direct interaction between your brand and consumers. A successful event can strengthen positive relationships between clients, prospects, consumers, and employees. We can deliver product launches and corporate, business, and social events to help your brand shine.",
+      "Events may be used to create a personal and engaging environment with your current and new customers. Through direct engagement between your business and customers at events, you may also leave a lasting impact. A successful event can build strong bonds between customers, potential customers, consumers, and the business itself. We can deliver product launches as well as corporate, business, and social events to make your brand shine and stand out.",
     descriptionId:
       "Memberikan suasana yang intim dan menarik bersamaan dengan konsumen setia dan konsumen potensial dapat diciptakan melalui bentuk acara. Sebuah acara dapat memberikan peluang untuk melantarkan kesan abadi melalui interaksi langsung dengan konsumen. Acara yang sukses dapat memperkuat hubungan positif antara klien, prospek, konsumen, dan karyawan. Kami dapat memberikan peluncuran produk dan acara perusahaan, bisnis, dan sosial untuk membantu brand bersinar.",
     ava2: evEnt2,
     products: [],
   },
   {
-    name: "Influencer",
+    name: "Talent, KOL & Influencer Management ",
     cover: inFluec,
     ava: inFlue,
     texts: "Bringing you the best brand deals",
     textsId: "Bringing you the best brand deals",
     quotes: "read more",
     description:
-      "The power of word of mouth can influence consumer behavior and engagement in their purchase. Today, most buying behavior and brand awareness are driven by influencers. Therefore, it's critical to find influencers that fit your needs. We can help you find the best Talent, KOLs, and Influencers for your advertising campaign. Not only do we find the best, but we also help you manage the talents and ensure the highest quality of all outputs.",
+      "The effectiveness of word-of-mouth marketing can affect how consumers behave and how involved they are in the purchasing process. Influencers now control the majority of consumer behaviour and brand awareness. Finding influencers who match your needs is therefore important. For any marketing campaign, we can assist you in locating the top talent, KOLs, and influencers. We don't just recruit the best; we also assist you in managing the talent and ensuring the highest quality of all outputs.",
     descriptionId:
       "Kekuatan word of mouth  dapat mempengaruhi perilaku konsumen dan keterlibatan mereka dalam aktivitas pembelian. Saat ini, sebagian besar perilaku berbelanja dan kesadaran brand didorong oleh influencer. Oleh karena itu, penting untuk menemukan influencer yang sesuai dengan kebutuhanmu. Kami dapat membantu menemukan Talent, KOL, dan Influencer terbaik untuk kampanye iklanmu. Kami tidak hanya menemukan yang terbaik, tetapi kami juga akan membantu mengelola mereka dan memastikan kualitas tertinggi dari semua output yang dihasilkan",
     ava2: inFlue2,
@@ -201,7 +201,7 @@ export default [
       "We support brands to increase their brand awareness on a social media platform",
     quotes: "read more",
     description:
-      "Creative content is a fundamental asset in communicating brand awareness to your audience. In addition, crafting creative content increases audience trust and conversions across all channels. Our services will help you navigate the three phases of social media management: strategic planning, post & content management, and monitoring & reporting.",
+      "A crucial component of spreading brand awareness to your audience at the moment is having innovative content. Creating engaging content also boosts audience trust and conversions across all media. Our services will guide you through the three stages of managing social media: strategy planning, post and content management, monitoring and reporting.",
     descriptionId:
       "Konten kreatif adalah aset mendasar dalam mengkomunikasikan kesadaran brand kepada audiens. Selain itu, membuat konten kreatif dapat meningkatkan kepercayaan dan konversi audiens pada semua channel. Layanan kami akan membantu menavigasi tiga fase manajemen media sosial: perencanaan strategis, manajemen konten, dan pemantauan & pelaporan.",
     ava2: soCial2,

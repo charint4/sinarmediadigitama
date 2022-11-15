@@ -29,7 +29,7 @@ const index = (props) => {
             </div>
             <div className="row gap-72 mb-80 wrap-timeline row-tl">
               <div className="col-md disp-none"></div>
-              <div className="col-md bg-blur rounded-4 py-3 border-left">
+              <div className="col-md bg-blur rounded-4 py-3 border-left wrap-boxd">
                 <h2 className="fw-bold fs-sm-title">2011</h2>
                 <h4 className="fs-15 fw-400 lh-28">{Data[0].second}</h4>
               </div>
@@ -46,6 +46,7 @@ const index = (props) => {
               <div className="col-md bg-blur py-3 border-left rounded-4 wrap-boxd">
                 <h2 className="fw-bold fs-sm-title">2022 - {Data[0].onw}</h2>
                 <h4 className="fs-15 fw-400 lh-28">{Data[0].fourth}</h4>
+                <h4 className="fs-15 fw-400 lh-28">{Data[0].fifth}</h4>
                 <div className="wrap-img-tl">
                   <img src={logoSMS} width="110" alt="tllogo" />
                   <img src={logoSMD} alt="tllogo" />

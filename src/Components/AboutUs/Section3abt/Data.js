@@ -4,13 +4,13 @@ export default [
     subhead: "What makes us different?",
     first: "One stop service",
     second:
-      "One Stop Marketing Solutions arose from our desire to be a comprehensive marketing agency that delivers cohesive results to our clients, regardless of the service you need.",
+      "No matter what kind of service you require, One Stop Marketing Solutions was born out of our ambition to be a full-service marketing company that gives our clients consistent results.",
     third: "360 Approach",
     fourth:
-      "Choosing the best placement for your ad is crucial for your brand and product. Successful ad placement will elevate your brand awareness and visibility. Allow us to assist you in choosing the best option for your marketing strategy.",
+      "It's critical for your business and product that you pick the right 360-advertising strategy and planning. Your brand will become more well-known and visible as a result of effective advertising placement. Give us a chance to help you decide which option will work best for your marketing plan.",
     fifth: "Years of Experiences",
     sixth:
-      "Our experience in the advertising industry has helped brands attain larger and more targeted audiences. We understand what the audience desires to convey a unique brand.",
+      "Our expertise in the advertising sector has helped brands in reaching more specific and sizeable audiences. We are aware of what the audience needs to feel connected with a specific brand.",
   },
   {
     head: "Kenapa Kami?",

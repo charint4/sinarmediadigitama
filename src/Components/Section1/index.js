@@ -18,6 +18,7 @@ const Section1 = (props) => {
             <div className="col-md cont-sec1-right">
               <h3>{Data[0].head}</h3>
               <h3>{Data[0].subhead}</h3>
+              <h3>{Data[0].trihead}</h3>
             </div>
           </div>
         ) : (
