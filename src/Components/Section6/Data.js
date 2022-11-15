@@ -8,6 +8,7 @@ export default [
     text4: "Subject",
     text5: "Message",
     text6: "Send message",
+    text7: "send attachment through our whatsapp"
   },
   {
     head: "Your company will go places, yet you can stay under our roof",
@@ -18,5 +19,6 @@ export default [
     text4: "Subjek",
     text5: "Pesan",
     text6: "Kirim Pesan",
+    text7: "Kirim gambar melalui whatsapp kami"
   },
 ];

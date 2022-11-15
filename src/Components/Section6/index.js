@@ -101,6 +101,7 @@ const Section6 = ({ notify, lang = "en" }) => {
                   name="user_message"
                 />
               </Form.Group>
+              <h3 className="disc">*{Data[0].text7}</h3>
               <Button
                 variant="primary"
                 type="submit"
@@ -180,6 +181,7 @@ const Section6 = ({ notify, lang = "en" }) => {
                   name="user_message"
                 />
               </Form.Group>
+              <h3 className="disc">*{Data[1].text7}</h3>
               <Button
                 variant="primary"
                 type="submit"
