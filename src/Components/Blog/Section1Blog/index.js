@@ -16,10 +16,10 @@ const Section1Blog = (props) => {
     <Container>
         <div className="section-blg">
             <h1 className="fs-title fw-bold">Blog</h1>
-            <h4 className="fw-400 fs-20">Read Our Blog</h4>
+            <h4 className="fw-400 fs-20 mb-60">Read Our Blog</h4>
             <div className='outer-wrap-blog'>
             {Data.map((data,index) => (
-                <div className="wrap-card-blog rounded-5 mt-60" key={index}>
+                <div className="wrap-card-blog rounded-5" key={index}>
                     <div className="card-blog">
                         <img className="" src={data.img}></img>
                         <div className="cont-blog bg-blur">

@@ -9,7 +9,7 @@
 .outer-wrap-blog {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
+    gap: 40px;
     /* max-width: 400px; */
     /* width: auto; */
 }
