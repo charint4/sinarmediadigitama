@@ -100,7 +100,14 @@
 .mb-80 {
   margin-bottom: 80px;
 }
-
+.bg-blg {
+  background-image: url(./Images/Detailedserv.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
 .bg-blur {
   background: linear-gradient(
     180deg,

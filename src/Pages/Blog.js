@@ -15,13 +15,16 @@ const Services = () => {
 
   return (
     <>
+    <div className="bg-blg">
+      <Section1Blog />
+    </div>
       {/* <Header className="" data={Data[id]} lang={lang} />
       <div className="wrap-sec13-serv">
         <Section1serv data={Data[id]} lang={lang} />
         <Section3serv data={Data[id]} lang={lang} />
       </div> */}
       {/* <Section1Blog data={Data[id]}/> */}
-      <Section1Blog />
+      
     </>
   );
 };
