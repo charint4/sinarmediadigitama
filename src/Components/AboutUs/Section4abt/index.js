@@ -5,6 +5,7 @@ import Groups from "../../../Images/webp/groups.webp";
 import Vector from "../../../Images/webp/Vector.webp";
 import Section5 from "../../Section5";
 import Data from "./Data";
+import CountUp from 'react-countup';
 
 const index = (props) => {
   const { lang = "en" } = props;
@@ -19,13 +20,11 @@ const index = (props) => {
           <div className="row wrap-cont-abt4 justify-content-center">
             <div className="col-md bg-blur cont-abt4 text-center p-4 align-items-center">
               <img src={Vector}></img>
-              <h2>50+</h2>
+              <h2>
+                <CountUp start={0} end={1500}  duration={5.75}/>
+                +
+              </h2>
               <h2>{Data[0].first}</h2>
-            </div>
-            <div className="col-md bg-blur cont-abt4 text-center p-4">
-              <img src={Groups}></img>
-              <h2>100+</h2>
-              <h2>{Data[0].second}</h2>
             </div>
           </div>
         </Container>
