@@ -21,7 +21,7 @@ const index = (props) => {
               <img src={Timeline} alt="" className="garisnya" />
             </div>
             <div className="row gap-72 mb-80 wrap-timeline">
-              <div className="col-md bg-blur rounded-4 py-3 border-left">
+              <div className="col-md bg-blur rounded-4 py-3 border-left wrap-boxd">
                 <h2 className="fw-bold fs-sm-title">2009</h2>
                 <h4 className="fs-15 fw-400 lh-28">{Data[0].first}</h4>
               </div>
@@ -35,7 +35,7 @@ const index = (props) => {
               </div>
             </div>
             <div className="row gap-72 mb-80 wrap-timeline row-tl">
-              <div className="col-md bg-blur rounded-4 py-3 border-left">
+              <div className="col-md bg-blur rounded-4 py-3 border-left wrap-boxd">
                 <h2 className="fw-bold fs-sm-title">2015</h2>
                 <h4 className="fs-15 fw-400 lh-28">{Data[0].third}</h4>
               </div>
