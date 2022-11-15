@@ -29,6 +29,10 @@ import client24 from "../../Images/webp/relx.webp";
 import client25 from "../../Images/webp/sgm-min.webp";
 import client26 from "../../Images/webp/indofood-min.webp";
 import client27 from "../../Images/webp/majoo-min.webp";
+import client28 from "../../Images/webp/iris.webp";
+import client29 from "../../Images/webp/hisamitsu-min.webp";
+import client30 from "../../Images/webp/migo-min.webp";
+import client31 from "../../Images/webp/damai.webp";
 import Slider from "react-slick";
 import Data from "./Data.js";
 
@@ -162,13 +166,13 @@ const Section3 = (props) => {
                 <img className="img-client" src={client27}></img>
               </div>
               <div className="col cont-sec3">
-                {/* <img className="img-client" src={}></img> */}
+                <img className="img-client" src={client28}></img>
               </div>
               <div className="col cont-sec3">
-                {/* <img className="img-client" src={}></img> */}
+                <img className="img-client" src={client29}></img>
               </div>
               <div className="col cont-sec3">
-                {/* <img className="img-client" src={}></img> */}
+                <img className="img-client" src={client31}></img>
               </div>
             </div>
           </div>
