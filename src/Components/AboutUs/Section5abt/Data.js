@@ -10,6 +10,7 @@ import workShop from "../../../Images/webp/acry.webp";
 import metalSec from "../../../Images/webp/metalsec.webp";
 import printSec from "../../../Images/webp/MESIN3.webp";
 import strRoom from "../../../Images/webp/stream.webp";
+import prayRoom from "../../../Images/webp/prayer.webp";
 
 export default [
   {
@@ -36,6 +37,11 @@ export default [
     name: "Office Building",
     nameId: "Gedung kantor",
     image: insideOffice,
+  },
+  {
+    name: "Prayer Room",
+    nameId: "Ruang Ibadah",
+    image: prayRoom,
   },
   {
     name: "Transportation Units A",
