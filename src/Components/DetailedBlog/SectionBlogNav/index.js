@@ -20,17 +20,17 @@ const SectionBlogNav = () => {
       <p>Share Article</p>
       <FacebookShareButton url={shareUrl}>
         <FacebookIcon size={40}/>
-      </FacebookShareButton>
-      <WhatsappShareButton>
+      </FacebookShareButton >
+      <WhatsappShareButton url={shareUrl}>
       <WhatsappIcon size={40}/>
       </WhatsappShareButton>
-      <TwitterShareButton>
+      <TwitterShareButton url={shareUrl}>
       <TwitterIcon size={40}/>
       </TwitterShareButton>
-      <TelegramShareButton>
+      <TelegramShareButton url={shareUrl}>
       <TelegramIcon size={40}/>
       </TelegramShareButton>
-      <LinkedinShareButton>
+      <LinkedinShareButton url={shareUrl}>
       <LinkedinIcon size={40}/>
       </LinkedinShareButton>
     </div>
