@@ -4,7 +4,7 @@ import "./Blognav.css"
 const SectionBlogNav = () => {
   return (
     <div className='navBlog mt-150'>
-      <p>Share This Article</p>
+      <p>Share Article</p>
       <h3>01</h3>
       <h3>02</h3>
       <h3>03</h3>
