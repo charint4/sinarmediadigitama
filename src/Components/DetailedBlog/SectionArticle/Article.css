@@ -2,3 +2,6 @@
 {
   white-space: pre-line;
 }
+.wrap-art > p {
+    text-align: justify;
+}

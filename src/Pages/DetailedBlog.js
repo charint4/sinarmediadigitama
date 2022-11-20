@@ -14,19 +14,19 @@ const DetailedBlog = () => {
   }, []);
   return (
     <>
-    <Container>
-    <div className='row'>
-      <div className='col-sm-1 d-flex justify-content-center text-center'>
-      <SectionBlogNav data={Data[id]} />
-      </div>
-      <div className='col-sm scrol-blog'>
-        <SectionBlog data={Data[id]}/>
-        <SectionArticle data={Data[id]} />
-      </div>
-    </div>
-    </Container>
-      
-      
+    <section className='bg-detailedBlog'>
+      <Container>
+        <div className='row'>
+          <div className='col-sm-1 d-flex justify-content-center text-center'>
+          <SectionBlogNav data={Data[id]} />
+          </div>
+          <div className='col-sm scrol-blog'>
+            <SectionBlog data={Data[id]}/>
+            <SectionArticle data={Data[id]} />
+          </div>
+        </div>
+      </Container>
+    </section>
     </>
     
   )
