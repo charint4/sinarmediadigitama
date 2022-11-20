@@ -6,13 +6,16 @@ const SectionArticle = (props) => {
     const { data, lang = "en" } = props;
   return (
     <Container>
-    <div className="wrap-art mt-60"> {/* use mapping keanya sabi*/}
-        <p className="mt-40">{data.par1}</p>
-        <p className="mt-40">{data.par2}</p>
+    {data.para.map((paragh, index) => (
+      <div className="wrap-art mt-60" key={index}> {/* use mapping keanya sabi*/}
+        <p className="mt-40">{paragh.par}</p>
+        {/* <p className="mt-40">{data.par2}</p>
         <p className="mt-40">{data.par3}</p>
         <p className="mt-40">{data.par4}</p>
-        <p className="mt-40">{data.par5}</p>
-    </div>
+        <p className="mt-40">{data.par5}</p> */}
+      </div>
+    ))}
+    
     </Container>
   )
 }
