@@ -54,7 +54,7 @@ export default [
     },
     {
         img: Tiktokvig,
-        title: "TikTok vs Instagram, mana yang paling tepat untuk bisnismu", 
+        title: "TikTok vs Instagram, Mana yang Paling Tepat untuk Bisnismu", 
         sub: 'Ketika berada di suatu perkumpulan bisnis maupun tongkrongan sehari-hari. Tak lepas kita membicarakan platform sosial media mana yang paling nyaman digunakan maupun cocok untuk bisnis.',
         read: 'Read article',
         para: [
