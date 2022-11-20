@@ -16,7 +16,7 @@ const DetailedBlog = () => {
     <>
     <Container>
     <div className='row'>
-      <div className='col-sm-1'>
+      <div className='col-sm-1 d-flex justify-content-center text-center'>
       <SectionBlogNav data={Data[id]} />
       </div>
       <div className='col-sm scrol-blog'>
