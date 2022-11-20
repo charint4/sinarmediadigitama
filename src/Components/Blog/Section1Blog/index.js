@@ -24,7 +24,10 @@ const Section1Blog = (props) => {
                         <img className="" src={data.img}></img>
                         <div className="cont-blog bg-blur">
                             <p><b>{data.title}</b></p>
-                            <h2 className='d-flex'>{data.sub}</h2>
+                            <div className="sub-blog">
+                                <h2 className=''>{data.sub}</h2>
+                            </div>
+                            
                             <Link
                                 to={`Detailed-Blog/${data.title.replaceAll(" ", "-")}/${index}`}
                                 className="read-more fixed-bottom"
