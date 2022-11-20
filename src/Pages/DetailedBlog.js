@@ -4,6 +4,7 @@ import SectionBlog from '../Components/DetailedBlog/SectionBlog';
 import Data from "../Components/Blog/Section1Blog/Data";
 import SectionArticle from '../Components/DetailedBlog/SectionArticle';
 import SectionBlogNav from '../Components/DetailedBlog/SectionBlogNav';
+import { Container } from 'react-bootstrap';
 
 const DetailedBlog = () => {
     // const { lang, setLang } = useContext(langContext);
@@ -13,9 +14,19 @@ const DetailedBlog = () => {
   }, []);
   return (
     <>
-      <SectionBlog data={Data[id]}/>
+    <Container>
+    <div className='row'>
+      <div className='col-sm-1'>
       <SectionBlogNav data={Data[id]} />
-      <SectionArticle data={Data[id]} />
+      </div>
+      <div className='col-sm scrol-blog'>
+        <SectionBlog data={Data[id]}/>
+        <SectionArticle data={Data[id]} />
+      </div>
+    </div>
+    </Container>
+      
+      
     </>
     
   )

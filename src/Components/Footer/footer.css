@@ -1,5 +1,9 @@
 .wrap-footer {
   background-color: #0e5579;
+  display: block !important;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
   /* margin-top: 70px; */
 }
 .cont-logo {

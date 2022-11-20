@@ -7,11 +7,11 @@ const SectionArticle = (props) => {
   return (
     <Container>
     <div className="wrap-art mt-60"> {/* use mapping keanya sabi*/}
-        <h3 className="mt-60">{data.par1}</h3>
-        <h3 className="mt-60">{data.par2}</h3>
-        <h3 className="mt-60">{data.par3}</h3>
-        <h3 className="mt-60">{data.par4}</h3>
-        <h3 className="mt-60">{data.par5}</h3>
+        <p className="mt-40">{data.par1}</p>
+        <p className="mt-40">{data.par2}</p>
+        <p className="mt-40">{data.par3}</p>
+        <p className="mt-40">{data.par4}</p>
+        <p className="mt-40">{data.par5}</p>
     </div>
     </Container>
   )
