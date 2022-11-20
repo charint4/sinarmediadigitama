@@ -13,9 +13,6 @@
     /* max-width: 400px; */
     /* width: auto; */
 }
-.wrap-card-blog {
-    /* height: 370px !important; */
-}
 .card-blog {
     width: 350px;
     border-radius: 10px;
@@ -67,3 +64,26 @@
     margin-left: 10px;
     text-decoration: none;
 }
+
+@media only screen and (max-width: 1198px) {
+    .outer-wrap-blog {
+        grid-template-columns: repeat(2, 1fr);
+        /* max-width: 400px; */
+        /* width: auto; */
+    }
+  }
+  @media only screen and (max-width: 810px) {
+    .outer-wrap-blog {
+        grid-template-columns: repeat(1, 1fr);
+        /* max-width: 400px; */
+        /* width: auto; */
+    }
+  }
+  @media only screen and (max-width: 404px) {
+    .outer-wrap-blog {
+        display: flex;
+        flex-direction: column;
+        /* max-width: 400px; */
+        /* width: auto; */
+    }
+  }

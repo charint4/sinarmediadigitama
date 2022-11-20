@@ -1,7 +1,6 @@
 import React from 'react'
 import { Container } from 'react-bootstrap'
 import "./blog.css"
-import Data from "./Data.js"
 import { Link } from "react-router-dom";
 
 const SectionBlog = (props) => {
