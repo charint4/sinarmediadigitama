@@ -17,7 +17,7 @@ const SectionBlogNav = () => {
   const shareUrl = window.location.href
   return (
     <div className='navBlog'>
-      <p>Share Article</p>
+      <p className='fw-bold'>Share Article</p>
       <div className='shareBlog'>
         <FacebookShareButton url={shareUrl}>
           <FacebookIcon size={40}/>
