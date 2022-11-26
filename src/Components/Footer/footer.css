@@ -62,7 +62,7 @@
 .footer-nav {
   text-decoration: none;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 992px) {
   .getin {
     margin-left: 0px
   }

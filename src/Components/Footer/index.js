@@ -21,11 +21,11 @@ const Footer = () => {
       <Container>
         {lang === "en" ? (
           <div className="row pt-5 pb-5 gap-5">
-            <div className="col-md-4 cont-footer">
+            <div className="col-lg-4 cont-footer">
               <img src={SMDw}></img>
               <h1>{Data[0].head}</h1>
             </div>
-            <div className="col-md-2 cont-footer">
+            <div className="col-lg-2 cont-footer">
               <h1>Menu</h1>
               <Link to="/" className="footer-nav">
                 <h3>{Data[0].nav1}</h3>
@@ -40,7 +40,7 @@ const Footer = () => {
                 <h3>{Data[0].nav4} Us</h3>
               </HashLink>
             </div>
-            <div className="col-md cont-footer getin">
+            <div className="col-lg cont-footer getin">
               <h1>{Data[0].subhead}</h1>
               <h3 className="">
                 <b>PT. Sinar Media Digitama</b>
@@ -59,7 +59,7 @@ const Footer = () => {
                 </span>
               </h3>
             </div>
-            <div className="col-md">
+            <div className="col-lg">
               <div className="cont-logo">
                 <img src={Whatsapp}></img>
                 <a href="https://api.whatsapp.com/send?phone=085692403618">
@@ -76,11 +76,11 @@ const Footer = () => {
           </div>
         ) : (
           <div className="row pt-5 pb-5 gap-5">
-            <div className="col-md-4 cont-footer">
+            <div className="col-lg-4 cont-footer">
               <img src={SMDw}></img>
               <h1>{Data[1].head}</h1>
             </div>
-            <div className="col-md-2 cont-footer">
+            <div className="col-lg-2 cont-footer">
               <h1>Menu</h1>
               <Link to="/" className="footer-nav">
                 <h3>{Data[1].nav1}</h3>
@@ -95,7 +95,7 @@ const Footer = () => {
                 <h3>{Data[1].nav4} Us</h3>
               </HashLink>
             </div>
-            <div className="col-md cont-footer getin">
+            <div className="col-lg cont-footer getin">
               <h1>{Data[1].subhead}</h1>
               <h3 className="">
                 <b>PT. Sinar Media Digitama</b>
@@ -114,7 +114,7 @@ const Footer = () => {
                 </span>
               </h3>
             </div>
-            <div className="col-md">
+            <div className="col-lg">
               <div className="cont-logo">
                 <img src={Whatsapp}></img>
                 <a href="https://api.whatsapp.com/send?phone=085692403618">
