@@ -9,7 +9,10 @@
   margin-left: 10%;
 }
 .nav-link {
-  font-size: 15px !important;
+  font-size: 15px;
+}
+.nav-link-indo {
+  font-size: 13px !important;
 }
 .nav-link:hover,
 .nav-link:focus {
@@ -45,6 +48,10 @@
   /* padding: 10px; */
   border-radius : 10px;
 }
+.switch-off {
+  color:#6d6d6f;
+  font-weight: 400;
+}
 .btn:first-child:hover, :not(.btn-check) + .btn:hover {
   color: white;
   background-color: #0e5579;
@@ -74,8 +81,8 @@
   }
 }
 @media screen and (min-width: 992px) and (max-width: 1200px) {
-  .nav-btn {
-    gap: 20px;
+  .nav-btn-id {
+    gap: 5px;
     /* margin-left: 10%; */
   }
 }

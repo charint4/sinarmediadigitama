@@ -72,24 +72,24 @@ function BasicExample() {
           </Navbar.Collapse>
         ) : (
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="me-auto nav-btn">
+            <Nav className="me-auto nav-btn nav-btn-id">
               <Nav.Link>
-                <Link to="/" className="nav-link">
+                <Link to="/" className="nav-link nav-link-indo">
                   {Data[1].nav1}
                 </Link>
               </Nav.Link>
               <Nav.Link>
-                <Link to="/AboutUs" className="nav-link">
+                <Link to="/AboutUs" className="nav-link nav-link-indo">
                   {Data[1].nav2}
                 </Link>
               </Nav.Link>
               <Nav.Link>
-                <HashLink smooth to="/#section2" className="nav-link">
+                <HashLink smooth to="/#section2" className="nav-link nav-link-indo">
                   {Data[1].nav3}
                 </HashLink>
               </Nav.Link>
               <Nav.Link>
-                <HashLink smooth to="/Blog" className="nav-link">
+                <HashLink smooth to="/Blog" className="nav-link nav-link-indo">
                   {Data[1].nav5}
                 </HashLink>
               </Nav.Link>
