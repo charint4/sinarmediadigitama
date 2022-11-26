@@ -36,15 +36,15 @@ const index = (props) => {
             <h1>{Data[1].head}</h1>
           </div>
           <div className="row wrap-cont-abt4 justify-content-center">
-            <div className="col-md bg-blur cont-abt4 text-center p-4 align-items-center">
+          <div className="col-md cont-abt4 text-center p-4 align-item">
               <img src={Vector}></img>
-              <h2>50+</h2>
-              <h2>{Data[1].first}</h2>
             </div>
-            <div className="col-md bg-blur cont-abt4 text-center p-4">
-              <img src={Groups}></img>
-              <h2>100+</h2>
-              <h2>{Data[1].second}</h2>
+            <div className="col-md cont-abt4 p-4 ">
+              <h2>
+                <CountUp start={0} end={1500}  duration={5.75}/>
+                +
+              </h2>
+              <h2>{Data[1].first}</h2>
             </div>
           </div>
         </Container>

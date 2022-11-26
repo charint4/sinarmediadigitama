@@ -9,7 +9,7 @@ export default [
   {
     nav1: "Beranda",
     nav2: "Tentang Kami",
-    nav3: "Services",
+    nav3: "Layanan",
     nav5: "Blog",
     nav4: "Hubungi Kami",
   },

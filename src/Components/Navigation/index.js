@@ -89,6 +89,11 @@ function BasicExample() {
                 </HashLink>
               </Nav.Link>
               <Nav.Link>
+                <HashLink smooth to="/Blog" className="nav-link">
+                  {Data[1].nav5}
+                </HashLink>
+              </Nav.Link>
+              <Nav.Link>
                 <HashLink smooth to="" className="nav-link">
                   <BootstrapSwitchButton
                     checked={lang === "en" ? false : true}
@@ -102,7 +107,7 @@ function BasicExample() {
             </Nav>
             <Nav>
               <HashLink smooth to="/#section6">
-                <Button className="contact-btn px-4">{Data[1].nav4}</Button>{" "}
+                <Button className="contact-btn px-4">{Data[0].nav4}</Button>{" "}
               </HashLink>
             </Nav>
           </Navbar.Collapse>

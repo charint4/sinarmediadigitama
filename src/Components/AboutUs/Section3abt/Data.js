@@ -4,13 +4,13 @@ export default [
     subhead: "What makes us different?",
     first: "One stop service",
     second:
-      "No matter what kind of service you require, One Stop Marketing Solutions was born out of our ambition to be a full-service marketing company that gives our clients consistent results.",
+      "No matter what kind of service you require, One Stop Marketing Solutions was born out of our ambition to be a full-service marketing company that delivers consistent results to our clients, regardless of the type of service our clients require.",
     third: "360 Approach",
     fourth:
-      "It's critical for your business and product that you pick the right 360-advertising strategy and planning. Your brand will become more well-known and visible as a result of effective advertising placement. Give us a chance to help you decide which option will work best for your marketing plan.",
+      "It's critical for your business and product that you pick the right 360-advertising strategy and planning. Your brand will become more well-known and visible through effective ad placement. Let us help you determine the best option for your marketing plan.",
     fifth: "Years of Experiences",
     sixth:
-      "Our expertise in the advertising sector has helped brands in reaching more specific and sizeable audiences. We are aware of what the audience needs to feel connected with a specific brand.",
+      "Our expertise in the advertising space has helped brands reach more specific and wider audiences. We know what it takes to make your audience feel connected to a particular brand.",
   },
   {
     head: "Kenapa Kami?",
