@@ -32,6 +32,9 @@
 .carousel-abt-slide {
   padding-bottom: 30px !important;
 }
+.carousel-abt-slide > ul {
+  bottom: 50px !important;
+}
 .cont-card-5abt {
   height: 440px !important;
   max-width: 420px !important;
@@ -73,6 +76,9 @@
   .slick-list {
     height: 340px;
   }
+  .carousel-abt-slide > ul {
+    bottom: 20px !important;
+  }
 }
 /* @media only screen and (max-width: 991px) {
   .cont-card-5abt {
@@ -98,5 +104,13 @@
   }
   .slick-list {
     height: 255px;
+  }
+  .carousel-abt-slide > ul {
+    bottom: 0px !important;
+  }
+}
+@media only screen and (max-width: 413px) {
+  .carousel-abt-slide > ul {
+    bottom: -20px !important;
   }
 }

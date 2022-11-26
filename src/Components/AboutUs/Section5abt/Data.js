@@ -20,7 +20,7 @@ export default [
   },
   {
     name: "Lounge Area",
-    nameId: "Area lounge",
+    nameId: "Area Dapur",
     image: kitchenOffice,
   },
   {
