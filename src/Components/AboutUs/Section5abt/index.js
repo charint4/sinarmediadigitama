@@ -5,66 +5,44 @@ import "./section5abt.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Data from "./Data";
-import { useRef } from "react";
-import { useDraggable } from "react-use-draggable-scroll";
 
-const Secslide = () => {
+const Secslide = (props) => {
+  const { lang = "en" } = props;
   const settings = {
     slidesToShow: 3,
-    slidesToScroll: 1,
-    autoplay: true,
-    speed: 4000,
-    autoplaySpeed: 4000,
-    cssEase: "linear",
-    adaptiveHeight: true,
+    slidesToScroll: 3,
+    // speed: 500,
+    // autoplay: true,
+    // autoplaySpeed: 4000,
+    // cssEase: "linear",
+    // adaptiveHeight: true,
     adaptiveWeight: true,
-    arrows: false,
+    arrows: true,
+    dots: true,
     pauseOnHover: false,
     infinite: true,
-    // responsive: [
-    //   {
-    //     breakpoint: 1024,
-    //     settings: {
-    //       slidesToShow: 2.05,
-    //     },
-    //   },
-    //   {
-    //     breakpoint: 810,
-    //     settings: {
-    //       slidesToShow: 1.55,
-    //     },
-    //   },
-    //   {
-    //     breakpoint: 412,
-    //     settings: {
-    //       slidesToShow: 1.3,
-    //     },
-    //   },
-    //   {
-    //     breakpoint: 414,
-    //     settings: {
-    //       slidesToShow: 1.32,
-    //     },
-    //   },
-    //   {
-    //     breakpoint: 375,
-    //     settings: {
-    //       slidesToShow: 1.4,
-    //     },
-    //   },
-    //   {
-    //     breakpoint: 428,
-    //     settings: {
-    //       slidesToShow: 1.8,
-    //     },
-    //   },
-    //   {
-    //     breakpoint: 360,
-    //     settings: {
-    //       slidesToShow: 1.34,
-    //     },
-    //   },
-    // ],
+    responsive: [
+      // {
+      //   breakpoint: 1200,
+      //   settings: {
+      //     slidesToShow: 2,
+      //     slidesToScroll: 2,
+      //   },
+      // },
+      // {
+      //   breakpoint: 992,
+      //   settings: {
+      //     slidesToShow: 2.3,
+      //   },
+      // },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
   };
 
   // const ref = useRef();
@@ -72,32 +50,36 @@ const Secslide = () => {
   return (
     <Container>
       <div className="mt-120 wrap-abt-slide">
-        <h1 className="text-center">Our Facilities</h1>
-        <Slider {...settings} className="carousel-abt-slide">
+        <h1 className="text-center">
+          {lang === "en" ? "Our Facilities" : "Fasilitas Kami"}
+        </h1>
+        <Slider {...settings} className="carousel-abt-slide ">
           {/* <div
           className="carousel-abt-slide d-flex flex-row flex-nowrap overflow-auto py-2"
           {...events}
           ref={ref}
         > */}
           {Data.map((data, index) => (
-            <Card
-              className="border border-light rounded-4 p-2 cont-card-abt"
-              key={index}
-              style={{ minWidth: "350px" }}
-            >
-              <Card.Img
-                variant="top"
-                src={data.image}
-                className="p-2 rounded-5 img-card-slide"
-              />
-              <Card.Body>
-                <Card.Title>
-                  <h5 className="fw-bold fs-16 fw-400 color-gray font-fac">
-                    {data.name}
-                  </h5>
-                </Card.Title>
-              </Card.Body>
-            </Card>
+            <div className=" d-flex flex-column align-items-center">
+              <Card
+                className="border border-light rounded-4 p-2 cont-card-5abt"
+                key={index}
+                style={{ minWidth: "350px" }}
+              >
+                <Card.Img
+                  variant="top"
+                  src={data.image}
+                  className="p-2 rounded-5 img-card-slide-sec5abt"
+                />
+                <Card.Body>
+                  <Card.Title>
+                    <h5 className="fw-bold fs-16 fw-400 color-gray font-fac">
+                      {lang === "en" ? data.name : data.nameId}
+                    </h5>
+                  </Card.Title>
+                </Card.Body>
+              </Card>
+            </div>
           ))}
           {/* </div> */}
         </Slider>

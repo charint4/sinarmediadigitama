@@ -1,8 +1,13 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 import "../SectionMap/section4.css";
+import Data from "./Data";
+import Mail from "../../Images/mail.png";
+import Phone from "../../Images/phone.png";
 
-const Section4 = () => {
+const Section4 = (props) => {
+  const { lang } = props;
+
   return (
     <Container>
       <div className="row justify-content-center align-item-center sec4">
@@ -18,20 +23,51 @@ const Section4 = () => {
             className="rounded-4 "
           ></iframe>
         </div>
-        <div className="col-lg-5 bg-text wrap-box">
-          <h3 className="title">Get in touch</h3>
-          <h4 className="text1 mb-5">
-            <b>Address</b> <br></br>
-            Aria Putra 8, Serua Indah Ciputat - South Tangerang
-          </h4>
-          <h4 className="text2 mb-5">
-            <b>Email</b> <br></br>
-            info@smdigitama.com
-          </h4>
-          <h4 className="text3 mb-5">
-            <b>Telephone</b> <br /> 021 - 74634075
-          </h4>
-        </div>
+        {lang === "en" ? (
+          <div className="col-lg-4 bg-text wrap-box justify-content-center gap-2">
+            <h3 className="title">{Data[0].head}</h3>
+            <h2 className="text1">
+              <b>{Data[0].subhead}</b>
+            </h2>
+            <h4 className="text1">
+              <b>{Data[0].addy}</b>
+            </h4>
+            <h4 className="text2 ">
+              <span>
+                <img className="mail" src={Mail}></img>
+                <b> : {Data[0].mail}</b>
+              </span>
+            </h4>
+            <h4 className="text3">
+              <span>
+                <img className="phone" src={Phone}></img>
+                <b> : {Data[0].phone}</b>
+              </span>
+            </h4>
+          </div>
+        ) : (
+          <div className="col-lg-4 bg-text wrap-box justify-content-center gap-2">
+            <h3 className="title">{Data[1].head}</h3>
+            <h2 className="text1">
+              <b>{Data[1].subhead}</b>
+            </h2>
+            <h4 className="text1">
+              <b>{Data[1].addy}</b>
+            </h4>
+            <h4 className="text2 ">
+              <span>
+                <img className="mail" src={Mail}></img>
+                <b> : {Data[1].mail}</b>
+              </span>
+            </h4>
+            <h4 className="text3">
+              <span>
+                <img className="phone" src={Phone}></img>
+                <b> : {Data[1].phone}</b>
+              </span>
+            </h4>
+          </div>
+        )}
       </div>
     </Container>
   );

@@ -1,0 +1,38 @@
+.sec5 {
+  margin-top: 150px;
+}
+
+.card-sec5 {
+  position: relative;
+  width: auto;
+}
+
+.card-sec5 > img {
+  min-width: 100px;
+  max-width: 224px;
+  width: 100%;
+}
+
+.card-sec5-desc {
+  background-color: #0e5579;
+  position: relative;
+  min-width: 100px;
+  max-width: 224px;
+  color: white;
+  /* padding-bottom: 10%; */
+  top: -10px;
+  border-radius: 0 0 1rem 1rem;
+}
+
+.linkedin {
+  width: 15px;
+  height: 15px;
+}
+
+.role-text {
+  height: 48px;
+}
+
+.slick-list {
+  height: 440px;
+}

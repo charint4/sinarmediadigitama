@@ -10,54 +10,72 @@ import workShop from "../../../Images/webp/acry.webp";
 import metalSec from "../../../Images/webp/metalsec.webp";
 import printSec from "../../../Images/webp/MESIN3.webp";
 import strRoom from "../../../Images/webp/stream.webp";
+import prayRoom from "../../../Images/webp/prayer.webp";
 
 export default [
   {
     name: "Receptionist",
+    nameId: "Resepsionis",
     image: frontOffice,
   },
   {
     name: "Lounge Area",
+    nameId: "Area Dapur",
     image: kitchenOffice,
   },
   {
     name: "Meeting Room",
+    nameId: "Ruang Rapat",
     image: meetOffice,
   },
   {
     name: "Streaming Room",
+    nameId: "Ruang Streaming",
     image: strRoom,
   },
   {
     name: "Office Building",
+    nameId: "Gedung kantor",
     image: insideOffice,
   },
   {
+    name: "Prayer Room",
+    nameId: "Ruang Ibadah",
+    image: prayRoom,
+  },
+  {
     name: "Transportation Units A",
+    nameId: "Unit Transportasi A",
     image: transUnit,
   },
   {
     name: "Transportation Units B",
+    nameId: "Unit Transportasi B",
     image: transUnita,
   },
   {
     name: "Storage Room A",
+    nameId: "Ruang Penyimpanan A",
     image: storRoom1,
   },
   {
     name: "Storage Room B",
+    nameId: "Ruang Penyimpanan B",
     image: storRoom2,
   },
   {
     name: "Acrylic Section",
+    nameId: "Bagian Akrilik",
     image: workShop,
   },
   {
     name: "Metal Section",
+    nameId: "Bagian Logam",
     image: metalSec,
   },
   {
     name: "Print Section",
+    nameId: "Bagian Cetak",
     image: printSec,
   },
 ];

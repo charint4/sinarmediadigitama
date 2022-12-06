@@ -38,7 +38,7 @@
 .title {
   font-weight: 700;
   font-size: 40px;
-  line-height: 87px;
+  line-height: 57px;
   color: #004c92;
 }
 
@@ -62,7 +62,17 @@
   line-height: 32px;
   color: #545659;
 }
-
+.wrap-box > h2 {
+  color:#004c92;
+}
+.mail {
+  margin-right: 5px;
+  width: 20px;
+}
+.phone {
+  margin-right: 5px;
+  width: 20px;
+}
 @media screen and (max-width: 991px) {
   .map {
     height: 500px;

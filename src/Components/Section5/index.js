@@ -13,7 +13,6 @@ import Seni from "../../Images/webp/seni.webp";
 import Syafrudin from "../../Images/webp/syafrudin.webp";
 import Retno from "../../Images/webp/siska.webp";
 import Slider from "react-slick";
-
 const Section5 = () => {
   const settings = {
     slidesToShow: 6,
@@ -60,9 +59,9 @@ const Section5 = () => {
       <div className="text d-flex flex-column sec5 text-center">
         <h3 className="t1-s5 fw-bold fs-title">Meet Our Team</h3>
         <h4 className="t2-s5 fs-20 fw-400 lh-30">
-          A group of highly motivated people with diverse backgrounds, extensive
-          experience, special interest, and track records of success, while
-          their differences complement one another’s skills
+          We are led by a group of highly motivated people with diverse
+          backgrounds and extensive experience to unlock creativity around every
+          corner.
         </h4>
       </div>
       <Slider {...settings} className="slick-team">

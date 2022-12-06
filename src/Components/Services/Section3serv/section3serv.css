@@ -24,8 +24,8 @@
 }
 
 .slick-slide {
-  margin-left: 27px;
-  margin-right: 27px;
+  /* margin-left: 27px;
+  margin-right: 27px; */
 }
 
 .gap-30 {
@@ -37,15 +37,22 @@
 }
 
 .cont-card-abt {
-  height: 440px !important;
-  max-width: 455px !important;
+  height: 368px !important;
+  max-width: 420px !important;
   width: auto !important;
+}
+
+.img-card-slide {
+  height: 350px;
+  max-width: 435px;
+  width: auto;
+  object-fit: cover;
 }
 
 @media only screen and (max-width: 1399px) {
   .cont-card-abt {
-    height: 440px !important;
-    max-width: 400px !important;
+    height: 310px !important;
+    max-width: 344px !important;
     width: auto !important;
   }
   .img-card-slide {
@@ -57,8 +64,8 @@
 
 @media only screen and (max-width: 1199px) {
   .cont-card-abt {
-    height: 390px !important;
-    max-width: 350px !important;
+    height: 290px !important;
+    max-width: 300px !important;
   }
   .img-card-slide {
     height: 300px;
@@ -68,8 +75,8 @@
 
 @media only screen and (max-width: 991px) {
   .cont-card-abt {
-    height: 340px !important;
-    max-width: 260px !important;
+    height: 210px !important;
+    max-width: 220px !important;
   }
   .img-card-slide {
     height: 250px;
@@ -78,8 +85,8 @@
 }
 @media only screen and (max-width: 767px) {
   .cont-card-abt {
-    height: 280px !important;
-    max-width: 220px !important;
+    height: 140px !important;
+    max-width: 165px !important;
   }
   .img-card-slide {
     height: 180px;
@@ -88,8 +95,8 @@
 }
 @media only screen and (max-width: 475px) {
   .cont-card-abt {
-    height: 260px !important;
-    max-width: 180px !important;
+    height: 120px !important;
+    max-width: 140px !important;
   }
   .img-card-slide {
     height: 160px;
@@ -98,11 +105,11 @@
 }
 @media only screen and (max-width: 397px) {
   .cont-card-abt {
-    height: 260px !important;
-    max-width: 160px !important;
+    height: 120px !important;
+    max-width: 120px !important;
   }
   .img-card-slide {
-    height: 140px;
+    height: 90px;
     max-width: 140px;
   }
   .font-fac {
@@ -110,7 +117,7 @@
     margin-left: -10px !important;
   }
 }
-@media only screen and (max-width: 325px) {
+/* @media only screen and (max-width: 325px) {
   .cont-card-abt {
     height: 210px !important;
     max-width: 130px !important;
@@ -123,4 +130,4 @@
     font-size: 10px !important;
     margin-left: -20px !important;
   }
-}
+} */

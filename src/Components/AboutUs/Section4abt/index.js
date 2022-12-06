@@ -1,45 +1,56 @@
-import React from 'react'
-import { Container } from 'react-bootstrap'
-import "./section4abt.css"
+import React from "react";
+import { Container } from "react-bootstrap";
+import "./section4abt.css";
 import Groups from "../../../Images/webp/groups.webp";
 import Vector from "../../../Images/webp/Vector.webp";
-import Section5 from '../../Section5'
+import Section5 from "../../Section5";
+import Data from "./Data";
+import CountUp from 'react-countup';
 
-const index = () => {
+const index = (props) => {
+  const { lang = "en" } = props;
+
   return (
-    <Container>
-        <div className="wrap-abt4 text-center">
-            <h1>Our Experiences</h1>
-        </div>
-        <div className="row wrap-cont-abt4 justify-content-center">
-            <div className="col-md bg-blur cont-abt4 text-center p-4 align-items-center">
-                <img src={Vector}></img>
-                <h2>
-                    1000+
-                </h2>
-                <h2>
-                    Projects Handled
-                </h2>
-                {/* <h3>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magn
-                </h3> */}
+    <>
+      {lang === "en" ? (
+        <Container>
+          <div className="wrap-abt4 text-center">
+            <h1>{Data[0].head}</h1>
+          </div>
+          <div className="row wrap-cont-abt4 justify-content-center">
+          <div className="col-md cont-abt4 text-center p-4 align-item">
+              <img src={Vector}></img>
             </div>
-            <div className="col-md bg-blur cont-abt4 text-center p-4">
-                <img src={Groups}></img>
-                <h2>
-                    500+
-                </h2>
-                <h2>
-                    Clients Satisfied
-                </h2>
-                {/* <h3>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magn
-                </h3> */}
+            <div className="col-md cont-abt4 p-4 ">
+              <h2>
+                <CountUp start={0} end={1500}  duration={5.75}/>
+                +
+              </h2>
+              <h2>{Data[0].first}</h2>
             </div>
-        </div>
-        <Section5 />
-    </Container>
-  )
-}
+          </div>
+        </Container>
+      ) : (
+        <Container>
+          <div className="wrap-abt4 text-center">
+            <h1>{Data[1].head}</h1>
+          </div>
+          <div className="row wrap-cont-abt4 justify-content-center">
+          <div className="col-md cont-abt4 text-center p-4 align-item">
+              <img src={Vector}></img>
+            </div>
+            <div className="col-md cont-abt4 p-4 ">
+              <h2>
+                <CountUp start={0} end={1500}  duration={5.75}/>
+                +
+              </h2>
+              <h2>{Data[1].first}</h2>
+            </div>
+          </div>
+        </Container>
+      )}
+    </>
+  );
+};
 
-export default index
+export default index;

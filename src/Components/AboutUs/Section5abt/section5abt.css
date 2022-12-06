@@ -30,26 +30,21 @@
   display: none;
 }
 .carousel-abt-slide {
-  /* display: flex !important;
-  gap: 30px !important; */
-  /* margin-top: 60px; */
-  /* cursor: grab;
-  overflow: scroll; */
   padding-bottom: 30px !important;
 }
-.cont-card-abt {
+.carousel-abt-slide > ul {
+  bottom: 50px !important;
+}
+.cont-card-5abt {
   height: 440px !important;
-  max-width: 455px !important;
+  max-width: 420px !important;
   width: auto !important;
 }
-.img-card-slide {
+.img-card-slide-sec5abt {
   height: 350px;
-  /* height: auto; */
   max-width: 435px;
   width: auto;
   object-fit: cover;
-  /* image-resolution: from-image 10dpi; */
-  /* object-position: 0px; */
 }
 .stor {
   object-position: 0px;
@@ -59,117 +54,63 @@
 }
 
 @media only screen and (max-width: 1399px) {
-  .cont-card-abt {
-    height: 440px !important;
-    max-width: 400px !important;
-    width: auto !important;
-  }
-  .img-card-slide {
-    height: 350px;
-    max-width: 380px;
-    width: auto;
-    /* image-resolution: from-image 10dpi; */
-    /* object-position: 0px; */
-  }
-}
-@media only screen and (max-width: 1199px) {
-  .cont-card-abt {
+  .cont-card-5abt {
     height: 390px !important;
     max-width: 350px !important;
   }
-  .img-card-slide {
+  .img-card-slide-sec5abt {
     height: 300px;
     max-width: 330px;
   }
 }
-@media only screen and (max-width: 991px) {
-  .cont-card-abt {
-    height: 340px !important;
-    max-width: 260px !important;
+@media only screen and (max-width: 1199px) {
+  .cont-card-5abt {
+    height: 330px !important;
+    max-width: 300px !important;
+    min-width: 200px !important;
   }
-  .img-card-slide {
+  .img-card-slide-sec5abt {
     height: 250px;
-    max-width: 240px;
+    max-width: 300px;
+  }
+  .slick-list {
+    height: 340px;
+  }
+  .carousel-abt-slide > ul {
+    bottom: 20px !important;
   }
 }
-@media only screen and (max-width: 767px) {
-  .cont-card-abt {
-    height: 280px !important;
-    max-width: 220px !important;
+/* @media only screen and (max-width: 991px) {
+  .cont-card-5abt {
+    height: 350px !important;
+    max-width: 225px !important;
   }
   .img-card-slide {
-    height: 180px;
-    max-width: 180px;
+    height: 185px;
+    max-width: 225px;
   }
-}
-@media only screen and (max-width: 475px) {
-  .cont-card-abt {
-    height: 260px !important;
-    max-width: 180px !important;
-  }
-  .img-card-slide {
-    height: 160px;
-    max-width: 160px;
-  }
-}
-@media only screen and (max-width: 397px) {
-  .cont-card-abt {
-    height: 260px !important;
-    max-width: 160px !important;
-  }
-  .img-card-slide {
-    height: 140px;
-    max-width: 140px;
-  }
-  .font-fac {
-    font-size: 11px !important;
-    margin-left: -10px !important;
-  }
-}
-@media only screen and (max-width: 325px) {
-  .cont-card-abt {
-    height: 210px !important;
-    max-width: 130px !important;
-  }
-  .img-card-slide {
-    height: 110px;
-    max-width: 110px;
-  }
-  .font-fac {
-    font-size: 10px !important;
-    margin-left: -20px !important;
-  }
-}
-/* @media only screen and (max-width: 575px) {
-  .img-card-slide {
-    width: 350px;
-    height: 300px;
-  }
-}
-@media only screen and (max-width: 455px) {
-  .img-card-slide {
-    width: 300px;
-    height: 250px;
-  }
-  .carousel-abt-slide {
-    gap: 10px;
-  }
-  .wrap-card-ofc {
-    border-radius: 5px;
-  }
-}
-@media only screen and (max-width: 377px) {
-  .img-card-slide {
-    width: 250px;
-    height: 200px;
-  }
-  .wrap-abt-slide {
-    padding-bottom: 70px;
-  }
-}
-@media only screen and (max-width: 323px) {
-  .img-card-slide {
-    width: 200px;
-    height: 150px;
+  .slick-list {
+    height: 350px;
   }
 } */
+@media only screen and (max-width: 991px) {
+  .cont-card-5abt {
+    height: 255px !important;
+    max-width: 220px !important;
+  }
+  .img-card-slide-sec5abt {
+    height: 175px;
+    max-width: 316px;
+  }
+  .slick-list {
+    height: 255px;
+  }
+  .carousel-abt-slide > ul {
+    bottom: 0px !important;
+  }
+}
+@media only screen and (max-width: 413px) {
+  .carousel-abt-slide > ul {
+    bottom: -20px !important;
+  }
+}

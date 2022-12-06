@@ -1,0 +1,10 @@
+.wrap-art 
+{
+  white-space: pre-line;
+  /* white-space: */
+}
+.wrap-art > p {
+    /* text-align: justify; */
+    /* word-break: break-all; */
+    line-height: 2.4rem;
+}

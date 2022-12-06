@@ -1,0 +1,16 @@
+.wrap-wa {
+  
+}
+.wrap-wa > a {
+    /* width: 20px; */
+    position: sticky;
+    position: -webkit-sticky; /* Safari */
+    margin-right:20px;
+    margin-bottom: 20px;
+    animation: floattext 3s ease-in-out infinite;
+ /* right: 0; */
+ /* bottom: 30px; */
+}
+.wrap > img {
+    
+}

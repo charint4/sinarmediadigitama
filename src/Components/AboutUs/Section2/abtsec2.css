@@ -22,15 +22,18 @@
   margin-top: -80px !important;
 }
 .garisnya {
-  height: 550px; 
+  height: 880px; 
   
   width: 8px;
 }
 .disp-none {
   display: block;
 }
+.wrap-boxd {
+  opacity: 100% !important;
+}
 .wrap-boxd > h4{
-  /* text-align: justify; */
+  text-align: justify;
 }
 .border-left {
   border-left: 5px solid #ac2523;
@@ -43,21 +46,21 @@
   and (min-width: 1200px) 
   and (max-width: 1399px){
     .garisnya {
-      height: 605px;
+      height: 879px;
     }
 }
 @media screen 
   and (min-width: 992px) 
   and (max-width: 1199px){
     .garisnya {
-      height: 660px;
+      height: 1020px;
     }
 }
 @media screen 
   and (min-width: 769px) 
   and (max-width: 991px){
     .garisnya {
-      height: 740px;
+      height: 1330px;
     }
 }
 @media only screen and (max-width: 768px) {
@@ -69,7 +72,7 @@
     margin-bottom: 40px;
   }
   .garisnya {
-    height: 505px;
+    height: 800px;
     /* width: 8px; */
   }
   .row-tl {
@@ -93,14 +96,14 @@
   and (min-width: 454px) 
   and (max-width: 574px){
     .garisnya {
-      height: 705px !important;
+      height: 905px !important;
       /* width: 8px; */
     }
 }
 @media only screen and (max-width: 454px) {
   /* For desktop: */
   .garisnya {
-    height: 705px;
+    height: 905px;
     /* width: 8px; */
   }
   .quote {
@@ -110,6 +113,22 @@
   .wrap-boxd > img {
     max-width: 100%;
     /* border-radius: 15px; */
+  }
+
+}
+@media only screen and (max-width: 390px) {
+  /* For desktop: */
+  .garisnya {
+    height: 1005px;
+    /* width: 8px; */
+  }
+
+}
+@media only screen and (max-width: 352px) {
+  /* For desktop: */
+  .garisnya {
+    height: 1105px;
+    /* width: 8px; */
   }
 
 }
