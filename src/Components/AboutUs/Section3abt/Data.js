@@ -20,9 +20,9 @@ export default [
       "Solusi One Stop Marketing muncul dari keinginan kami untuk menjadi agency pemasaran yang komprehensif dengan memberikan hasil yang memuaskan kepada klien kami, terlepas dari layanan yang dibutuhkan.",
     third: "360 Approach",
     fourth:
-      "Menentukan penempatan iklan yang baik merupakan hal yang sangat penting untuk brand dan produk. Hal tersebut selain akan meningkatkan kesadaran juga dapat mengembangkan visibilitas brand. Perkenankan kami untuk siap bantu memilih opsi terbaik untuk strategi pemasaranmu.",
+      "Merupakan hal yang penting bagi bisnis dan produk Anda untuk mendapat perencanaan dan strategi pemasaran secara 360-derajat. Brand Anda akan lebih dikenal dan terlihat melalui penempatan iklan yang efektif. Mari kami bantu untuk memilih opsi terbaik yang sesuai dengan rencana pemasaran Anda",
     fifth: "Years of Experiences",
     sixth:
-      "Pengalaman kami dalam industri periklanan telah membantu beberapa brand menggapai audiens yang lebih luas dan sesuai. Kami memahami apa yang diinginkan audiens untuk menyampaikan brand yang unik.",
+      "Keahlian kami dalam bidang periklanan telah membantu brand-brand untuk menjangkau target pasar yang lebih spesifik dan lebih luas. Kami tahu apa yang diperlukan agar target pasar brand Anda menimbulkan rasa keterikatan terhadap brand tertentu.",
   },
 ];

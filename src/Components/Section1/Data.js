@@ -8,9 +8,9 @@ export default [
     },
   {
     text1: "A One Stop Branding Agency in Indonesia",
-    head: "PT. Sinar Media Digitama bertujuan untuk menawarkan layanan 360-degree marketing bagi pemilik bisnis kreatif yang mencari one-stop service untuk kebutuhan kampanye pemasaran mereka.",
+    head: "PT Sinar Media Digitama menghadirkan jasa layanan pemasaran secara 360-degree atau menyeluruh dalam segala sisi, memberikan para pengusaha bisnis kreatif satu tempat (one-stop shop) yang mencakup seluruh kebutuhan pemasaran mereka.",
     subhead:
-      "Kami disini untuk menjadi mitra profesional dalam membantu mengembangkan merek atau produk Anda agar bersinar selamanya. Hal ini sejalan dengan tujuan bisnis kami untuk secara konsisten mengutamakan nilai dari setiap layanan dan kepuasan klien.",
-    trihead: "Kami yakin upaya ini akan memberikan hasil yang luar biasa untuk merek Anda di masa mendatang."
+      "Kami berusaha untuk selalu menjadi rekan profesional Anda dalam membangun suatu brand atau produk untuk menjadi yang terdepan sampai kapan pun. Ini menjadi salah satu tujuan bisnis kami untuk selalu mengedepankan kepuasan klien dalam setiap pelayanan kami.",
+    trihead: "Kami yakin upaya ini akan memberikan hasil yang luar biasa untuk brand Anda di masa mendatang."
   },
 ];

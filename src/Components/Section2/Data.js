@@ -54,7 +54,7 @@ export default [
     description:
       "We understand the importance of choosing the best plan to promote your business. We can help you choose the most efficient ad placements within your price range to boost your exposure. For brands wishing to advertise in urban areas and drive significant traffic through our advertising platforms, our many OOH platforms offer nationwide coverage.",
     descriptionId:
-      "Kami memahami pentingnya memilih rencana terbaik untuk mempromosikan bisnis Anda. Kami dapat membantu dalam memilih penempatan iklan yang paling efisien yang sesuai dengan budget Anda untuk meningkatkan visibilitas iklan Anda. Untuk merek yang ingin beriklan di daerah perkotaan dan mendorong lalu lintas yang signifikan melalui platform periklanan kami, banyak platform OOH kami menawarkan cakupan nasional.",
+      "Kami paham pentingnya memilih rencana terbaik untuk mempromosikan bisnis anda. Kami dapat membantumu memilih peletakan iklan paling efektif dalam jangkauan budget Anda untuk meningkatkan exposure sebanyak mungkin. Untuk brand yang ingin mempromosikan produknya di berbagai area perkotaan dan mendatangkan hasil yang signifikan, kami menyediakan layanan Out of Home (OOH) yang menjangkau seluruh negeri.",
     ava2: oohSweety,
     products: [
       {
@@ -77,7 +77,7 @@ export default [
     description:
       "We help businesses produce variants of promotional materials that successfully convey the product's USP to customers. The fundamental objective is to increase consumer awareness of the product, attract them in, and convince them to choose it above the competitors.",
     descriptionId:
-      "Kami membantu klien dalam membuat materi promosi yang dapat secara efektif mengkomunikasikan unique selling point produk kepada konsumen. Tujuan utamanya adalah untuk meningkatkan kesadaran akan produk, menarik konsumen, dan mengajak mereka untuk membeli.",
+      "Kami membantu banyak bisnis menghasilkan berbagai kebutuhan promosi untuk menonjolkan USP dari produk Anda ke pelanggan. Tujuan dasar kami adalah untuk meningkatkan kepekaan pelanggan terhadap produknya, menarik mereka, dan meyakinkan bahwa produk tersebut lebih baik daripada kompetitornya.",
     ava2: promUnit2,
     products: [
       {
@@ -146,7 +146,7 @@ export default [
     description:
       "Stands out and unique branding can attract loyal customers. Manufacturing branding goes beyond simply portraying to customers the values of your business. It's important to share with your customer the importance of making a high-quality product.\nEffective branding can make your brand more relevant and personal. As brand awareness steadily evolves into loyalty, customers will begin to trust your product as a key differentiator from your competitors.\nEvery entrepreneur understands that product presentation is vital for their sales strategy.  We are here to help you maximize the visibility of your branding booth and POSM while keeping your budget in check.",
     descriptionId:
-      "Branding yang menarik dan mengesankan dapat membangun loyalitas konsumen. Membentuk sebuah branding tidak hanya memproyeksikan visual kepada konsumen mengenai sebuah perusahaan. Tetapi, membantu konsumen memahami makna yang berkualitas dibalik produk atau brand yang disampaikan. Branding yang baik dapat memberikan sentuhan manusia yang tumbuh dengan citra terpercaya sehingga konsumen akan mengandalkan produkmu sebagai pilihan yang lebih baik. Kami bersedia untuk membantu memaksimalkan visibilitas branding sesuai dengan kebutuhanmu.",
+      "Suatu branding yang menonjol dan unik dapat menarik pelanggan setia. Pembuatan suatu branding tidak hanya berhenti saat pelanggan tahu apa bisnis yang Anda jalankan. Penting untuk membagikan pada pelanggan Anda mengenai kebutuhan akan produk dengan kualitas tinggi.\nBranding yang efektif dapat membuat brand Anda lebih relevan dan personal. Setelah calon pelanggan yang peka berubah menjadi pelanggan setia, mereka akan mulai mempercayai produk Anda sebagai sesuatu yang berbeda dari kompetitor-kompetitor Anda.\nSetiap pengusaha paham akan pentingnya tampilan produk terhadap strategi penjualannya. Kami di sini membantu anda untuk memaksimalkan penampilan dari branding booth dan POSM Anda dengan tetap memperhatikan budget yang Anda sediakan.",
     ava2: creDev2,
     products: [],
   },
@@ -160,7 +160,7 @@ export default [
     description:
       "The content's core is just as important as the printing. Our expert creative team will support the brand with any copywriting, graphic design, editing, and web development suggestions. Additionally, a number of printing machines are ready to print all the documents and help your business stand out from the competition.",
     descriptionId:
-      "Inti dari sebuah konten sama pentingnya dengan pencetakan. Tim kreatif kami, yang terdiri dari beberapa individu berbakat, akan mendukung brand dengan ide kreatif copywriting, desain grafis, pengeditan, dan pengembangan web. Selain itu, berbagai perangkat pencetakan disiapkan untuk mencetak semua dokumen untuk membuat brand lebih menonjol.",
+      "Kebutuhan akan konten sama pentingnya dengan percetakan. Tim kreatif kami yang berpengalaman akan membantu memberikan sugesti terhadap kebutuhan copywriting, desain grafis, editing, dan pembuatan situs website untuk brand Anda. Lalu, berbagai mesin cetak kami akan siap untuk mencetak seluruh kebutuhan Anda dan membantu bisnis anda tampil menonjol dibanding kompetitor lain.",
     ava2: printMat2,
     products: [],
   },
@@ -174,7 +174,7 @@ export default [
     description:
       "Branding is more than simply a logo. The brand soul should be included into every aspect of every production, and branding affects visibility overall. We assist you in managing your branding so that all of your brand values may be applied to the products you design to make your brand stand out and be top-of-mind.",
     descriptionId:
-      "Inti dari sebuah konten sama pentingnya dengan pencetakan. Tim kreatif kami, yang terdiri dari beberapa individu berbakat, akan mendukung brand dengan ide kreatif copywriting, desain grafis, pengeditan, dan pengembangan web. Selain itu, berbagai perangkat pencetakan disiapkan untuk mencetak semua dokumen untuk membuat brand lebih menonjol.",
+      "Branding lebih dari sekadar logo. Nyawa dari suatu brand harus dapat tercantum dalam setiap aspek produksi dan mempengaruhi tampilan secara menyeluruh. Kami akan membantu Anda dalam mengurus branding dan mengaplikasikan nilai-nilai dari brand Anda pada produk yang Anda desain sehingga brand Anda dapat tampil menjadi yang utama di pasaran.",
     ava2: brandingPro,
     products: [],
   },
@@ -188,7 +188,7 @@ export default [
     description:
       "Events can be used to create a personal and engaging environment with your current and new customers. Direct company-to-customer interactions at events are a great way to make a lasting impression. Successful events create strong bonds between customers, potential customers, consumers, and the company itself. Beyond product launches, you can host corporate and social events to make your brand shine and stand out.",
     descriptionId:
-      "Memberikan suasana yang intim dan menarik bersamaan dengan konsumen setia dan konsumen potensial dapat diciptakan melalui bentuk acara. Sebuah acara dapat memberikan peluang untuk melantarkan kesan abadi melalui interaksi langsung dengan konsumen. Acara yang sukses dapat memperkuat hubungan positif antara klien, prospek, konsumen, dan karyawan. Kami dapat memberikan peluncuran produk dan acara perusahaan, bisnis, dan sosial untuk membantu brand bersinar.",
+      "Acara-acara yang Anda selenggarakan dapat membantu menciptakan lingkungan yang personal dan menarik terhadap pelanggan dan calon pelanggan Anda. Hubungan langsung antara perusahaan dengan pelanggan saat acara berlangsung adalah cara yang baik untuk menimbulkan kesan yang mendalam. Suatu acara yang sukses dapat meningkatkan ikatan antar pelanggan, calon pelanggan, dan perusahaanna sendiri. Melalui peluncuran produk, Anda dapat membuat acara sosial dan perusahaan untuk membuat brand Anda semakin bersinar.",
     ava2: evEnt2,
     products: [],
   },
@@ -202,7 +202,7 @@ export default [
     description:
       "The effectiveness of word-of-mouth marketing can influence consumers behavior and engagement in the buying process. Influencers now control a large part of consumer behavior and brand perception today. Therefore, it is important to find influencers who match your needs.  We will help you find the best talent, KOLs, and influencers for any marketing campaign. We don't just recruit the best, we also assist you in managing the talent and ensuring the highest quality of all results.",
     descriptionId:
-      "Kekuatan word of mouth  dapat mempengaruhi perilaku konsumen dan keterlibatan mereka dalam aktivitas pembelian. Saat ini, sebagian besar perilaku berbelanja dan kesadaran brand didorong oleh influencer. Oleh karena itu, penting untuk menemukan influencer yang sesuai dengan kebutuhanmu. Kami dapat membantu menemukan Talent, KOL, dan Influencer terbaik untuk kampanye iklanmu. Kami tidak hanya menemukan yang terbaik, tetapi kami juga akan membantu mengelola mereka dan memastikan kualitas tertinggi dari semua output yang dihasilkan",
+      "Efektivitas pemasaran secara word-of-mouth dapat mempengaruhi perilaku pelanggan dan menarik mereka dalam proses transaksi. Di masa sekarang, influencer dapat mengontrol perilaku pelanggan dalam jumlah besar dan memberikan persepsi brand pada pelanggan. Oleh karena itu, sangat penting untuk menemukan influencer-influencer yang sesuai dengan kebutuhan Anda. Kami akan membantu Anda menemukan talent, KOL, dan influencer-influencer terbaik untuk kebutuhan pemasaran apa pun. Kami tidak hanya melakukan perekrutan dari yang terbaik, namun kami juga membantu anda untuk memanajemen talent-talent tersebut dan memastikan adanya hasil yang maksimal.",
     ava2: inFlue2,
     products: [],
   },
@@ -218,7 +218,7 @@ export default [
     description:
       "A crucial component of spreading brand awareness to your audience at the moment is having innovative content. Creating engaging content also boosts audience trust and conversions across all media. Our services will guide you through the three stages of managing social media: strategy planning, post and content management, monitoring, and reporting.",
     descriptionId:
-      "Konten kreatif adalah aset mendasar dalam mengkomunikasikan kesadaran brand kepada audiens. Selain itu, membuat konten kreatif dapat meningkatkan kepercayaan dan konversi audiens pada semua channel. Layanan kami akan membantu menavigasi tiga fase manajemen media sosial: perencanaan strategis, manajemen konten, dan pemantauan & pelaporan.",
+      "Komponen penting untuk menyebarkan brand awareness pada calon pelanggan Anda adalah melalui konten yang inovatif. Pembuatan konten yang menarik juga meningkatkan kepercayaan dan konversi pelanggan Anda. Pelayanan kami akan membantu Anda melalui 3 langkah memanajemen sosial media: perencanaan strategi, manajemen konten, serta monitoring dan reporting.",
     ava2: soCial2,
     products: [],
   },
