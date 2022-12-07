@@ -68,13 +68,13 @@ const Section5alts = (props) => {
                       <p className="mb-0">
                         <b>{data.name}</b>
                       </p>
-                      <a href={data.linkedin}>
+                      {/* <a href={data.linkedin}>
                         <img
                           src={LinkedIn}
                           alt=""
                           className="rounded-1 linkedin"
                         />
-                      </a>
+                      </a> */}
                     </div>
                     <p className="role-text mb-0">
                       <i>{data.role}</i>
@@ -104,13 +104,13 @@ const Section5alts = (props) => {
                       <p className="mb-0">
                         <b>{data.name}</b>
                       </p>
-                      <a href={data.linkedin}>
+                      {/* <a href={data.linkedin}>
                         <img
                           src={LinkedIn}
                           alt=""
                           className="rounded-1 linkedin"
                         />
-                      </a>
+                      </a> */}
                     </div>
                     <p className="role-text mb-0">
                       <i>{data.role1}</i>
