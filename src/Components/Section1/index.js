@@ -43,7 +43,7 @@ const Section1 = (props) => {
               <h3>{Data[1].subhead}</h3>
               <h3>{Data[1].trihead}</h3>
               <div className="d-flex flex-row-reverse">
-                <Link to="/AboutUs">
+                <Link to="/AboutUs" style={ pathname === "/AboutUs" ? { display:'none'} : {display : 'block'} }>
                   <Button className="ctn-btn px-4">Baca Selanjutnya</Button>{" "}
                 </Link>
               </div>
