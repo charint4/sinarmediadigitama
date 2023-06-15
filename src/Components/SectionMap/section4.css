@@ -48,12 +48,16 @@
   line-height: 32px;
   color: #545659;
 }
+.textLink {
+  text-decoration: none;
+}
 .text2 {
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
   line-height: 32px;
   color: #545659;
+  text-decoration: none;
 }
 .text2:hover {
   color: #004C92;

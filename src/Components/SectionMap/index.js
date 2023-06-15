@@ -4,6 +4,8 @@ import "../SectionMap/section4.css";
 import Data from "./Data";
 import Mail from "../../Images/mail.png";
 import Phone from "../../Images/phone.png";
+import { Link } from "react-router-dom";
+
 
 const Section4 = (props) => {
   const { lang } = props;
@@ -32,12 +34,18 @@ const Section4 = (props) => {
             <h4 className="text1">
               <b>{Data[0].addy}</b>
             </h4>
-            <h4 className="text2 ">
-              <span>
-                <img className="mail" src={Mail}></img>
-                <b> : {Data[0].mail}</b>
-              </span>
-            </h4>
+            <Link 
+              to='#'
+              onClick={() => window.location.href = 'mailto:info@smdigitama.com'}
+              className="textLink">
+              <h4 className="text2 ">
+                <span>
+                  <img className="mail" src={Mail}></img>
+                  <b> : {Data[0].mail}</b>
+                </span>
+              </h4>    
+            </Link>
+            
             <h4 className="text3">
               <span>
                 <img className="phone" src={Phone}></img>
@@ -54,12 +62,17 @@ const Section4 = (props) => {
             <h4 className="text1">
               <b>{Data[1].addy}</b>
             </h4>
-            <h4 className="text2 ">
-              <span>
-                <img className="mail" src={Mail}></img>
-                <b> : {Data[1].mail}</b>
-              </span>
-            </h4>
+            <Link 
+              to='#'
+              onClick={() => window.location.href = 'mailto:info@smdigitama.com'}
+              className="textLink">
+              <h4 className="text2 ">
+                <span>
+                  <img className="mail" src={Mail}></img>
+                  <b> : {Data[1].mail}</b>
+                </span>
+              </h4>    
+            </Link>
             <h4 className="text3">
               <span>
                 <img className="phone" src={Phone}></img>
