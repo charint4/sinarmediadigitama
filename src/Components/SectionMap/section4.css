@@ -55,12 +55,18 @@
   line-height: 32px;
   color: #545659;
 }
+.text2:hover {
+  color: #004C92;
+}
 .text3 {
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
   line-height: 32px;
   color: #545659;
+}
+.text3:hover {
+  color: #004C92;
 }
 .wrap-box > h2 {
   color:#004c92;
