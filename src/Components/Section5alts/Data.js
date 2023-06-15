@@ -81,11 +81,4 @@ export default [
     role1: "Kepala Digital & Kemitraan",
     linkedin: "www.linkedin.com",
   },
-  {
-    name: "Ebiet Mubharak",
-    image: Bhara,
-    role: "Head of Creative",
-    role1: "Ketua Kreatif",
-    linkedin: "www.linkedin.com",
-  },
 ];
