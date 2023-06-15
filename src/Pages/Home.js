@@ -16,6 +16,7 @@ import { useState } from "react";
 import { useContext } from "react";
 import langContext from "../Context/languageContext";
 import SectionBlog from "../Components/DetailedBlog/SectionBlog";
+import Section2Rev from "../Components/Section2Rev";
 // import SectionIg from "../Components/SectionIg";
 
 const Home = () => {
@@ -55,6 +56,7 @@ const Home = () => {
           <Section1 lang={lang} />
           {/* <Sectionvid /> */}
           <Section2 lang={lang} />
+          <Section2Rev />
           <Section3 lang={lang} />
           <SectionMap lang={lang} />
           {/* <Section5 /> */}

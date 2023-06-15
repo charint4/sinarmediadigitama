@@ -73,7 +73,7 @@ const Section2 = (props) => {
     <>
       <div id="section2"></div>
       <Container>
-        <div className="container-sec2">
+        <div className="container-sec2" style={{display: "none"}}>
           <h1>{lang === "en" ? DataTitle[0].title : DataTitle[1].title}</h1>
           <h3>{DataTitle[0].desc}</h3>
           <Slider {...settings}>

@@ -131,3 +131,43 @@
 .slick-slider {
   cursor: grab;
 }
+
+.home-service-link {
+  text-decoration: none;
+  width: 300px;
+  border-radius: 20px;
+  border: solid 1px black;
+  margin: 10px;
+  padding: 25px 40px 25px 40px;
+}
+
+.home-service-image {
+  width: 200px;
+  height: 200px;
+}
+
+.fs-service-text {
+  font-size: 30px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .fs-service-text {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .home-service-link {
+    width: clamp(75px,125px,125px);
+    padding: 15px 25px 15px 25px;
+  }
+
+  .home-service-image {
+    width: clamp(50px,75px,75px);
+    height: clamp(50px,75px,75px);
+  }
+
+  .fs-service-text {
+    font-size: 10px;
+  }
+}
