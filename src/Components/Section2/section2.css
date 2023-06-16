@@ -134,25 +134,29 @@
 
 .home-service-link {
   text-decoration: none;
-  width: 300px;
+  width: 250px;
   border-radius: 20px;
   border: solid 1px black;
-  margin: 10px;
+  margin: 15px;
   padding: 25px 40px 25px 40px;
 }
 
+.home-service-link:hover {
+  background-color: rgba(205, 205, 205, 0.2);
+}
+
 .home-service-image {
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
 }
 
 .fs-service-text {
-  font-size: 30px;
+  font-size: 25px;
 }
 
 @media only screen and (max-width: 1024px) {
   .fs-service-text {
-    font-size: 30px;
+    font-size: 20px;
   }
 }
 
