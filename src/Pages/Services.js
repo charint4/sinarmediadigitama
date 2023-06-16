@@ -3,7 +3,7 @@ import Header from "../Components/Services/Header";
 import Section1serv from "../Components/Services/Section1serv";
 import Section3serv from "../Components/Services/Section3serv";
 import { useParams } from "react-router-dom";
-import Data from "../Components/Section2/Data";
+import Data from "../Components/Section2Rev/Data";
 import { useContext } from "react";
 import langContext from "../Context/languageContext";
 
