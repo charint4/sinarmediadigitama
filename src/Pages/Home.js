@@ -52,19 +52,15 @@ const Home = () => {
       />
       <header className="App-header">
         <Header lang={lang} />
-        <section className="sec-1-3">
+        {/* <section className="sec-1-3">
           <Section1 lang={lang} />
-          {/* <Sectionvid /> */}
           <Section2 lang={lang} />
           <Section2Rev />
           <Section3 lang={lang} />
           <SectionMap lang={lang} />
-          {/* <Section5 /> */}
           <Section5alts lang={lang} />
-          {/* <SectionBlog /> */}
-          {/* <SectionIg /> */}
           <Section6 notify={handleNotify} lang={lang} />
-        </section>
+        </section> */}
       </header>
     </div>
   );
