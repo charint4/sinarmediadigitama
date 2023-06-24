@@ -27,7 +27,7 @@ const Header = () => {
                         <img align="middle" className="" src={asset2}></img>
                     </div>
                 </div>
-                <h1 className="mantainence">UNDER CONSTRUCTION</h1>
+                {/* <h1 className="mantainence">UNDER CONSTRUCTION</h1> */}
                 </Container>
             </div>
     
