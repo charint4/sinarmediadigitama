@@ -17,7 +17,7 @@ import client13 from "../../Images/webp/Rectangle-27.webp";
 import client14 from "../../Images/webp/Rectangle-28.webp";
 import client15 from "../../Images/webp/Rectangle-29.webp";
 import client16 from "../../Images/webp/Rectangle-30.webp";
-import client17 from "../../Images/webp/Rectangle-31.webp";
+import client17 from "../../Images/logo_Olin.png";
 import client18 from "../../Images/webp/Rectangle-32.webp";
 import client19 from "../../Images/webp/Rectangle-33.webp";
 import client20 from "../../Images/webp/Rectangle-34.webp";
@@ -27,12 +27,13 @@ import client22 from "../../Images/webp/bni-min.webp";
 import client23 from "../../Images/webp/movi.webp";
 import client24 from "../../Images/webp/relx.webp";
 import client25 from "../../Images/webp/sgm-min.webp";
-import client26 from "../../Images/webp/indofood-min.webp";
+import client26 from "../../Images/logo_astra.png";
 import client27 from "../../Images/webp/majoo-min.webp";
 import client28 from "../../Images/webp/iris.webp";
 import client29 from "../../Images/webp/hisamitsu-min.webp";
-import client30 from "../../Images/webp/migo-min.webp";
+import client30 from "../../Images/Logo_Nama-02.png";
 import client31 from "../../Images/webp/damai.webp";
+import client32 from "../../Images/Logo_RoyalCanin.png";
 import Slider from "react-slick";
 import Data from "./Data.js";
 
@@ -175,6 +176,23 @@ const Section3 = (props) => {
                 <img className="img-client" src={client31}></img>
               </div>
             </div>
+            <div className="row cont-row-client">
+              <div className="col cont-sec3">
+                <img className="img-client" src={client30}></img>
+              </div>
+              <div className="col cont-sec3">
+                <img className="img-client" src={client32}></img>
+              </div>
+              <div className="col cont-sec3">
+                {/* <img className="img-client" src={client28}></img> */}
+              </div>
+              <div className="col cont-sec3">
+                {/* <img className="img-client" src={client29}></img> */}
+              </div>
+              <div className="col cont-sec3">
+                {/* <img className="img-client" src={client31}></img> */}
+              </div>
+            </div>
           </div>
           <div className="wrap-client-resp p-3">
             <Slider {...settings} className="h-100">
@@ -198,6 +216,17 @@ const Section3 = (props) => {
               <img className="img-client" src={client18}></img>
               <img className="img-client" src={client19}></img>
               <img className="img-client" src={client20}></img>
+              <img className="img-client" src={client21}></img>
+              <img className="img-client" src={client22}></img>
+              <img className="img-client" src={client23}></img>
+              <img className="img-client" src={client24}></img>
+              <img className="img-client" src={client25}></img>
+              <img className="img-client" src={client26}></img>
+              <img className="img-client" src={client27}></img>
+              <img className="img-client" src={client28}></img>
+              <img className="img-client" src={client29}></img>
+              <img className="img-client" src={client30}></img>
+              <img className="img-client" src={client31}></img>
             </Slider>
           </div>
         </div>
