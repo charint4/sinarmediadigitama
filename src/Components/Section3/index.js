@@ -34,6 +34,8 @@ import client29 from "../../Images/webp/hisamitsu-min.webp";
 import client30 from "../../Images/Logo_Nama-02.png";
 import client31 from "../../Images/webp/damai.webp";
 import client32 from "../../Images/Logo_RoyalCanin.png";
+import client33 from "../../Images/logo_jaris.png";
+
 import Slider from "react-slick";
 import Data from "./Data.js";
 
@@ -184,7 +186,7 @@ const Section3 = (props) => {
                 <img className="img-client" src={client32}></img>
               </div>
               <div className="col cont-sec3">
-                {/* <img className="img-client" src={client28}></img> */}
+                <img className="img-client" src={client33}></img>
               </div>
               <div className="col cont-sec3">
                 {/* <img className="img-client" src={client29}></img> */}
@@ -227,6 +229,9 @@ const Section3 = (props) => {
               <img className="img-client" src={client29}></img>
               <img className="img-client" src={client30}></img>
               <img className="img-client" src={client31}></img>
+              <img className="img-client" src={client32}></img>
+              <img className="img-client" src={client33}></img>
+
             </Slider>
           </div>
         </div>
