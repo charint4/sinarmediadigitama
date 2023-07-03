@@ -20,7 +20,7 @@ function App() {
     <div className="App">
       <langContext.Provider value={value}>
         <BrowserRouter>
-          {/* <Navigation /> */}
+          <Navigation />
           <Switch>
             <Route path="/" component={Home} exact />
             <Route path="/AboutUs" component={AboutUs} exact />
