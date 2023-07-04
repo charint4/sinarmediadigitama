@@ -4,6 +4,7 @@ import Container from "react-bootstrap/Container";
 import { Link, useLocation } from "react-router-dom";
 import "../Section1/section1.css";
 import Data from "./Data.js";
+import logoSMS from "../../Images/logo_sms.png"
 
 const Section1 = (props) => {
   const { lang = "en" } = props;
@@ -17,7 +18,9 @@ const Section1 = (props) => {
       <Container>
         
         {lang === "en" ? (
-          <div className="row container-sec1 bg-blur  p-5">
+          // <div className="row container-sec1 bg-blur  p-5">
+          <div className="bg-blur container-sec1">
+            <div className="row p-5">
             <div className="col-md cont-sec1-left ">
               <h1>{Data[0].text1}</h1>
             </div>
@@ -31,7 +34,17 @@ const Section1 = (props) => {
                 </Link>
               </div>
             </div>
-
+            </div>
+            <div className="bg-navy container-sms">
+              <div className="row p-5 cont-sms align-items-center">
+                <div className="col-md">
+                  <img className="contsms-left" src={logoSMS}></img>
+                </div>
+                <div className="col-md">
+                  <h1 className="contsms-right">Check out our Workshop!</h1>
+                </div>
+              </div>
+            </div>
           </div>
         ) : (
           <div className="row container-sec1 bg-blur  p-5">
