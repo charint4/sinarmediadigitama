@@ -12,9 +12,14 @@
     display: flex;
     /* justify-content: cen; */
 }
+.a-sms {
+    text-decoration: none;
+}
 .container-sms {
     margin-bottom: 150px;
-    border-radius: 0 0 15px 15px
+    /* text-decoration: none; */
+    border-radius: 0 0 15px 15px;
+    cursor: pointer;
 }
 
 .cont-sms {

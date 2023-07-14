@@ -35,6 +35,7 @@ const Section1 = (props) => {
               </div>
             </div>
             </div>
+            <a href="https://websmsv2.vercel.app/" className="a-sms">
             <div className="bg-navy container-sms">
               <div className="row p-5 cont-sms align-items-center">
                 <div className="col-md">
@@ -45,6 +46,8 @@ const Section1 = (props) => {
                 </div>
               </div>
             </div>
+            </a>
+            
           </div>
         ) : (
           <div className="row container-sec1 bg-blur  p-5">
