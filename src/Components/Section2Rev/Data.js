@@ -196,7 +196,60 @@ export default [
     descriptionId:
       "Branding lebih dari sekadar logo. Nyawa dari suatu brand harus dapat tercantum dalam setiap aspek produksi dan mempengaruhi tampilan secara menyeluruh. Kami akan membantu Anda dalam mengurus branding dan mengaplikasikan nilai-nilai dari brand Anda pada produk yang Anda desain sehingga brand Anda dapat tampil menjadi yang utama di pasaran.",
     ava2: brandingPro,
-    products: [],
+    products: [
+      {
+        img: Product1,
+        title: "Kitchen",
+      },
+      {
+        img: Product2,
+        title: "Kitchen",
+      },
+      {
+        img: Product3,
+        title: "Meeting Room",
+      },
+      {
+        img: Product4,
+        title: "Kitchen",
+      },
+      {
+        img: Product5,
+        title: "Work Room",
+      },
+      {
+        img: Product6,
+        title: "Work Room",
+      },
+      {
+        img: Product7,
+        title: "Work Room",
+      },
+      {
+        img: Product8,
+        title: "Work Room",
+      },
+      {
+        img: Product9,
+        title: "Work Room",
+      },
+      {
+        img: Product10,
+        title: "Work Room",
+      },
+      {
+        img: Product11,
+        title: "Work Room",
+      },
+      {
+        img: Product12,
+        title: "Work Room",
+      },
+      {
+        img: Product13,
+        title: "Work Room",
+      },
+  ],
   },
   {
     name: "Creative Dev Promo Units",
