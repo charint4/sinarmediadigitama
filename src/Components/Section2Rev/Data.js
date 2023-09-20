@@ -30,6 +30,53 @@ import inFlue from "../../Images/webp/influencers-1.webp";
 import inFlue2 from "../../Images/webp/influencers-2.webp";
 import OOh2 from "../../Images/webp/ooh-1.webp";
 import OOh from "../../Images/webp/ooh-2.webp";
+import OOh3 from "../../Images/dancow.jpg";
+import OOh4 from "../../Images/dancow2.jpg";
+import OOh5 from "../../Images/lactogrow.jpg";
+import OOh6 from "../../Images/lactogrownight.jpg";
+import OOh7 from "../../Images/aquaooh.jpg";
+import OOh8 from "../../Images/aquaooh2.jpeg";
+
+import posm1 from "../../Images/aquaposm.jpg";
+import posm2 from "../../Images/aquapsm2.jpg";
+import posm3 from "../../Images/moviposm.jpg";
+import posm4 from "../../Images/relxposm.jpg";
+import posm5 from "../../Images/mildposm.jpg";
+import posm6 from "../../Images/sampahposm.jpg";
+import posm7 from "../../Images/sampahposm2.jpg";
+
+import b1 from "../../Images/astrab1.jpg";
+import b2 from "../../Images/astrab2.jpg";
+import b3 from "../../Images/astrab3.jpg";
+import b4 from "../../Images/bebelacb1.jpg";
+import b5 from "../../Images/bebelacb2.jpg";
+import b6 from "../../Images/bebelacb3.jpg";
+import b7 from "../../Images/bebelacb4.jpg";
+import b8 from "../../Images/sgmb1.jpg";
+import b9 from "../../Images/sociollab1.jpg";
+import b10 from "../../Images/sociollab2.jpg";
+import b11 from "../../Images/sociollab3.jpg";
+import b12 from "../../Images/sociollab4.jpg";
+import b13 from "../../Images/sociollab5.jpg";
+import b14 from "../../Images/polrib1.jpg";
+import b15 from "../../Images/astrab4.jpeg";
+import b16 from "../../Images/astrab5.jpeg";
+import b17 from "../../Images/aquab1.jpg";
+import b18 from "../../Images/aquab2.jpg";
+import b19 from "../../Images/aquab3.jpg";
+
+import eo1 from "../../Images/eo1.png";
+import eo2 from "../../Images/eo2.jpg";
+import eo3 from "../../Images/eo3.jpg";
+import eo4 from "../../Images/eo4.jpg";
+
+import pm1 from "../../Images/pm1.jpg";
+import pm2 from "../../Images/pm2.png";
+import pm3 from "../../Images/pm3.jpg";
+
+import crede1 from "../../Images/crede1.png";
+import crede2 from "../../Images/crede2.png";
+
 import printMat from "../../Images/webp/printedmaterials.webp";
 import printMat2 from "../../Images/webp/printedmaterials2.webp";
 import promUnit from "../../Images/webp/promotional-units.webp";
@@ -60,6 +107,30 @@ export default [
       {
         img: OOh,
         title: "Camel",
+      },
+      {
+        img: OOh3,
+        title: "dancow",
+      },
+      {
+        img: OOh4,
+        title: "dancow",
+      },
+      {
+        img: OOh5,
+        title: "lactogrow",
+      },
+      {
+        img: OOh6,
+        title: "lactogrow",
+      },
+      {
+        img: OOh7,
+        title: "lactogrow",
+      },
+      {
+        img: OOh8,
+        title: "lactogrow",
       },
     ],
   },
@@ -130,6 +201,34 @@ export default [
         img: Product13,
         title: "Work Room",
       },
+      {
+        img: posm1,
+        title: "Kitchen",
+      },
+      {
+        img: posm2,
+        title: "Kitchen",
+      },
+      {
+        img: posm3,
+        title: "Meeting Room",
+      },
+      {
+        img: posm4,
+        title: "Kitchen",
+      },
+      {
+        img: posm5,
+        title: "Work Room",
+      },
+      {
+        img: posm6,
+        title: "Work Room",
+      },
+      {
+        img: posm7,
+        title: "Work Room",
+      },
     ],
   },
   {
@@ -162,7 +261,24 @@ export default [
     descriptionId:
       "Acara-acara yang Anda selenggarakan dapat membantu menciptakan lingkungan yang personal dan menarik terhadap pelanggan dan calon pelanggan Anda. Hubungan langsung antara perusahaan dengan pelanggan saat acara berlangsung adalah cara yang baik untuk menimbulkan kesan yang mendalam. Suatu acara yang sukses dapat meningkatkan ikatan antar pelanggan, calon pelanggan, dan perusahaanna sendiri. Melalui peluncuran produk, Anda dapat membuat acara sosial dan perusahaan untuk membuat brand Anda semakin bersinar.",
     ava2: evEnt2,
-    products: [],
+    products: [
+      {
+        img: eo1,
+        title: "Kitchen",
+      },
+      {
+        img: eo2,
+        title: "Kitchen",
+      },
+      {
+        img: eo3,
+        title: "Meeting Room",
+      },
+      {
+        img: eo4,
+        title: "Kitchen",
+      },
+    ],
   },
   {
     name: "Social Media Management",
@@ -249,6 +365,82 @@ export default [
         img: Product13,
         title: "Work Room",
       },
+      {
+        img: b1,
+        title: "Kitchen",
+      },
+      {
+        img: b2,
+        title: "Kitchen",
+      },
+      {
+        img: b3,
+        title: "Meeting Room",
+      },
+      {
+        img: b4,
+        title: "Kitchen",
+      },
+      {
+        img: b5,
+        title: "Work Room",
+      },
+      {
+        img: b6,
+        title: "Work Room",
+      },
+      {
+        img: b7,
+        title: "Work Room",
+      },
+      {
+        img: b8,
+        title: "Work Room",
+      },
+      {
+        img: b9,
+        title: "Work Room",
+      },
+      {
+        img: b10,
+        title: "Work Room",
+      },
+      {
+        img: b11,
+        title: "Work Room",
+      },
+      {
+        img: b12,
+        title: "Work Room",
+      },
+      {
+        img: b13,
+        title: "Work Room",
+      },
+      {
+        img: b14,
+        title: "Work Room",
+      },
+      {
+        img: b15,
+        title: "Work Room",
+      },
+      {
+        img: b16,
+        title: "Work Room",
+      },
+      {
+        img: b17,
+        title: "Work Room",
+      },
+      {
+        img: b18,
+        title: "Work Room",
+      },
+      {
+        img: b19,
+        title: "Work Room",
+      },
   ],
   },
   {
@@ -267,7 +459,16 @@ export default [
     descriptionId:
       "Suatu branding yang menonjol dan unik dapat menarik pelanggan setia. Pembuatan suatu branding tidak hanya berhenti saat pelanggan tahu apa bisnis yang Anda jalankan. Penting untuk membagikan pada pelanggan Anda mengenai kebutuhan akan produk dengan kualitas tinggi.\nBranding yang efektif dapat membuat brand Anda lebih relevan dan personal. Setelah calon pelanggan yang peka berubah menjadi pelanggan setia, mereka akan mulai mempercayai produk Anda sebagai sesuatu yang berbeda dari kompetitor-kompetitor Anda.\nSetiap pengusaha paham akan pentingnya tampilan produk terhadap strategi penjualannya. Kami di sini membantu anda untuk memaksimalkan penampilan dari branding booth dan POSM Anda dengan tetap memperhatikan budget yang Anda sediakan.",
     ava2: creDev2,
-    products: [],
+    products: [
+      {
+        img: crede1,
+        title: "Work Room",
+      },
+      {
+        img: crede2,
+        title: "Work Room",
+      },
+    ],
   },
   {
     name: "Printed Material",
@@ -283,6 +484,19 @@ export default [
     descriptionId:
       "Kebutuhan akan konten sama pentingnya dengan percetakan. Tim kreatif kami yang berpengalaman akan membantu memberikan sugesti terhadap kebutuhan copywriting, desain grafis, editing, dan pembuatan situs website untuk brand Anda. Lalu, berbagai mesin cetak kami akan siap untuk mencetak seluruh kebutuhan Anda dan membantu bisnis anda tampil menonjol dibanding kompetitor lain.",
     ava2: printMat2,
-    products: [],
+    products: [
+      {
+        img: pm1,
+        title: "Work Room",
+      },
+      {
+        img: pm2,
+        title: "Work Room",
+      },
+      {
+        img: pm3,
+        title: "Work Room",
+      },
+    ],
   },
 ];

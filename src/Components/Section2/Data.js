@@ -1,5 +1,9 @@
 import OOh from "../../Images/webp/ooh-2.webp";
 import OOh2 from "../../Images/webp/ooh-1.webp";
+import OOh3 from "../../Images/dancow.jpg";
+import OOh4 from "../../Images/dancow2.jpg";
+import OOh5 from "../../Images/lactogrow.jpg";
+import OOh6 from "../../Images/lactogrownight.jpg";
 import Product1 from "../../Images/webp/PRODUK-1.webp";
 import Product2 from "../../Images/webp/PRODUK-2.webp";
 import Product3 from "../../Images/webp/PRODUK-3.webp";
@@ -64,6 +68,22 @@ export default [
       {
         img: OOh,
         title: "Camel",
+      },
+      {
+        img: OOh3,
+        title: "dancow",
+      },
+      {
+        img: OOh4,
+        title: "dancow",
+      },
+      {
+        img: OOh5,
+        title: "lactogrow",
+      },
+      {
+        img: OOh6,
+        title: "lactogrow",
       },
     ],
   },

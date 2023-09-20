@@ -16,7 +16,7 @@ const MultipleItems = (props) => {
     // cssEase: "linear",
     adaptiveHeight: true,
     arrows: true,
-    dots: true,
+    dots: false,
     pauseOnHover: false,
     infinite: true,
     responsive: [
