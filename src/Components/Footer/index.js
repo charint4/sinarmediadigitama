@@ -62,7 +62,7 @@ const Footer = () => {
             <div className="col-lg wa">
               <div className="cont-logo">
                 <img src={Whatsapp}></img>
-                <a href="https://api.whatsapp.com/send?phone=085692403618">
+                <a href="https://api.whatsapp.com/send?phone=085174203084">
                   : {Data[0].wa}
                 </a>
               </div>

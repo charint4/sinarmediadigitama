@@ -231,22 +231,22 @@ export default [
       },
     ],
   },
-  {
-    name: "Talent & KOL Management ",
-    textNotBold: "Talent & KOL",
-    textBold: "Management",
-    cover: talent,
-    ava: inFlue,
-    texts: "Bringing you the best brand deals",
-    textsId: "Bringing you the best brand deals",
-    quotes: "read more",
-    description:
-      "The effectiveness of word-of-mouth marketing can influence consumers behavior and engagement in the buying process. Influencers now control a large part of consumer behavior and brand perception today. Therefore, it is important to find influencers who match your needs.  We will help you find the best talent, KOLs, and influencers for any marketing campaign. We don't just recruit the best, we also assist you in managing the talent and ensuring the highest quality of all results.",
-    descriptionId:
-      "Efektivitas pemasaran secara word-of-mouth dapat mempengaruhi perilaku pelanggan dan menarik mereka dalam proses transaksi. Di masa sekarang, influencer dapat mengontrol perilaku pelanggan dalam jumlah besar dan memberikan persepsi brand pada pelanggan. Oleh karena itu, sangat penting untuk menemukan influencer-influencer yang sesuai dengan kebutuhan Anda. Kami akan membantu Anda menemukan talent, KOL, dan influencer-influencer terbaik untuk kebutuhan pemasaran apa pun. Kami tidak hanya melakukan perekrutan dari yang terbaik, namun kami juga membantu anda untuk memanajemen talent-talent tersebut dan memastikan adanya hasil yang maksimal.",
-    ava2: inFlue2,
-    products: [],
-  },
+  // {
+  //   name: "Talent & KOL Management ",
+  //   textNotBold: "Talent & KOL",
+  //   textBold: "Management",
+  //   cover: talent,
+  //   ava: inFlue,
+  //   texts: "Bringing you the best brand deals",
+  //   textsId: "Bringing you the best brand deals",
+  //   quotes: "read more",
+  //   description:
+  //     "The effectiveness of word-of-mouth marketing can influence consumers behavior and engagement in the buying process. Influencers now control a large part of consumer behavior and brand perception today. Therefore, it is important to find influencers who match your needs.  We will help you find the best talent, KOLs, and influencers for any marketing campaign. We don't just recruit the best, we also assist you in managing the talent and ensuring the highest quality of all results.",
+  //   descriptionId:
+  //     "Efektivitas pemasaran secara word-of-mouth dapat mempengaruhi perilaku pelanggan dan menarik mereka dalam proses transaksi. Di masa sekarang, influencer dapat mengontrol perilaku pelanggan dalam jumlah besar dan memberikan persepsi brand pada pelanggan. Oleh karena itu, sangat penting untuk menemukan influencer-influencer yang sesuai dengan kebutuhan Anda. Kami akan membantu Anda menemukan talent, KOL, dan influencer-influencer terbaik untuk kebutuhan pemasaran apa pun. Kami tidak hanya melakukan perekrutan dari yang terbaik, namun kami juga membantu anda untuk memanajemen talent-talent tersebut dan memastikan adanya hasil yang maksimal.",
+  //   ava2: inFlue2,
+  //   products: [],
+  // },
   {
     name: "Events Organizer",
     textBold: "Event",
@@ -281,20 +281,20 @@ export default [
     ],
   },
   {
-    name: "Social Media Management",
-    textNotBold: "Social Media",
-    textBold: "Management",
+    name: "Digital Marketing",
+    textNotBold: "Marketing",
+    textBold: "Digital",
     cover: socialMediaManagement,
     ava: soCial,
     texts:
-      "We support brands to increase their brand awareness on a social media platform",
+      "We support brands to increase their brand awareness on a social media platform and bringing you the best brand deals.",
     textsId:
-      "We support brands to increase their brand awareness on a social media platform",
+      "We support brands to increase their brand awareness on a social media platform and bringing you the best brand deals.",
     quotes: "read more",
     description:
-      "A crucial component of spreading brand awareness to your audience at the moment is having innovative content. Creating engaging content also boosts audience trust and conversions across all media. Our services will guide you through the three stages of managing social media: strategy planning, post and content management, monitoring, and reporting.",
+      "A crucial component of spreading brand awareness to your audience at the moment is having innovative content. Creating engaging content also boosts audience trust and conversions across all media. Our services will guide you through the three stages of managing social media: strategy planning, post and content management, monitoring, and reporting. \n The effectiveness of word-of-mouth marketing can influence consumers behavior and engagement in the buying process. Influencers now control a large part of consumer behavior and brand perception today. Therefore, it is important to find influencers who match your needs.  We will help you find the best talent, KOLs, and influencers for any marketing campaign. We don't just recruit the best, we also assist you in managing the talent and ensuring the highest quality of all results.",
     descriptionId:
-      "Komponen penting untuk menyebarkan brand awareness pada calon pelanggan Anda adalah melalui konten yang inovatif. Pembuatan konten yang menarik juga meningkatkan kepercayaan dan konversi pelanggan Anda. Pelayanan kami akan membantu Anda melalui 3 langkah memanajemen sosial media: perencanaan strategi, manajemen konten, serta monitoring dan reporting.",
+      "Komponen penting untuk menyebarkan brand awareness pada calon pelanggan Anda adalah melalui konten yang inovatif. Pembuatan konten yang menarik juga meningkatkan kepercayaan dan konversi pelanggan Anda. Pelayanan kami akan membantu Anda melalui 3 langkah memanajemen sosial media: perencanaan strategi, manajemen konten, serta monitoring dan reporting. \n Efektivitas pemasaran secara word-of-mouth dapat mempengaruhi perilaku pelanggan dan menarik mereka dalam proses transaksi. Di masa sekarang, influencer dapat mengontrol perilaku pelanggan dalam jumlah besar dan memberikan persepsi brand pada pelanggan. Oleh karena itu, sangat penting untuk menemukan influencer-influencer yang sesuai dengan kebutuhan Anda. Kami akan membantu Anda menemukan talent, KOL, dan influencer-influencer terbaik untuk kebutuhan pemasaran apa pun. Kami tidak hanya melakukan perekrutan dari yang terbaik, namun kami juga membantu anda untuk memanajemen talent-talent tersebut dan memastikan adanya hasil yang maksimal.",
     ava2: soCial2,
     products: [],
   },
