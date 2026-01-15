@@ -152,7 +152,7 @@ export default [
     description:
       "We help businesses produce variants of promotional materials that successfully convey the product's USP to customers. The fundamental objective is to increase consumer awareness of the product, attract them in, and convince them to choose it above the competitors.",
     descriptionId:
-      "Kami membantu banyak bisnis menghasilkan berbagai kebutuhan promosi untuk menonjolkan USP dari produk Anda ke pelanggan. Tujuan dasar kami adalah untuk meningkatkan kepekaan pelanggan terhadap produknya, menarik mereka, dan meyakinkan bahwa produk tersebut lebih baik daripada kompetitornya.",
+      "Kami membantu banyak bisnis menghasilkan berbagai kebutuhan promosi untuk menonjolkan USP dari produk Anda ke pelanggan. Tujuan dasar kami adalah untuk meningkatkan kepekaan pelanggan terhadap produknya, menarik mereka, dan meyakinkan bahwa produk tersebut lebih baik daripada kompetitornya. HALO",
     ava2: promUnit2,
     products: [
       {
