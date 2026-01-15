@@ -36,6 +36,8 @@ import OOh5 from "../../Images/lactogrow.jpg";
 import OOh6 from "../../Images/lactogrownight.jpg";
 import OOh7 from "../../Images/aquaooh.jpg";
 import OOh8 from "../../Images/aquaooh2.jpeg";
+import OOh9 from "../../Images/ooh9.webp";
+
 
 import posm1 from "../../Images/aquaposm.jpg";
 import posm2 from "../../Images/aquapsm2.jpg";
@@ -130,6 +132,10 @@ export default [
       },
       {
         img: OOh8,
+        title: "lactogrow",
+      },
+      {
+        img: OOh9,
         title: "lactogrow",
       },
     ],
