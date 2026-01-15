@@ -11,7 +11,7 @@ import Product10 from "../../Images/webp/PRODUK-10.webp";
 import Product11 from "../../Images/webp/PRODUK-11.webp";
 import Product12 from "../../Images/webp/PRODUK-12.webp";
 import Product13 from "../../Images/webp/PRODUK-13.webp";
-import Product2 from "../../Images/webp/PRODUK-2.webp";
+import Product2 from "../../Images/webp/test2.png";
 import Product3 from "../../Images/webp/PRODUK-3.webp";
 import Product4 from "../../Images/webp/PRODUK-4.webp";
 import Product5 from "../../Images/webp/PRODUK-5.webp";
@@ -229,6 +229,10 @@ export default [
       },
       {
         img: posm6,
+        title: "Work Room",
+      },
+      {
+        img: posm7,
         title: "Work Room",
       },
       {
