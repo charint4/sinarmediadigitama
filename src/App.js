@@ -7,9 +7,8 @@ import Blog from "./Pages/Blog"
 import { BrowserRouter, Route, Switch, useParams } from "react-router-dom";
 import Footer from "./Components/Footer";
 import Floatbtn from "./Components/Floatbtn";
-import { createContext, useState } from "react";
+import { useState } from "react";
 import langContext from "./Context/languageContext";
-import SectionBlog from "./Components/DetailedBlog/SectionBlog";
 import DetailedBlog from "./Pages/DetailedBlog";
 
 function App() {
